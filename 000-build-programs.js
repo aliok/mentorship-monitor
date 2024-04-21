@@ -29,7 +29,22 @@ function main(){
     }
 
     const programNames = programs.map(p => p.term);
-    fs.writeFileSync(join(__dirname, "000-build-programs", "programs-list.json"), JSON.stringify(programNames, null, 2));
+
+    // add existing programs to the list
+    const programsListOutputFile = join(__dirname, "000-build-programs", "programs-list.json");
+    const existingPrograms = JSON.parse(fs.readFileSync(programsListOutputFile, "utf8"));
+    for (const existingProgram of existingPrograms) {
+        if (!programNames.includes(existingProgram)) {
+            programNames.push(existingProgram);
+        }
+    }
+
+    // sort programs by term
+    programNames.sort((a, b) => {
+        return a.localeCompare(b);
+    });
+
+    fs.writeFileSync(programsListOutputFile, JSON.stringify(programNames, null, 2));
 }
 
 main();

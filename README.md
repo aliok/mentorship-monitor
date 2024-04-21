@@ -4,6 +4,7 @@ This repository contains some scripts to monitor the mentorship programs.
 
 ## Scripts
 
+- [000-build-programs.js](000-build-programs.js): Builds a list of mentorship programs from the configuration file (programs.json) as well as separate files for the programs.
 - [100-fetch-cohort-activity-summaries.js](100-fetch-cohort-activity-summaries.js): Fetches activity summaries of the mentorship program cohorts from GitHub.
 
 ## How it works
@@ -14,9 +15,17 @@ When there's a rate limit error, or when the process is interrupted, cuttlecat c
 
 ## Output
 
+- `000-build-programs` directory contains the list of mentorship programs, including the old ones that ended. It also contains separate files for each program.
 - `100-fetch-cohort-activity-summaries` directory contains the activity summaries of the mentorship program cohorts, fetched from GitHub with buckets of 7 days.
 
 ## Running locally
+
+### `000-build-programs.js`
+```shell
+npm install
+
+node 000-build-programs.js
+```
 
 ### `100-fetch-cohort-activity-summaries.js`
 ```shell
