@@ -6,6 +6,7 @@ This repository contains some scripts to monitor the mentorship programs.
 
 - [000-build-programs.js](000-build-programs.js): Builds a list of mentorship programs from the configuration file (programs.json) as well as separate files for the programs.
 - [100-fetch-cohort-activity-summaries.js](100-fetch-cohort-activity-summaries.js): Fetches activity summaries of the mentorship program cohorts from GitHub.
+- [150-build-cohort-activity-summaries.js](150-build-cohort-activity-summaries.js): Builds a list of activity summaries of the mentorship program cohorts from the fetched data.
 
 ## How it works
 
@@ -17,6 +18,7 @@ When there's a rate limit error, or when the process is interrupted, cuttlecat c
 
 - `000-build-programs` directory contains the list of mentorship programs, including the old ones that ended. It also contains separate files for each program.
 - `100-fetch-cohort-activity-summaries` directory contains the activity summaries of the mentorship program cohorts, fetched from GitHub with buckets of 7 days.
+- `150-build-cohort-activity-summaries` directory contains the list of activity summaries of the mentorship program cohorts, built from the fetched data.
 
 ## Running locally
 
@@ -50,4 +52,11 @@ REF_DATE="2024-03-11" node node_modules/@opentr/cuttlecat/dist/index.js execute 
     --interval-cap="7" \
     --renew-period-in-days="0" \  # 0 means ignore the renew period
     --log-level="info"
+```
+
+### `150-build-cohort-activity-summaries.js`
+```shell
+npm install
+
+node 150-build-cohort-activity-summaries.js
 ```
