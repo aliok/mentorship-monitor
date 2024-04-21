@@ -1,0 +1,19 @@
+{
+  "name": "mentorship-monitor",
+  "version": "0.0.1",
+  "author": "Ali Ok",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@opentr/cuttlecat": "0.0.11-dev-snapshot.db42b3f.20240124224534",
+    "date-fns": "^2.30.0",
+    "js-yaml": "^4.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  }
+}
