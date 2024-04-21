@@ -8,7 +8,10 @@ import {v4 as uuidv4} from "uuid";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// TODO: allow passing NOW as an env var
+// pass this env var, if you would like to fetch data for an older week.
+// the week before of the date passed in REF_DATE will be fetched.
+// if not passed, the data for the previous week (of current week) will be fetched.
+const REF_DATE = !!process.env["REF_DATE"] ? parseDate(process.env["REF_DATE"]) : new Date();
 
 // language=GraphQL
 const QUERY = `query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {
@@ -127,15 +130,15 @@ export default class FetchCohortActivitySummariesCommand {
             const termStartDate = parseDate(program.startDate);
             const termEndDate = parseDate(program.endDate);
 
-            const now = new Date();
+            const NOW = REF_DATE;
 
-            if(isBefore(now, termStartDate) || isAfter(now, termEndDate)) {
+            if(isBefore(NOW, termStartDate) || isAfter(NOW, termEndDate)) {
                 // skip if the term is not active
                 continue;
             }
 
             // fetch the data from the previous week
-            const fetchWeekStart = startOfDay(addDays(startOfWeek(now, {weekStartsOn: 1}), -7));
+            const fetchWeekStart = startOfDay(addDays(startOfWeek(NOW, {weekStartsOn: 1}), -7));
             const fetchWeekEnd = startOfDay(addDays(fetchWeekStart, 7));
 
             if(isBefore(fetchWeekStart, termStartDate) || isAfter(fetchWeekEnd, termEndDate)) {
