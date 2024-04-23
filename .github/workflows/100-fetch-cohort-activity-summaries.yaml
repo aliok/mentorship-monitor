@@ -48,15 +48,19 @@ jobs:
             echo "LOG_LEVEL=info" >> "$GITHUB_ENV"
           fi
 
-      - name: Setup env vars from workflow
+      - name: Setup refDate env var from workflow
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.refDate != ''
         run: |
-          if [ -z "${{ github.event.inputs.refDate }}" ]; then
-            echo "REF_DATE=${{ github.event.inputs.refDate }}" >> $GITHUB_ENV
-          fi
+          echo "REF_DATE=${{ github.event.inputs.refDate }}" >> $GITHUB_ENV
           
           if [ -z "${{ github.event.inputs.renewPeriodInDays }}" ]; then
             echo "RENEW_PERIOD_IN_DAYS=${{ github.event.inputs.renewPeriodInDays }}" >> $GITHUB_ENV
           fi
+
+      - name: Setup renewPeriodInDays env var from workflow
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.renewPeriodInDays != ''
+        run: |
+          echo "RENEW_PERIOD_IN_DAYS=${{ github.event.inputs.renewPeriodInDays }}" >> $GITHUB_ENV
 
       - uses: actions/setup-node@v4
         with:
@@ -83,6 +87,7 @@ jobs:
           echo "INTERVAL_CAP: ${{ env.INTERVAL_CAP }}"
           echo "RENEW_PERIOD_IN_DAYS: ${{ env.RENEW_PERIOD_IN_DAYS }}"
           echo "LOG_LEVEL: ${{ env.LOG_LEVEL }}"
+          echo "REF_DATE: ${{ env.REF_DATE }}"
 
       - name: Rebase onto main
         if: ${{ !github.event.act }} # skip during local actions testing
