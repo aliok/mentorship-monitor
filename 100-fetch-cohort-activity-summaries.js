@@ -158,8 +158,6 @@ export default class FetchCohortActivitySummariesCommand {
                     until: fetchWeekEnd,
                     // to pass along to the output
                     term: term,
-                    mentors: mentee.mentors,
-                    organizations: mentee.organizations,
                     weekOf: format(fetchWeekStart, "yyyy-MM-dd"),
                 };
                 console.log(`Creating task to fetch activities of ${username} for the week of ${fetchWeekStart.toISOString()} to ${fetchWeekEnd.toISOString()}`);
@@ -204,8 +202,6 @@ export class FetchCohortActivitySummariesTask extends Task {
             taskId: this.getId(context), result: {
                 mentee:output.user,
                 term: this.spec.term,
-                mentors: this.spec.mentors,
-                organizations: this.spec.organizations,
                 weekOf: this.spec.weekOf,
             },
         });
