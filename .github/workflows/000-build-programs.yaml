@@ -1,0 +1,99 @@
+name: 000-build-programs
+
+permissions:
+  contents: write
+  pull-requests: write
+
+on:
+  # run periodically
+  schedule:
+    - cron: '10 0 * * 1'   # at 00:10 on Monday, once a week
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# do not run this workflow, when there's another instance is running for the same workflow
+concurrency:
+  group: 000-build-programs
+  # If this is enabled it will cancel current running and start latest
+  cancel-in-progress: false
+
+env:
+  # workflow related
+  BRANCH_NAME: 000-build-programs
+  ACTIONS_RUNNER_DEBUG: ${{ secrets.ACTIONS_RUNNER_DEBUG }}
+
+jobs:
+  job-000-build-programs:
+    name: run 000-build-programs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set env ENABLE_DEBUG_LOGGING
+        run: |
+          if [[ "${ACTIONS_RUNNER_DEBUG:-false}" == true ]]; then
+            echo "LOG_LEVEL=debug" >> "$GITHUB_ENV"
+          else
+            echo "LOG_LEVEL=info" >> "$GITHUB_ENV"
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          # TODO: use the nvmrc file
+          node-version: 'lts/hydrogen'
+
+      # if local actions testing, do not check out the branch
+      - uses: actions/checkout@v4
+        if: ${{ !github.event.act }} # skip during local actions testing
+        with:
+          fetch-depth: 500
+          ref: ${{ env.BRANCH_NAME }}
+      - uses: actions/checkout@v4
+        if: ${{ github.event.act }} # skip during local actions testing
+
+      - name: Print environment
+        run: |
+          node --version
+          npm --version
+          echo "GITHUB_WORKSPACE: ${{ github.workspace }}"
+          echo "BRANCH_NAME: ${{ env.BRANCH_NAME }}"
+          echo "ACTIONS_RUNNER_DEBUG: ${{ env.ACTIONS_RUNNER_DEBUG }}"
+
+      - name: Rebase onto main
+        if: ${{ !github.event.act }} # skip during local actions testing
+        run: |
+          git config user.name "Ali Ok"
+          git config user.email "aliok@redhat.com"
+          git fetch origin
+          git rebase origin/main --strategy-option=theirs
+          git push --force origin ${{ env.BRANCH_NAME }}
+
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      - name: Start process
+        run: |
+          echo "Running on branch ${{ github.ref }}"
+          echo "Running on commit ${{ github.sha }}"
+          
+          echo "Starting 000-build-programs"
+          node "${{ github.workspace }}/000-build-programs.js"
+
+      - name: Commit
+        if: ${{ !github.event.act }} # skip during local actions testing
+        run: |
+          git add -A
+          
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "There are changes, committing and pushing."
+            git commit -m "Automated - 000-build-programs"
+            git push --force origin ${{ env.BRANCH_NAME }}
+          
+            echo "Process is complete, creating a PR"
+            # create the PR from a temporary branch
+            AFFIX=$(date +%s) 
+            TMP_BRANCH_NAME="${{ env.BRANCH_NAME }}-${AFFIX}"
+            git checkout -b "${TMP_BRANCH_NAME}"
+            git push --force origin "${TMP_BRANCH_NAME}"
+            GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 000-build-programs" --body "Automated" --base main --head "${TMP_BRANCH_NAME}"
+          fi
