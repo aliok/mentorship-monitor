@@ -14,6 +14,10 @@ on:
       refDate:
         description: 'Reference date to set as now. Format: YYYY-MM-DD'
         required: false
+      renewPeriodInDays:
+        description: 'Renew period in days. Default: 7'
+        required: false
+        default: 7
 
 # do not run this workflow, when there's another instance is running for the same workflow
 concurrency:
@@ -44,11 +48,15 @@ jobs:
             echo "LOG_LEVEL=info" >> "$GITHUB_ENV"
           fi
 
-      - name: Setup refDate
+      - name: Setup env vars from workflow
         run: |
           if [ -z "${{ github.event.inputs.refDate }}" ]; then
             echo "REF_DATE=${{ github.event.inputs.refDate }}" >> $GITHUB_ENV
-          fi    
+          fi
+          
+          if [ -z "${{ github.event.inputs.renewPeriodInDays }}" ]; then
+            echo "RENEW_PERIOD_IN_DAYS=${{ github.event.inputs.renewPeriodInDays }}" >> $GITHUB_ENV
+          fi
 
       - uses: actions/setup-node@v4
         with:
