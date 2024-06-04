@@ -1606,5 +1606,170 @@
         }
       }
     ]
+  },
+  {
+    "term": "gsoc-2024",
+    "startDate": "2024-05-27",
+    "endDate": "2024-11-11",
+    "cohort": [
+      {
+        "username": "Devaansh-Kumar",
+        "mentors": [
+          "LiorLieberman",
+          "mlavacca"
+        ],
+        "organizations": [
+          "kubernetes",
+          "kubernetes-sigs"
+        ],
+        "project": {
+          "title": "Kubernetes Gateway API: Design and develop notification mechanism for ingress2gateway.",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#design-and-develop-notification-mechanism-for-ingress2gateway"
+        }
+      },
+      {
+        "username": "GLVSKiriti",
+        "mentors": [
+          "jasondellaluce",
+          "alacuku"
+        ],
+        "organizations": [
+          "falcosecurity"
+        ],
+        "project": {
+          "title": "Falco: Upgrading event-generator and automating Falco performance testing",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#upgrading-event-generator-and-automating-falco-performance-testing"
+        }
+      },
+      {
+        "username": "harshitasao",
+        "mentors": [
+          "nate-double-u",
+          "di"
+        ],
+        "organizations": [
+          ""
+        ],
+        "project": {
+          "title": "CNCF GOSST Collaboration - Enhancing Security Across CNCF Ecosystem",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#cncf-and-google-open-source-security-team-gsoc-collaboration---enhancing-security-across-cncf-ecosystem"
+        }
+      },
+      {
+        "username": "KrishAryan",
+        "mentors": [
+          "daemon1024",
+          "DelusionalOptimist"
+        ],
+        "organizations": [
+          "kubearmor"
+        ],
+        "project": {
+          "title": "Building a KubeArmor Extension for Rancher Manager",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#rancher-plugin-integration"
+        }
+      },
+      {
+        "username": "Maniktherana",
+        "mentors": [
+          "bwplotka",
+          "TheSpiritXIII"
+        ],
+        "organizations": [
+          "prometheus"
+        ],
+        "project": {
+          "title": "Add Created Timestamp to Prometheus/OpenMetrics Text Format",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#add-created-timestamp-to-prometheusopenmetrics-text-format"
+        }
+      },
+      {
+        "username": "Jougan-0",
+        "mentors": [
+          "leecalcote",
+          "MUzairS15"
+        ],
+        "organizations": [
+          "service-mesh-performance"
+        ],
+        "project": {
+          "title": "Service Mesh Performance",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#service-mesh-performance-ide-plugin"
+        }
+      },
+      {
+        "username": "sratslla",
+        "mentors": [
+          "daemon1024",
+          "Shreyas220",
+          "DelusionalOptimist"
+        ],
+        "organizations": [
+          "kubearmor"
+        ],
+        "project": {
+          "title": "KubeArmor: Automating Benchmarking Workflow",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#automating-benchmarking-workflow"
+        }
+      },
+      {
+        "username": "sid-008",
+        "mentors": [
+          "hydai",
+          "ibmibmibm"
+        ],
+        "organizations": [
+          "WasmEdge"
+        ],
+        "project": {
+          "title": "Implementing Coredump for Post-Mortem Debugging in WebAssembly",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#implementing-coredump-for-post-mortem-debugging-in-webassembly"
+        }
+      },
+      {
+        "username": "tonyli233",
+        "mentors": [
+          "macxamin",
+          "cstyan"
+        ],
+        "organizations": [
+          "prometheus"
+        ],
+        "project": {
+          "title": "Move out of gogo/protobuf to protobuf with vtproto implementation",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#move-out-of-gogoprotobuf-to-protobuf-with-vtproto-implementation"
+        }
+      },
+      {
+        "username": "z1ens",
+        "mentors": [
+          "haoqing0110",
+          "qiujian16"
+        ],
+        "organizations": [
+          "open-cluster-management-io"
+        ],
+        "project": {
+          "title": "GSoC 2024 Proposal for CNCF(Open Cluster Management)",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#scheduling-ai-workload-among-multiple-clusters"
+        }
+      },
+      {
+        "username": "iam-zoey",
+        "mentors": [
+          "matzew",
+          "aslom",
+          "lkingland"
+        ],
+        "organizations": [
+          "knative",
+          "knative-extensions"
+        ],
+        "project": {
+          "title": "Improving WASM Support in Knative Functions",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2024.md#improving-wasm-support-in-knative-functions"
+        }
+      }
+    ]
   }
 ]
