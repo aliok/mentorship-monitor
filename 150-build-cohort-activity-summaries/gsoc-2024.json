@@ -501,5 +501,613 @@
     },
     "term": "gsoc-2024",
     "weekOf": "2024-05-27"
+  },
+  {
+    "mentee": {
+      "login": "z1ens",
+      "name": "Zhe Shen",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "Jougan-0",
+      "name": "Shlok Mishra",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 12,
+        "totalIssueContributions": 7,
+        "totalPullRequestContributions": 5,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=Jougan-0&since=2024-06-03&until=2024-06-11",
+            "contributions": {
+              "totalCount": 8
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "Jougan-0"
+              },
+              "nameWithOwner": "Jougan-0/SMP-Extension-",
+              "url": "https://github.com/Jougan-0/SMP-Extension-"
+            },
+            "url": "https://github.com/Jougan-0/SMP-Extension-/commits?author=Jougan-0&since=2024-06-03&until=2024-06-11",
+            "contributions": {
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshkit",
+              "url": "https://github.com/meshery/meshkit"
+            },
+            "url": "https://github.com/meshery/meshkit/commits?author=Jougan-0&since=2024-06-03&until=2024-06-11",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 7,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 11125
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 11124
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 11123
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 11117
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 11106
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 11105
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 11104
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 11144
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 11118
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 11101
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshkit",
+              "url": "https://github.com/meshery/meshkit"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 505
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 503
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/11135#pullrequestreview-2105848061",
+                    "pullRequest": {
+                      "number": 11135
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "sratslla",
+      "name": "Shubh Gaur",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "sratslla"
+              },
+              "nameWithOwner": "sratslla/KBC-KubeArmor-Benchmark-calculator",
+              "url": "https://github.com/sratslla/KBC-KubeArmor-Benchmark-calculator"
+            },
+            "url": "https://github.com/sratslla/KBC-KubeArmor-Benchmark-calculator/commits?author=sratslla&since=2024-06-03&until=2024-06-11",
+            "contributions": {
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "sratslla"
+              },
+              "nameWithOwner": "sratslla/KBC-KubeArmor-Benchmark-calculator",
+              "url": "https://github.com/sratslla/KBC-KubeArmor-Benchmark-calculator"
+            },
+            "contributions": {
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 14
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 13
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 12
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "iam-zoey",
+      "name": "iam-zoey",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "Maniktherana",
+      "name": "Manik Rana",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "sid-008",
+      "name": "Siddharth Tewari",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "KrishAryan",
+      "name": "Krish Aryan",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 5,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "KrishAryan"
+              },
+              "nameWithOwner": "KrishAryan/kubearmor-rancherui",
+              "url": "https://github.com/KrishAryan/kubearmor-rancherui"
+            },
+            "url": "https://github.com/KrishAryan/kubearmor-rancherui/commits?author=KrishAryan&since=2024-06-03&until=2024-06-11",
+            "contributions": {
+              "totalCount": 5
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "GLVSKiriti",
+      "name": "GLVSKiriti",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "GLVSKiriti"
+              },
+              "nameWithOwner": "GLVSKiriti/Portfolio",
+              "url": "https://github.com/GLVSKiriti/Portfolio"
+            },
+            "url": "https://github.com/GLVSKiriti/Portfolio/commits?author=GLVSKiriti&since=2024-06-03&until=2024-06-11",
+            "contributions": {
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "GLVSKiriti"
+              },
+              "nameWithOwner": "GLVSKiriti/GLVSKiriti",
+              "url": "https://github.com/GLVSKiriti/GLVSKiriti"
+            },
+            "url": "https://github.com/GLVSKiriti/GLVSKiriti/commits?author=GLVSKiriti&since=2024-06-03&until=2024-06-11",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "tonyli233",
+      "name": "Tony Li",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "Devaansh-Kumar",
+      "name": "Devaansh Kumar",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/ingress2gateway",
+              "url": "https://github.com/kubernetes-sigs/ingress2gateway"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 160
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
+  },
+  {
+    "mentee": {
+      "login": "harshitasao",
+      "name": "Harshita Sao",
+      "contributionsCollection": {
+        "startedAt": "2024-06-03T00:00:00Z",
+        "endedAt": "2024-06-10T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 2,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 2,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cloudevents"
+              },
+              "nameWithOwner": "cloudevents/spec",
+              "url": "https://github.com/cloudevents/spec"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 1294
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cilium"
+              },
+              "nameWithOwner": "cilium/cilium",
+              "url": "https://github.com/cilium/cilium"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 33009
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cilium"
+              },
+              "nameWithOwner": "cilium/cilium",
+              "url": "https://github.com/cilium/cilium"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 33022
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 33012
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cloudevents"
+              },
+              "nameWithOwner": "cloudevents/spec",
+              "url": "https://github.com/cloudevents/spec"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1295
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-06-03"
   }
 ]
