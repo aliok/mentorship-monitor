@@ -13011,5 +13011,3211 @@
     },
     "term": "lfx-2024-term2",
     "weekOf": "2024-07-01"
+  },
+  {
+    "mentee": {
+      "login": "singh1203",
+      "name": "Saurabh Singh",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 11486
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 11478
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "network-charles",
+      "name": "Charles Uneze",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 2,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cncf"
+              },
+              "nameWithOwner": "cncf/mentoring",
+              "url": "https://github.com/cncf/mentoring"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/cncf/mentoring/pull/1279#pullrequestreview-2201150847",
+                    "pullRequest": {
+                      "number": 1279
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kwok",
+              "url": "https://github.com/kubernetes-sigs/kwok"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes-sigs/kwok/pull/1177#pullrequestreview-2197525296",
+                    "pullRequest": {
+                      "number": 1177
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "bupd",
+      "name": "Prasanth B",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 26,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 4,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "bupd"
+              },
+              "nameWithOwner": "bupd/dotfiles",
+              "url": "https://github.com/bupd/dotfiles"
+            },
+            "url": "https://github.com/bupd/dotfiles/commits?author=bupd&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 9
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor-cli",
+              "url": "https://github.com/goharbor/harbor-cli"
+            },
+            "url": "https://github.com/goharbor/harbor-cli/commits?author=bupd&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "bupd"
+              },
+              "nameWithOwner": "bupd/digital-wellbeing",
+              "url": "https://github.com/bupd/digital-wellbeing"
+            },
+            "url": "https://github.com/bupd/digital-wellbeing/commits?author=bupd&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 5
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "container-registry"
+              },
+              "nameWithOwner": "container-registry/harbor-satellite",
+              "url": "https://github.com/container-registry/harbor-satellite"
+            },
+            "url": "https://github.com/container-registry/harbor-satellite/commits?author=bupd&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 5
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "container-registry"
+              },
+              "nameWithOwner": "container-registry/harbor-satellite",
+              "url": "https://github.com/container-registry/harbor-satellite"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 34
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor-cli",
+              "url": "https://github.com/goharbor/harbor-cli"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 135
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 134
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "bupd"
+              },
+              "nameWithOwner": "bupd/harbor-cli",
+              "url": "https://github.com/bupd/harbor-cli"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "container-registry"
+              },
+              "nameWithOwner": "container-registry/harbor-satellite",
+              "url": "https://github.com/container-registry/harbor-satellite"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 33
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "tico88612",
+      "name": "ChengHao Yang",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "firatbezir",
+      "name": "Firat Bezir",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "knative"
+              },
+              "nameWithOwner": "knative/ux",
+              "url": "https://github.com/knative/ux"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 172
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "xuemingdi",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "MiahaCybersec",
+      "name": "Miaha",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 11,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 2,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "MiahaCybersec"
+              },
+              "nameWithOwner": "MiahaCybersec/netrunner.academy",
+              "url": "https://github.com/MiahaCybersec/netrunner.academy"
+            },
+            "url": "https://github.com/MiahaCybersec/netrunner.academy/commits?author=MiahaCybersec&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "project-copacetic"
+              },
+              "nameWithOwner": "project-copacetic/copacetic",
+              "url": "https://github.com/project-copacetic/copacetic"
+            },
+            "url": "https://github.com/project-copacetic/copacetic/commits?author=MiahaCybersec&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 4
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "project-copacetic"
+              },
+              "nameWithOwner": "project-copacetic/copacetic",
+              "url": "https://github.com/project-copacetic/copacetic"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 724
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 721
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "project-copacetic"
+              },
+              "nameWithOwner": "project-copacetic/copacetic",
+              "url": "https://github.com/project-copacetic/copacetic"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/project-copacetic/copacetic/pull/706#pullrequestreview-2197026943",
+                    "pullRequest": {
+                      "number": 706
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/project-copacetic/copacetic/pull/689#pullrequestreview-2191972511",
+                    "pullRequest": {
+                      "number": 689
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "HiroakiYo",
+      "name": "Leo Yang",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 6,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubescape"
+              },
+              "nameWithOwner": "kubescape/backstage-plugin",
+              "url": "https://github.com/kubescape/backstage-plugin"
+            },
+            "url": "https://github.com/kubescape/backstage-plugin/commits?author=HiroakiYo&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 6
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "Wise-Wizard",
+      "name": "Saransh Shankar",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "url": "https://github.com/jaegertracing/jaeger/commits?author=Wise-Wizard&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5785
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/jaegertracing/jaeger/pull/5779#pullrequestreview-2203032458",
+                    "pullRequest": {
+                      "number": 5779
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "bishal7679",
+      "name": "Bishal Das ",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 6,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor-cli",
+              "url": "https://github.com/goharbor/harbor-cli"
+            },
+            "url": "https://github.com/goharbor/harbor-cli/commits?author=bishal7679&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 6
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor-cli",
+              "url": "https://github.com/goharbor/harbor-cli"
+            },
+            "contributions": {
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 136
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 133
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 132
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cncf"
+              },
+              "nameWithOwner": "cncf/glossary",
+              "url": "https://github.com/cncf/glossary"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/cncf/glossary/pull/3168#pullrequestreview-2205522436",
+                    "pullRequest": {
+                      "number": 3168
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "jayantpranjal0",
+      "name": "Jayant Pranjal",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "wisdomekpotu",
+      "name": "Wisdom Ekpotu",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "ShravaniAK",
+      "name": "SHRAVANI KAWARE ",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "knative"
+              },
+              "nameWithOwner": "knative/docs",
+              "url": "https://github.com/knative/docs"
+            },
+            "contributions": {
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6072
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 6068
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 6065
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "JanhaviAlekar",
+      "name": "Janhavi Alekar",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "litmuschaos"
+              },
+              "nameWithOwner": "litmuschaos/litmus",
+              "url": "https://github.com/litmuschaos/litmus"
+            },
+            "url": "https://github.com/litmuschaos/litmus/commits?author=JanhaviAlekar&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "Yaxhveer",
+      "name": "Yashveer",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "KiranSatyaRaj",
+      "name": "Kiran Satya Raj",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "in-toto"
+              },
+              "nameWithOwner": "in-toto/in-toto-java",
+              "url": "https://github.com/in-toto/in-toto-java"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 136
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "navin772",
+      "name": "Navin Chandra",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 4,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "navin772"
+              },
+              "nameWithOwner": "navin772/Retail_product_segmentation",
+              "url": "https://github.com/navin772/Retail_product_segmentation"
+            },
+            "url": "https://github.com/navin772/Retail_product_segmentation/commits?author=navin772&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubearmor"
+              },
+              "nameWithOwner": "kubearmor/kubearmor-client",
+              "url": "https://github.com/kubearmor/kubearmor-client"
+            },
+            "url": "https://github.com/kubearmor/kubearmor-client/commits?author=navin772&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubearmor"
+              },
+              "nameWithOwner": "kubearmor/KubeArmor",
+              "url": "https://github.com/kubearmor/KubeArmor"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1819
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "navin772"
+              },
+              "nameWithOwner": "navin772/Retail_product_segmentation",
+              "url": "https://github.com/navin772/Retail_product_segmentation"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 4
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "SeleniumHQ"
+              },
+              "nameWithOwner": "SeleniumHQ/selenium",
+              "url": "https://github.com/SeleniumHQ/selenium"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 14298
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "2008sahil",
+      "name": "Sahil Gupta",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "2008sahil"
+              },
+              "nameWithOwner": "2008sahil/vercel_clone",
+              "url": "https://github.com/2008sahil/vercel_clone"
+            },
+            "url": "https://github.com/2008sahil/vercel_clone/commits?author=2008sahil&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "FlamingSaint",
+      "name": "Raghuram Kannan",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "url": "https://github.com/jaegertracing/jaeger/commits?author=FlamingSaint&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5774
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/jaegertracing/jaeger/pull/5783#pullrequestreview-2203585963",
+                    "pullRequest": {
+                      "number": 5783
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "1Shubham7",
+      "name": "Shubham Singh",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "1Shubham7"
+              },
+              "nameWithOwner": "1Shubham7/portfolio-me",
+              "url": "https://github.com/1Shubham7/portfolio-me"
+            },
+            "url": "https://github.com/1Shubham7/portfolio-me/commits?author=1Shubham7&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubeedge"
+              },
+              "nameWithOwner": "kubeedge/kubeedge",
+              "url": "https://github.com/kubeedge/kubeedge"
+            },
+            "contributions": {
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5763
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 5757
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 5751
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 5744
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "officialasishkumar",
+      "name": "Asish Kumar",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 16,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "tardis-sn"
+              },
+              "nameWithOwner": "tardis-sn/tardis",
+              "url": "https://github.com/tardis-sn/tardis"
+            },
+            "url": "https://github.com/tardis-sn/tardis/commits?author=officialasishkumar&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "officialasishkumar"
+              },
+              "nameWithOwner": "officialasishkumar/tardis",
+              "url": "https://github.com/officialasishkumar/tardis"
+            },
+            "contributions": {
+              "totalCount": 12,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 71
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 70
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 69
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 61
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 60
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 59
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 58
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 57
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 56
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 55
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 54
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 53
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "tardis-sn"
+              },
+              "nameWithOwner": "tardis-sn/tardis",
+              "url": "https://github.com/tardis-sn/tardis"
+            },
+            "contributions": {
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2749
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 2747
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 2724
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 2722
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "PeterD1524",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "WasmEdge"
+              },
+              "nameWithOwner": "WasmEdge/WasmEdge",
+              "url": "https://github.com/WasmEdge/WasmEdge"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 3596
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "PeterD1524"
+              },
+              "nameWithOwner": "PeterD1524/WasmEdge",
+              "url": "https://github.com/PeterD1524/WasmEdge"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "WasmEdge"
+              },
+              "nameWithOwner": "WasmEdge/WasmEdge",
+              "url": "https://github.com/WasmEdge/WasmEdge"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3583
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "rishabhsharma1997",
+      "name": "Rishabh Sharma",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "url": "https://github.com/layer5io/sistent/commits?author=rishabhsharma1997&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/layer5",
+              "url": "https://github.com/layer5io/layer5"
+            },
+            "url": "https://github.com/layer5io/layer5/commits?author=rishabhsharma1997&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "contributions": {
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 692
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 690
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 686
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/layer5",
+              "url": "https://github.com/layer5io/layer5"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5736
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "yizhang-zen",
+      "name": "Ying Zhang",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "amandaguan-ag",
+      "name": "Amanda Guan",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 75,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "amandaguan-ag"
+              },
+              "nameWithOwner": "amandaguan-ag/marketing",
+              "url": "https://github.com/amandaguan-ag/marketing"
+            },
+            "url": "https://github.com/amandaguan-ag/marketing/commits?author=amandaguan-ag&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 74
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "amandaguan-ag"
+              },
+              "nameWithOwner": "amandaguan-ag/image-upload-app",
+              "url": "https://github.com/amandaguan-ag/image-upload-app"
+            },
+            "url": "https://github.com/amandaguan-ag/image-upload-app/commits?author=amandaguan-ag&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "suryyyansh",
+      "name": "suryansh",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "LlamaEdge"
+              },
+              "nameWithOwner": "LlamaEdge/LlamaEdge",
+              "url": "https://github.com/LlamaEdge/LlamaEdge"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 199
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "Vanshikav123",
+      "name": "Vanshika",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "redoC-A2k",
+      "name": "Afshan Ahmed Khan",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "DarikshaAnsari",
+      "name": "Dariksha",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "DarikshaAnsari"
+              },
+              "nameWithOwner": "DarikshaAnsari/in-toto-docs",
+              "url": "https://github.com/DarikshaAnsari/in-toto-docs"
+            },
+            "url": "https://github.com/DarikshaAnsari/in-toto-docs/commits?author=DarikshaAnsari&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "DarikshaAnsari"
+              },
+              "nameWithOwner": "DarikshaAnsari/in-toto-docs",
+              "url": "https://github.com/DarikshaAnsari/in-toto-docs"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 7
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "Vishalk91-4",
+      "name": "Korada Vishal",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kcl-lang"
+              },
+              "nameWithOwner": "kcl-lang/tree-sitter-kcl",
+              "url": "https://github.com/kcl-lang/tree-sitter-kcl"
+            },
+            "url": "https://github.com/kcl-lang/tree-sitter-kcl/commits?author=Vishalk91-4&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kyverno"
+              },
+              "nameWithOwner": "kyverno/kyverno",
+              "url": "https://github.com/kyverno/kyverno"
+            },
+            "url": "https://github.com/kyverno/kyverno/commits?author=Vishalk91-4&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kcl-lang"
+              },
+              "nameWithOwner": "kcl-lang/tree-sitter-kcl",
+              "url": "https://github.com/kcl-lang/tree-sitter-kcl"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 25
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "codeSafari10",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 7,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/schemas",
+              "url": "https://github.com/meshery/schemas"
+            },
+            "url": "https://github.com/meshery/schemas/commits?author=codeSafari10&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 6
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=codeSafari10&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/schemas",
+              "url": "https://github.com/meshery/schemas"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 116
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 114
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 11457
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "codemaster1104",
+      "name": "Akshat Shrivastava",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "GaiaNet-AI"
+              },
+              "nameWithOwner": "GaiaNet-AI/node-configs",
+              "url": "https://github.com/GaiaNet-AI/node-configs"
+            },
+            "url": "https://github.com/GaiaNet-AI/node-configs/commits?author=codemaster1104&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "GaiaNet-AI"
+              },
+              "nameWithOwner": "GaiaNet-AI/node-configs",
+              "url": "https://github.com/GaiaNet-AI/node-configs"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "codemaster1104"
+              },
+              "nameWithOwner": "codemaster1104/node-configs",
+              "url": "https://github.com/codemaster1104/node-configs"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "shubham251972",
+      "name": "Shubham Upadhyay",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 4,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "url": "https://github.com/layer5io/docs/commits?author=shubham251972&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=shubham251972&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 336
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 11447
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery.io",
+              "url": "https://github.com/meshery/meshery.io"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery.io/pull/1828#pullrequestreview-2200144248",
+                    "pullRequest": {
+                      "number": 1828
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "kirtanchandak",
+      "name": "Kirtan Manoj Chandak",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 43,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kirtanchandak"
+              },
+              "nameWithOwner": "kirtanchandak/jwt-toolkit-fast",
+              "url": "https://github.com/kirtanchandak/jwt-toolkit-fast"
+            },
+            "url": "https://github.com/kirtanchandak/jwt-toolkit-fast/commits?author=kirtanchandak&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 28
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kirtanchandak"
+              },
+              "nameWithOwner": "kirtanchandak/jwt-toolkit-fast-demo",
+              "url": "https://github.com/kirtanchandak/jwt-toolkit-fast-demo"
+            },
+            "url": "https://github.com/kirtanchandak/jwt-toolkit-fast-demo/commits?author=kirtanchandak&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 14
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/website",
+              "url": "https://github.com/vitessio/website"
+            },
+            "url": "https://github.com/vitessio/website/commits?author=kirtanchandak&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kirtanchandak"
+              },
+              "nameWithOwner": "kirtanchandak/jwt-toolkit-fast",
+              "url": "https://github.com/kirtanchandak/jwt-toolkit-fast"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/website",
+              "url": "https://github.com/vitessio/website"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1793
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "kartikaysaxena",
+      "name": "Kartikay",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 4,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kartikaysaxena"
+              },
+              "nameWithOwner": "kartikaysaxena/substrateinterface",
+              "url": "https://github.com/kartikaysaxena/substrateinterface"
+            },
+            "url": "https://github.com/kartikaysaxena/substrateinterface/commits?author=kartikaysaxena&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 4
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "dhiway"
+              },
+              "nameWithOwner": "dhiway/cord.go",
+              "url": "https://github.com/dhiway/cord.go"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "ghosind",
+      "name": "Chen Su",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 25,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 8,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "ghosind"
+              },
+              "nameWithOwner": "ghosind/dvm",
+              "url": "https://github.com/ghosind/dvm"
+            },
+            "url": "https://github.com/ghosind/dvm/commits?author=ghosind&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 8
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "ghosind"
+              },
+              "nameWithOwner": "ghosind/go-assert",
+              "url": "https://github.com/ghosind/go-assert"
+            },
+            "url": "https://github.com/ghosind/go-assert/commits?author=ghosind&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 6
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "ghosind"
+              },
+              "nameWithOwner": "ghosind/go-async",
+              "url": "https://github.com/ghosind/go-async"
+            },
+            "url": "https://github.com/ghosind/go-async/commits?author=ghosind&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 5
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "ghosind"
+              },
+              "nameWithOwner": "ghosind/go-request",
+              "url": "https://github.com/ghosind/go-request"
+            },
+            "url": "https://github.com/ghosind/go-request/commits?author=ghosind&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "golang"
+              },
+              "nameWithOwner": "golang/go",
+              "url": "https://github.com/golang/go"
+            },
+            "url": "https://github.com/golang/go/commits?author=ghosind&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "ghosind"
+              },
+              "nameWithOwner": "ghosind/go-jwt",
+              "url": "https://github.com/ghosind/go-jwt"
+            },
+            "url": "https://github.com/ghosind/go-jwt/commits?author=ghosind&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "golang"
+              },
+              "nameWithOwner": "golang/net",
+              "url": "https://github.com/golang/net"
+            },
+            "url": "https://github.com/golang/net/commits?author=ghosind&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "ghosind"
+              },
+              "nameWithOwner": "ghosind/ghosind",
+              "url": "https://github.com/ghosind/ghosind"
+            },
+            "url": "https://github.com/ghosind/ghosind/commits?author=ghosind&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "golang"
+              },
+              "nameWithOwner": "golang/go",
+              "url": "https://github.com/golang/go"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 68584
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "Alero-Awani",
+      "name": "Alero Awani",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 330
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/layer5",
+              "url": "https://github.com/layer5io/layer5"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5715
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "luomengY",
+      "name": "zhijiayang",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubeedge"
+              },
+              "nameWithOwner": "kubeedge/kubeedge",
+              "url": "https://github.com/kubeedge/kubeedge"
+            },
+            "url": "https://github.com/kubeedge/kubeedge/commits?author=luomengY&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "Dindihub",
+      "name": "Dindihub",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Dindihub"
+              },
+              "nameWithOwner": "Dindihub/docsy-tuf.io",
+              "url": "https://github.com/Dindihub/docsy-tuf.io"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "dragon-slayer875",
+      "name": "Rudraksh Tyagi",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 12,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 3,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "url": "https://github.com/layer5io/docs/commits?author=dragon-slayer875&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=dragon-slayer875&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "url": "https://github.com/layer5io/sistent/commits?author=dragon-slayer875&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 331
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 11448
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 687
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/sistent/pull/693#pullrequestreview-2204222304",
+                    "pullRequest": {
+                      "number": 693
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/336#pullrequestreview-2203240338",
+                    "pullRequest": {
+                      "number": 336
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/11322#pullrequestreview-2203177055",
+                    "pullRequest": {
+                      "number": 11322
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "NeerajNagure",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kwok",
+              "url": "https://github.com/kubernetes-sigs/kwok"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1188
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "dusdjhyeon",
+      "name": "Dahyeon Kang",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "dusdjhyeon"
+              },
+              "nameWithOwner": "dusdjhyeon/dusdjhyeon",
+              "url": "https://github.com/dusdjhyeon/dusdjhyeon"
+            },
+            "url": "https://github.com/dusdjhyeon/dusdjhyeon/commits?author=dusdjhyeon&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "litmuschaos"
+              },
+              "nameWithOwner": "litmuschaos/litmus-go",
+              "url": "https://github.com/litmuschaos/litmus-go"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 707
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 11454
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshkit",
+              "url": "https://github.com/meshery/meshkit"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 543
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "litmuschaos"
+              },
+              "nameWithOwner": "litmuschaos/chaos-runner",
+              "url": "https://github.com/litmuschaos/chaos-runner"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 222
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/330#pullrequestreview-2202871727",
+                    "pullRequest": {
+                      "number": 330
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "enesonus",
+      "name": "Mehmet Enes",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "crossplane"
+              },
+              "nameWithOwner": "crossplane/crossplane",
+              "url": "https://github.com/crossplane/crossplane"
+            },
+            "url": "https://github.com/crossplane/crossplane/commits?author=enesonus&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "crossplane"
+              },
+              "nameWithOwner": "crossplane/crossplane",
+              "url": "https://github.com/crossplane/crossplane"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5839
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "joeyyy09",
+      "name": "Harshith Mente",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 2,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "url": "https://github.com/jaegertracing/jaeger/commits?author=joeyyy09&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5782
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 5776
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/jaegertracing/jaeger/pull/5780#pullrequestreview-2203198178",
+                    "pullRequest": {
+                      "number": 5780
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/jaegertracing/jaeger/pull/5775#pullrequestreview-2199952231",
+                    "pullRequest": {
+                      "number": 5775
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "yomek33",
+      "name": "Moeka Mishima",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 5,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "prometheus-community"
+              },
+              "nameWithOwner": "prometheus-community/avalanche",
+              "url": "https://github.com/prometheus-community/avalanche"
+            },
+            "url": "https://github.com/prometheus-community/avalanche/commits?author=yomek33&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "yomek33"
+              },
+              "nameWithOwner": "yomek33/steps",
+              "url": "https://github.com/yomek33/steps"
+            },
+            "url": "https://github.com/yomek33/steps/commits?author=yomek33&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "Jad31",
+      "name": "Jad Chahed",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 30,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 8,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/arewefastyet",
+              "url": "https://github.com/vitessio/arewefastyet"
+            },
+            "url": "https://github.com/vitessio/arewefastyet/commits?author=Jad31&since=2024-07-22&until=2024-07-30",
+            "contributions": {
+              "totalCount": 30
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/arewefastyet",
+              "url": "https://github.com/vitessio/arewefastyet"
+            },
+            "contributions": {
+              "totalCount": 8,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 591
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 587
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 586
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 584
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 583
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 582
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 578
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 577
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
+  },
+  {
+    "mentee": {
+      "login": "shruti2522",
+      "name": "Shruti Sharma",
+      "contributionsCollection": {
+        "startedAt": "2024-07-22T00:00:00Z",
+        "endedAt": "2024-07-29T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2",
+    "weekOf": "2024-07-22"
   }
 ]
