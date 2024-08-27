@@ -10159,5 +10159,1746 @@
     },
     "term": "gsoc-2024",
     "weekOf": "2024-08-05"
+  },
+  {
+    "mentee": {
+      "login": "iam-zoey",
+      "name": "iam-zoey",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "iam-zoey"
+              },
+              "nameWithOwner": "iam-zoey/wasm-in-knative",
+              "url": "https://github.com/iam-zoey/wasm-in-knative"
+            },
+            "url": "https://github.com/iam-zoey/wasm-in-knative/commits?author=iam-zoey&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "iam-zoey"
+              },
+              "nameWithOwner": "iam-zoey/devops-ci-py",
+              "url": "https://github.com/iam-zoey/devops-ci-py"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "harshitasao",
+      "name": "Harshita Sao",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 16,
+        "totalIssueContributions": 24,
+        "totalPullRequestContributions": 35,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 12,
+        "totalRepositoriesWithContributedIssues": 24,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "rook"
+              },
+              "nameWithOwner": "rook/rook",
+              "url": "https://github.com/rook/rook"
+            },
+            "url": "https://github.com/rook/rook/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "thanos-io"
+              },
+              "nameWithOwner": "thanos-io/thanos",
+              "url": "https://github.com/thanos-io/thanos"
+            },
+            "url": "https://github.com/thanos-io/thanos/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "dragonflyoss"
+              },
+              "nameWithOwner": "dragonflyoss/Dragonfly2",
+              "url": "https://github.com/dragonflyoss/Dragonfly2"
+            },
+            "url": "https://github.com/dragonflyoss/Dragonfly2/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "strimzi"
+              },
+              "nameWithOwner": "strimzi/strimzi-kafka-operator",
+              "url": "https://github.com/strimzi/strimzi-kafka-operator"
+            },
+            "url": "https://github.com/strimzi/strimzi-kafka-operator/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cortexproject"
+              },
+              "nameWithOwner": "cortexproject/cortex",
+              "url": "https://github.com/cortexproject/cortex"
+            },
+            "url": "https://github.com/cortexproject/cortex/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "openkruise"
+              },
+              "nameWithOwner": "openkruise/kruise",
+              "url": "https://github.com/openkruise/kruise"
+            },
+            "url": "https://github.com/openkruise/kruise/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "fluent"
+              },
+              "nameWithOwner": "fluent/fluentd",
+              "url": "https://github.com/fluent/fluentd"
+            },
+            "url": "https://github.com/fluent/fluentd/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "prometheus"
+              },
+              "nameWithOwner": "prometheus/prometheus",
+              "url": "https://github.com/prometheus/prometheus"
+            },
+            "url": "https://github.com/prometheus/prometheus/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "open-policy-agent"
+              },
+              "nameWithOwner": "open-policy-agent/opa",
+              "url": "https://github.com/open-policy-agent/opa"
+            },
+            "url": "https://github.com/open-policy-agent/opa/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cri-o"
+              },
+              "nameWithOwner": "cri-o/cri-o",
+              "url": "https://github.com/cri-o/cri-o"
+            },
+            "url": "https://github.com/cri-o/cri-o/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubevela"
+              },
+              "nameWithOwner": "kubevela/kubevela",
+              "url": "https://github.com/kubevela/kubevela"
+            },
+            "url": "https://github.com/kubevela/kubevela/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "url": "https://github.com/jaegertracing/jaeger/commits?author=harshitasao&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "openkruise"
+              },
+              "nameWithOwner": "openkruise/kruise",
+              "url": "https://github.com/openkruise/kruise"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 1706
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "longhorn"
+              },
+              "nameWithOwner": "longhorn/longhorn",
+              "url": "https://github.com/longhorn/longhorn"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 9247
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubevirt"
+              },
+              "nameWithOwner": "kubevirt/kubevirt",
+              "url": "https://github.com/kubevirt/kubevirt"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 12610
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubevela"
+              },
+              "nameWithOwner": "kubevela/kubevela",
+              "url": "https://github.com/kubevela/kubevela"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 6601
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "keptn"
+              },
+              "nameWithOwner": "keptn/lifecycle-toolkit",
+              "url": "https://github.com/keptn/lifecycle-toolkit"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 3681
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "karmada-io"
+              },
+              "nameWithOwner": "karmada-io/karmada",
+              "url": "https://github.com/karmada-io/karmada"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 5391
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cubefs"
+              },
+              "nameWithOwner": "cubefs/cubefs",
+              "url": "https://github.com/cubefs/cubefs"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 3479
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "crossplane"
+              },
+              "nameWithOwner": "crossplane/crossplane",
+              "url": "https://github.com/crossplane/crossplane"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 5888
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cortexproject"
+              },
+              "nameWithOwner": "cortexproject/cortex",
+              "url": "https://github.com/cortexproject/cortex"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 6165
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "projectcontour"
+              },
+              "nameWithOwner": "projectcontour/contour",
+              "url": "https://github.com/projectcontour/contour"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 6615
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "theupdateframework"
+              },
+              "nameWithOwner": "theupdateframework/python-tuf",
+              "url": "https://github.com/theupdateframework/python-tuf"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 2688
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "dragonflyoss"
+              },
+              "nameWithOwner": "dragonflyoss/Dragonfly2",
+              "url": "https://github.com/dragonflyoss/Dragonfly2"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 3441
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "knative"
+              },
+              "nameWithOwner": "knative/serving",
+              "url": "https://github.com/knative/serving"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 15474
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "thanos-io"
+              },
+              "nameWithOwner": "thanos-io/thanos",
+              "url": "https://github.com/thanos-io/thanos"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 7648
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "prometheus"
+              },
+              "nameWithOwner": "prometheus/prometheus",
+              "url": "https://github.com/prometheus/prometheus"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 14687
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "open-policy-agent"
+              },
+              "nameWithOwner": "open-policy-agent/opa",
+              "url": "https://github.com/open-policy-agent/opa"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 6938
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kedacore"
+              },
+              "nameWithOwner": "kedacore/keda",
+              "url": "https://github.com/kedacore/keda"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 6085
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "fluent"
+              },
+              "nameWithOwner": "fluent/fluentd",
+              "url": "https://github.com/fluent/fluentd"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 4601
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "envoyproxy"
+              },
+              "nameWithOwner": "envoyproxy/envoy",
+              "url": "https://github.com/envoyproxy/envoy"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 35730
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cloudevents"
+              },
+              "nameWithOwner": "cloudevents/sdk-go",
+              "url": "https://github.com/cloudevents/sdk-go"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 1087
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "strimzi"
+              },
+              "nameWithOwner": "strimzi/strimzi-kafka-operator",
+              "url": "https://github.com/strimzi/strimzi-kafka-operator"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 10457
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/vitess",
+              "url": "https://github.com/vitessio/vitess"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 16607
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "rook"
+              },
+              "nameWithOwner": "rook/rook",
+              "url": "https://github.com/rook/rook"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 14569
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cert-manager"
+              },
+              "nameWithOwner": "cert-manager/cert-manager",
+              "url": "https://github.com/cert-manager/cert-manager"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 7226
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "rook"
+              },
+              "nameWithOwner": "rook/rook",
+              "url": "https://github.com/rook/rook"
+            },
+            "contributions": {
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 14574
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 14573
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 14570
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "dragonflyoss"
+              },
+              "nameWithOwner": "dragonflyoss/Dragonfly2",
+              "url": "https://github.com/dragonflyoss/Dragonfly2"
+            },
+            "contributions": {
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3443
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 3442
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 3440
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "thanos-io"
+              },
+              "nameWithOwner": "thanos-io/thanos",
+              "url": "https://github.com/thanos-io/thanos"
+            },
+            "contributions": {
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 7650
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7649
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7647
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cloudevents"
+              },
+              "nameWithOwner": "cloudevents/sdk-go",
+              "url": "https://github.com/cloudevents/sdk-go"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1089
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1088
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "knative"
+              },
+              "nameWithOwner": "knative/serving",
+              "url": "https://github.com/knative/serving"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 15475
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 15473
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "coredns"
+              },
+              "nameWithOwner": "coredns/coredns",
+              "url": "https://github.com/coredns/coredns"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6824
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 6823
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/vitess",
+              "url": "https://github.com/vitessio/vitess"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 16613
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 16612
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "prometheus"
+              },
+              "nameWithOwner": "prometheus/prometheus",
+              "url": "https://github.com/prometheus/prometheus"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 14690
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 14689
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "argoproj"
+              },
+              "nameWithOwner": "argoproj/argo-cd",
+              "url": "https://github.com/argoproj/argo-cd"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 19576
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cri-o"
+              },
+              "nameWithOwner": "cri-o/cri-o",
+              "url": "https://github.com/cri-o/cri-o"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 8487
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "falcosecurity"
+              },
+              "nameWithOwner": "falcosecurity/falco",
+              "url": "https://github.com/falcosecurity/falco"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3299
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "fluent"
+              },
+              "nameWithOwner": "fluent/fluentd",
+              "url": "https://github.com/fluent/fluentd"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 4602
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "helm"
+              },
+              "nameWithOwner": "helm/helm",
+              "url": "https://github.com/helm/helm"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 13259
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5860
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kedacore"
+              },
+              "nameWithOwner": "kedacore/keda",
+              "url": "https://github.com/kedacore/keda"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6088
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "open-policy-agent"
+              },
+              "nameWithOwner": "open-policy-agent/opa",
+              "url": "https://github.com/open-policy-agent/opa"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6941
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "theupdateframework"
+              },
+              "nameWithOwner": "theupdateframework/python-tuf",
+              "url": "https://github.com/theupdateframework/python-tuf"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2689
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cortexproject"
+              },
+              "nameWithOwner": "cortexproject/cortex",
+              "url": "https://github.com/cortexproject/cortex"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6168
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "crossplane"
+              },
+              "nameWithOwner": "crossplane/crossplane",
+              "url": "https://github.com/crossplane/crossplane"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5891
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "strimzi"
+              },
+              "nameWithOwner": "strimzi/strimzi-kafka-operator",
+              "url": "https://github.com/strimzi/strimzi-kafka-operator"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 10463
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "karmada-io"
+              },
+              "nameWithOwner": "karmada-io/karmada",
+              "url": "https://github.com/karmada-io/karmada"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5396
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubevela"
+              },
+              "nameWithOwner": "kubevela/kubevela",
+              "url": "https://github.com/kubevela/kubevela"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6602
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "longhorn"
+              },
+              "nameWithOwner": "longhorn/longhorn",
+              "url": "https://github.com/longhorn/longhorn"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 9250
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "openkruise"
+              },
+              "nameWithOwner": "openkruise/kruise",
+              "url": "https://github.com/openkruise/kruise"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1707
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "KrishAryan",
+      "name": "Krish Aryan",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 13,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "KrishAryan"
+              },
+              "nameWithOwner": "KrishAryan/testRUI",
+              "url": "https://github.com/KrishAryan/testRUI"
+            },
+            "url": "https://github.com/KrishAryan/testRUI/commits?author=KrishAryan&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 10
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "KrishAryan"
+              },
+              "nameWithOwner": "KrishAryan/kubearmorRUI",
+              "url": "https://github.com/KrishAryan/kubearmorRUI"
+            },
+            "url": "https://github.com/KrishAryan/kubearmorRUI/commits?author=KrishAryan&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "GLVSKiriti",
+      "name": "GLVSKiriti",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "falcosecurity"
+              },
+              "nameWithOwner": "falcosecurity/event-generator",
+              "url": "https://github.com/falcosecurity/event-generator"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 219
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "tonyli233",
+      "name": "Tony Li",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "Maniktherana",
+      "name": "Manik Rana",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "Devaansh-Kumar",
+      "name": "Devaansh Kumar",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/ingress2gateway",
+              "url": "https://github.com/kubernetes-sigs/ingress2gateway"
+            },
+            "url": "https://github.com/kubernetes-sigs/ingress2gateway/commits?author=Devaansh-Kumar&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/ingress2gateway",
+              "url": "https://github.com/kubernetes-sigs/ingress2gateway"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 181
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 180
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "Jougan-0",
+      "name": "Shlok Mishra",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 44,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 12,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=Jougan-0&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 27
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/schemas",
+              "url": "https://github.com/meshery/schemas"
+            },
+            "url": "https://github.com/meshery/schemas/commits?author=Jougan-0&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 13
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshkit",
+              "url": "https://github.com/meshery/meshkit"
+            },
+            "url": "https://github.com/meshery/meshkit/commits?author=Jougan-0&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 4
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 11699
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 11687
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 11686
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 11678
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshkit",
+              "url": "https://github.com/meshery/meshkit"
+            },
+            "contributions": {
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 569
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 562
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 561
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 557
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/schemas",
+              "url": "https://github.com/meshery/schemas"
+            },
+            "contributions": {
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 141
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 139
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 138
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 137
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "z1ens",
+      "name": "Zhe Shen",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 11,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "z1ens"
+              },
+              "nameWithOwner": "z1ens/OCM_Kueue_Admission_Check_Controller",
+              "url": "https://github.com/z1ens/OCM_Kueue_Admission_Check_Controller"
+            },
+            "url": "https://github.com/z1ens/OCM_Kueue_Admission_Check_Controller/commits?author=z1ens&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "z1ens"
+              },
+              "nameWithOwner": "z1ens/GSoC-2024_CNCF_Final_Report",
+              "url": "https://github.com/z1ens/GSoC-2024_CNCF_Final_Report"
+            },
+            "url": "https://github.com/z1ens/GSoC-2024_CNCF_Final_Report/commits?author=z1ens&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 4
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "open-cluster-management-io"
+              },
+              "nameWithOwner": "open-cluster-management-io/ocm",
+              "url": "https://github.com/open-cluster-management-io/ocm"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 601
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "sratslla",
+      "name": "Shubh Gaur",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 7,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "sratslla"
+              },
+              "nameWithOwner": "sratslla/KBC-KubeArmor-Benchmark-calculator",
+              "url": "https://github.com/sratslla/KBC-KubeArmor-Benchmark-calculator"
+            },
+            "url": "https://github.com/sratslla/KBC-KubeArmor-Benchmark-calculator/commits?author=sratslla&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 5
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sratslla"
+              },
+              "nameWithOwner": "sratslla/INTERVIEWNOW",
+              "url": "https://github.com/sratslla/INTERVIEWNOW"
+            },
+            "url": "https://github.com/sratslla/INTERVIEWNOW/commits?author=sratslla&since=2024-08-12&until=2024-08-20",
+            "contributions": {
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "sratslla"
+              },
+              "nameWithOwner": "sratslla/KBC-KubeArmor-Benchmark-calculator",
+              "url": "https://github.com/sratslla/KBC-KubeArmor-Benchmark-calculator"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 36
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 35
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
+  },
+  {
+    "mentee": {
+      "login": "sid-008",
+      "name": "Siddharth Tewari",
+      "contributionsCollection": {
+        "startedAt": "2024-08-12T00:00:00Z",
+        "endedAt": "2024-08-19T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-08-12"
   }
 ]
