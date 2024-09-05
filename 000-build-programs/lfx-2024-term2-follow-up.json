@@ -1,0 +1,787 @@
+{
+  "term": "lfx-2024-term2-follow-up",
+  "startDate": "2024-08-28",
+  "endDate": "2025-08-30",
+  "cohort": [
+    {
+      "username": "wisdomekpotu",
+      "mentors": [
+        "paularah",
+        "xmulligan"
+      ],
+      "organizations": [
+        "cilium"
+      ],
+      "project": {
+        "title": "CNCF - Cilium: Cilium Technical Outcomes",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#cilium-technical-outcomes",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/9ab5c6dc-4735-4dfb-99c0-d00e86aeae60"
+      }
+    },
+    {
+      "username": "MiahaCybersec",
+      "mentors": [
+        "ashnamehrotra",
+        "RobertKielty"
+      ],
+      "organizations": [
+        "project-copacetic"
+      ],
+      "project": {
+        "title": "CNCF - Copacetic: Add new scenarios to Copa's existing image patching features",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#add-new-scenarios-to-copas-existing-image-patching-features",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/955a5956-de58-44ea-8760-d606feb82165"
+      }
+    },
+    {
+      "username": "enesonus",
+      "mentors": [
+        "jbw976",
+        "ezgidemirel"
+      ],
+      "organizations": [
+        "crossplane"
+      ],
+      "project": {
+        "title": "CNCF - Crossplane: Make Crossplane Easy - Improving the Developer Experience",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#make-crossplane-easy---improving-the-developer-experience",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/87e81040-eb5e-4628-babd-820ef23cd261"
+      }
+    },
+    {
+      "username": "bishal7679",
+      "mentors": [
+        "vad1mo",
+        "wy65701436",
+        "Orlin Vasilev"
+      ],
+      "organizations": [
+        "goharbor"
+      ],
+      "project": {
+        "title": "CNCF - Harbor: Harbor CLI",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#harbor-cli",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/a8a71ad1-4a1b-422e-9928-01c153ac2daf"
+      }
+    },
+    {
+      "username": "bupd",
+      "mentors": [
+        "vad1mo",
+        "wy65701436",
+        "Orlin Vasilev"
+      ],
+      "organizations": [
+        "goharbor",
+        "container-registry"
+      ],
+      "project": {
+        "title": "CNCF - Harbor: Harbor Satellite",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#harbor-satellite",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/93a94aec-8026-4587-b840-52c96ab25020"
+      }
+    },
+    {
+      "username": "Yaxhveer",
+      "mentors": [
+        "SantiagoTorres",
+        "PradyumnaKrishna"
+      ],
+      "organizations": [
+        "in-toto"
+      ],
+      "project": {
+        "title": "CNCF - in-toto: Add GUAC support",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#add-guac-support",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/abfb7093-b057-40da-8be1-c67bd8839698"
+      }
+    },
+    {
+      "username": "DarikshaAnsari",
+      "mentors": [
+        "JustinCappos",
+        "chalin",
+        "Lukas Pühringer"
+      ],
+      "organizations": [
+        "in-toto",
+        "cncf"
+      ],
+      "project": {
+        "title": "CNCF - in-toto: Documentation Boost!",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#documentation-boost",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/34314eb1-0fc3-4802-ab04-2265418c2e48"
+      }
+    },
+    {
+      "username": "KiranSatyaRaj",
+      "mentors": [
+        "SantiagoTorres",
+        "PradyumnaKrishna"
+      ],
+      "organizations": [
+        "in-toto"
+      ],
+      "project": {
+        "title": "CNCF - in-toto: Sigstore support for in-toto-jenkins",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#sigstore-support-for-in-toto-jenkins",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/fd34fe37-e736-47bb-b0d5-54a2a0d9875a"
+      }
+    },
+    {
+      "username": "joeyyy09",
+      "mentors": [
+        "yurishkuro",
+        "jkowall",
+        "Yash Sharma"
+      ],
+      "organizations": [
+        "jaegertracing"
+      ],
+      "project": {
+        "title": "CNCF - Jaeger: Jaeger-V2 Kafka-based architecture",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#jaeger-v2-kafka-based-architecture",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/6c6181c6-030a-4053-af29-18f09e5e2c4f"
+      }
+    },
+    {
+      "username": "Wise-Wizard",
+      "mentors": [
+        "yurishkuro",
+        "jkowall",
+        "Yash Sharma"
+      ],
+      "organizations": [
+        "jaegertracing"
+      ],
+      "project": {
+        "title": "CNCF - Jaeger: Jaeger-V2 Observability and Healthchecks",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#jaeger-v2-observability-and-healthchecks",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/bd752f55-9080-4826-af09-ad86d3614ab2"
+      }
+    },
+    {
+      "username": "FlamingSaint",
+      "mentors": [
+        "yurishkuro",
+        "jkowall",
+        "Yash Sharma"
+      ],
+      "organizations": [
+        "jaegertracing"
+      ],
+      "project": {
+        "title": "CNCF - Jaeger: Jaeger-V2 Service Performance Monitoring",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#jaeger-v2-service-performance-monitoring",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/574c4759-09fa-468d-9cfd-4fbb0fb98c09"
+      }
+    },
+    {
+      "username": "yizhang-zen",
+      "mentors": [
+        "RainbowMango",
+        "XiShanYongYe-Chang"
+      ],
+      "organizations": [
+        "karmada-io"
+      ],
+      "project": {
+        "title": "CNCF - Karmada: Certificate Lifecycle Management",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#certificate-lifecycle-management",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/9120164b-feef-4a5a-bd2a-d9ac42bb8d4a"
+      }
+    },
+    {
+      "username": "officialasishkumar",
+      "mentors": [
+        "zong-zhe",
+        "Peefy"
+      ],
+      "organizations": [
+        "kcl-lang"
+      ],
+      "project": {
+        "title": "CNCF - KCL: KCL Package Management Dependencies Sparse Checkout",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#kcl-package-management-dependencies-sparse-checkout",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/09391266-0de5-426b-9e11-ceb4c28202ef"
+      }
+    },
+    {
+      "username": "shruti2522",
+      "mentors": [
+        "Peefy",
+        "He1pa"
+      ],
+      "organizations": [
+        "kcl-lang"
+      ],
+      "project": {
+        "title": "CNCF - KCL: Optimization of KCL LSP prompt information",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#optimization-of-kcl-lsp-prompt-information",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/6d85e491-332b-4667-9b57-6ec052310494"
+      }
+    },
+    {
+      "username": "Vishalk91-4",
+      "mentors": [
+        "He1pa",
+        "zong-zhe"
+      ],
+      "organizations": [
+        "kcl-lang"
+      ],
+      "project": {
+        "title": "CNCF - KCL: Supports tree-sitter for KCL",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#supports-tree-sitter-for-kcl",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/47661e9d-d390-45d8-b05e-0fb3a30612f4"
+      }
+    },
+    {
+      "username": "ShravaniAK",
+      "mentors": [
+        "aliok",
+        "cali0707",
+        "Zainab Husain"
+      ],
+      "organizations": [
+        "knative",
+        "knative-extensions"
+      ],
+      "project": {
+        "title": "CNCF - Knative: Applying pre-prepared website design",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#knative---applying-pre-prepared-website-design",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/e18d5c08-312d-4fc1-884c-47c676c12c87"
+      }
+    },
+    {
+      "username": "firatbezir",
+      "mentors": [
+        "Leo6Leo",
+        "mmejia02"
+      ],
+      "organizations": [
+        "knative",
+        "knative-extensions"
+      ],
+      "project": {
+        "title": "CNCF - Knative: Improve Knative Eventing Onboarding",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#improve-knative-eventing-onboarding",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/1da7e3d2-b170-4236-a2c6-0fa4b0e792e3"
+      }
+    },
+    {
+      "username": "navin772",
+      "mentors": [
+        "daemon1024",
+        "DelusionalOptimist",
+        "Anurag Kumar",
+        "Prashant Mishra"
+      ],
+      "organizations": [
+        "kubearmor"
+      ],
+      "project": {
+        "title": "CNCF - KubeArmor: Improve System Test Coverage and Pratices for KubeArmor",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#improve-system-test-coverage-and-pratices-for-kubearmor",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/a6a22ae5-856d-472f-9a11-17a2375b86ba"
+      }
+    },
+    {
+      "username": "ghosind",
+      "mentors": [
+        "HongbingZhang",
+        "Shelley-BaoYue"
+      ],
+      "organizations": [
+        "kubeedge"
+      ],
+      "project": {
+        "title": "CNCF - KubeEdge: Iterating Enhancement for KubeEdge Dashboard",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#iterating-enhancement-for-kubeedge-dashboard",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/174db042-047a-4036-a523-1598fa386325"
+      }
+    },
+    {
+      "username": "xuemingdi",
+      "mentors": [
+        "zhiyingfang2022",
+        "wbc6080"
+      ],
+      "organizations": [
+        "kubeedge"
+      ],
+      "project": {
+        "title": "CNCF - KubeEdge: KubeEdge Documentation Improvement",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#kubeedge-documentation-improvement",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/0add127b-8504-4940-97ac-ad989f58e109"
+      }
+    },
+    {
+      "username": "1Shubham7",
+      "mentors": [
+        "fisherxu",
+        "Shelley-BaoYue"
+      ],
+      "organizations": [
+        "kubeedge"
+      ],
+      "project": {
+        "title": "CNCF - KubeEdge: KubeEdge test cases enhancement",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#kubeedge-test-cases-enhancement",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/ea773daf-d755-46ec-a80c-1eb5f8bbaf16"
+      }
+    },
+    {
+      "username": "luomengY",
+      "mentors": [
+        "Shelley-BaoYue",
+        "JiaweiGithub"
+      ],
+      "organizations": [
+        "kubeedge"
+      ],
+      "project": {
+        "title": "CNCF - KubeEdge: Router Manager Support HA",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#router-manager-support-ha",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/0cf43d24-c7f3-4792-81c9-bff4aa01a96e"
+      }
+    },
+    {
+      "username": "tico88612",
+      "mentors": [
+        "yankay",
+        "mzaian"
+      ],
+      "organizations": [
+        "kubernetes"
+      ],
+      "project": {
+        "title": "CNCF - Kubernetes SIG Project Kubespray: bug fixes & enhance helm support for add-ons",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#update-image-signing-to-meet-new-infra-requirements",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/22b0ef86-d390-4ea2-b302-79e819dcbdfc"
+      }
+    },
+    {
+      "username": "jayantpranjal0",
+      "mentors": [
+        "slashben",
+        "dwertent"
+      ],
+      "organizations": [
+        "kubescape"
+      ],
+      "project": {
+        "title": "CNCF - Kubescape: Advanced Kubescape plugin features for VSCode",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#advanced-kubescape-plugin-features-for-vscode",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/b846284b-76e6-45f1-85da-cd36b9bb489e"
+      }
+    },
+    {
+      "username": "HiroakiYo",
+      "mentors": [
+        "rotemamsa",
+        "matthyx"
+      ],
+      "organizations": [
+        "kubescape"
+      ],
+      "project": {
+        "title": "CNCF - Kubescape: Backstage plugin that adheres to the new plugin system",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#backstage-plugin-that-adheres-to-the-new-plugin-system",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/1e20bf55-4bcf-40ef-afee-d2b73948cd79"
+      }
+    },
+    {
+      "username": "network-charles",
+      "mentors": [
+        "wzshiming",
+        "Zhuzhenghao"
+      ],
+      "organizations": [
+        "kubernetes",
+        "kubernetes-sigs"
+      ],
+      "project": {
+        "title": "CNCF - KWOK: Enhancement of Technical Outcomes",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#enhancement-of-technical-outcomes",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/ef8e7637-2eb6-4672-8f6c-c9f9f0677da0"
+      }
+    },
+    {
+      "username": "NeerajNagure",
+      "mentors": [
+        "wzshiming",
+        "Zhuzhenghao"
+      ],
+      "organizations": [
+        "kubernetes",
+        "kubernetes-sigs"
+      ],
+      "project": {
+        "title": "CNCF - KWOK: Enhancement of Test Cases",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#enhancement-of-test-cases",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/1969ce6c-5468-4842-89a2-06c020bd2ad1"
+      }
+    },
+    {
+      "username": "JanhaviAlekar",
+      "mentors": [
+        "ispeakc0de",
+        "amityt",
+        "Sahil Kumar"
+      ],
+      "organizations": [
+        "litmuschaos"
+      ],
+      "project": {
+        "title": "CNCF - LitmusChaos: Enhancements in Chaoscenter: GitOps Support for Azure Git, Group Chaos Infra by Environments in Infrastructure Selection Modal",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#enhancements-in-chaoscenter-gitops-support-for-azure-git-group-chaos-infra-by-environments-in-infrastructure-selection-modal",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/e9bf62a9-a7f6-41bb-be7a-e16b7a35a58a"
+      }
+    },
+    {
+      "username": "kartikaysaxena",
+      "mentors": [
+        "Saranya-jena",
+        "SarthakJain26"
+      ],
+      "organizations": [
+        "litmuschaos"
+      ],
+      "project": {
+        "title": "CNCF - LitmusChaos: Implementing Upgrade Agent Support in Litmus 3.x",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#implementing-upgrade-agent-support-in-litmus-3x",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/9ac6f8b4-4f76-41d0-b02b-89c79534e619"
+      }
+    },
+    {
+      "username": "dusdjhyeon",
+      "mentors": [
+        "S-ayanide",
+        "Jonsy13",
+        "Raj Babu Das"
+      ],
+      "organizations": [
+        "litmuschaos"
+      ],
+      "project": {
+        "title": "CNCF - LitmusChaos: Revamp Litmus Helm Agent, UBI migration of Images",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#revamp-litmus-helm-agent-ubi-migration-of-images",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/98777e02-dc5b-4380-b6cb-c57603b56e37"
+      }
+    },
+    {
+      "username": "dragon-slayer875",
+      "mentors": [
+        "aabidsofi19",
+        "leecalcote"
+      ],
+      "organizations": [
+        "meshery"
+      ],
+      "project": {
+        "title": "CNCF - Meshery: End-to-End Testing with Playwright",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#meshery-end-to-end-testing-with-playwright",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/62f4866e-9461-490d-890d-9f221a3941b4"
+      }
+    },
+    {
+      "username": "rishabhsharma1997",
+      "mentors": [
+        "Yahsharma1911",
+        "leecalcote"
+      ],
+      "organizations": [
+        "meshery"
+      ],
+      "project": {
+        "title": "CNCF - Meshery: Project tutorials, design patterns, & publish reference architectures",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#meshery-meshery-project-tutorials-design-patterns--publish-reference-architectures",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/7ec5139b-fca8-43db-bafc-bdb2faa58047"
+      }
+    },
+    {
+      "username": "singh1203",
+      "mentors": [
+        "leecalcote",
+        "muzairs15"
+      ],
+      "organizations": [
+        "meshery"
+      ],
+      "project": {
+        "title": "CNCF - Meshery: Support versioning for Meshery designs",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#meshery-support-versioning-for-meshery-designs",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/8e1ab317-9043-4f29-8b83-9b9ffa2b8b40"
+      }
+    },
+    {
+      "username": "2008sahil",
+      "mentors": [
+        "chrisliu1995",
+        "ringtail"
+      ],
+      "organizations": [
+        "openkruise"
+      ],
+      "project": {
+        "title": "CNCF - OpenKruise: Enhancement for Kruise-Game Dashboard",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#enhancement-for-kruise-game-dashboard",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/3967228d-75a7-4963-b092-f2e92fcd57c8"
+      }
+    },
+    {
+      "username": "Vanshikav123",
+      "mentors": [
+        "bboreham",
+        "jesusvazquez"
+      ],
+      "organizations": [
+        "prometheus"
+      ],
+      "project": {
+        "title": "CNCF - Prometheus: Mark Out-of-order ingestion as stable",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#mark-out-of-order-ingestion-as-stable",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/454caa5a-6fd5-4e27-bde4-7649abf6d8ca"
+      }
+    },
+    {
+      "username": "yomek33",
+      "mentors": [
+        "cstyan",
+        "jesusvazquez"
+      ],
+      "organizations": [
+        "prometheus"
+      ],
+      "project": {
+        "title": "CNCF - Prometheus: Prometheus Remote Write Benchmarking Capabilities",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#prometheus-remote-write-benchmarking-capabilities",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/0462446f-aeea-4a19-9bd6-f4241ee5e8f2"
+      }
+    },
+    {
+      "username": "codeSafari10",
+      "mentors": [
+        "leecalcote",
+        "gyohuangxin"
+      ],
+      "organizations": [
+        "service-mesh-performance"
+      ],
+      "project": {
+        "title": "CNCF - Service Mesh Performance: Convergence of Network and Graph topologies",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#service-mesh-performance-convergence-of-network-and-graph-topologies",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/c605139b-8736-477a-835a-c6b45112bee4"
+      }
+    },
+    {
+      "username": "shubham251972",
+      "mentors": [
+        "leecalcote",
+        "muzairs15"
+      ],
+      "organizations": [
+        "cncf",
+        "meshery"
+      ],
+      "project": {
+        "title": "CNCF - TAG Network: Mapping CNCF Landscape one Relationship-at-a-time",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#mapping-cncf-landscape-one-relationship-at-a-time",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/bec63054-bc32-4444-b6c5-2b427f527e16"
+      }
+    },
+    {
+      "username": "Alero-Awani",
+      "mentors": [
+        "leecalcote",
+        "nicholasjackson"
+      ],
+      "organizations": [
+        "cncf",
+        "meshery"
+      ],
+      "project": {
+        "title": "CNCF - TAG Network: Technical Content Creation CNCF Challenges ",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#technical-content-creation-cncf-challenges",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/1a620529-f2be-4a6f-8b4d-0562731cb840"
+      }
+    },
+    {
+      "username": "amandaguan-ag",
+      "mentors": [
+        "MichaHoffmann",
+        "saswatamcode"
+      ],
+      "organizations": [
+        "thanos-io"
+      ],
+      "project": {
+        "title": "CNCF - Thanos Compactor: Display TODO plan in UI",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#compactor-display-todo-plan-in-ui",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/05b3d261-f874-4b8c-bd7e-c4fa83c979b4"
+      }
+    },
+    {
+      "username": "Dindihub",
+      "mentors": [
+        "JustinCappos",
+        "chalin",
+        "Lukas Pühringer"
+      ],
+      "organizations": [
+        "theupdateframework",
+        "cncf"
+      ],
+      "project": {
+        "title": "CNCF - TUF: Documentation assessment and improvements",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#documentation-analysis-and-improvements",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/e35f28f9-f333-47a8-a76a-119567cf10ca"
+      }
+    },
+    {
+      "username": "kirtanchandak",
+      "mentors": [
+        "deepthi",
+        "frouioui"
+      ],
+      "organizations": [
+        "vitessio"
+      ],
+      "project": {
+        "title": "CNCF - Vitess: Community building and engagement",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#community-building-and-engagement",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/1e395914-9adb-4254-a02d-08e6e03e3b93"
+      }
+    },
+    {
+      "username": "Jad31",
+      "mentors": [
+        "frouioui",
+        "notfelineit"
+      ],
+      "organizations": [
+        "vitessio"
+      ],
+      "project": {
+        "title": "CNCF - Vitess: Improve the website of our automated-benchmarking tool (migrate to shadcn ui and typescript)",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#improve-the-website-of-our-automated-benchmarking-tool-migrate-to-shadcn-ui-and-typescript",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/cba8a6c6-4b09-4618-98f7-bf24391e8c9e"
+      }
+    },
+    {
+      "username": "suryyyansh",
+      "mentors": [
+        "juntao",
+        "hydai"
+      ],
+      "organizations": [
+        "WasmEdge"
+      ],
+      "project": {
+        "title": "CNCF - WasmEdge: Create a search-enabled API server for local LLMs",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#create-a-search-enabled-api-server-for-local-llms",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/0a4e08a1-3404-46fc-b0d0-5117ec4ec119"
+      }
+    },
+    {
+      "username": "redoC-A2k",
+      "mentors": [
+        "hydai",
+        "dm4"
+      ],
+      "organizations": [
+        "WasmEdge"
+      ],
+      "project": {
+        "title": "CNCF - WasmEdge: Enabling LLM fine tuning in the WASI-NN ggml plugin",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#enabling-llm-fine-tuning-in-the-wasi-nn-ggml-plugin",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/41c5a3df-0b84-4b78-b343-bacfc2a3c4ff"
+      }
+    },
+    {
+      "username": "codemaster1104",
+      "mentors": [
+        "juntao",
+        "hydai"
+      ],
+      "organizations": [
+        "WasmEdge"
+      ],
+      "project": {
+        "title": "CNCF - WasmEdge: Finetune LLM models for Rust coding assistance",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#finetune-llm-models-for-rust-coding-assistance",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/d52d172e-598d-4817-be97-3338d5b96432"
+      }
+    },
+    {
+      "username": "PeterD1524",
+      "mentors": [
+        "hydai",
+        "dm4"
+      ],
+      "organizations": [
+        "WasmEdge"
+      ],
+      "project": {
+        "title": "CNCF - WasmEdge: Support piper as a new backend of the WASI-NN WasmEdge plugin",
+        "ideaUrl": "https://github.com/cncf/mentoring/tree/main/programs/lfx-mentorship/2024/02-Jun-Aug#support-piper-as-a-new-backend-of-the-wasi-nn-wasmedge-plugin",
+        "platformUrl": "https://mentorship.lfx.linuxfoundation.org/project/61014739-ac16-4188-bdab-c87c0a502470"
+      }
+    }
+  ],
+  "weeks": [
+    "2024-09-02",
+    "2024-09-09",
+    "2024-09-16",
+    "2024-09-23",
+    "2024-09-30",
+    "2024-10-07",
+    "2024-10-14",
+    "2024-10-21",
+    "2024-10-28",
+    "2024-11-04",
+    "2024-11-11",
+    "2024-11-18",
+    "2024-11-25",
+    "2024-12-02",
+    "2024-12-09",
+    "2024-12-16",
+    "2024-12-23",
+    "2024-12-30",
+    "2025-01-06",
+    "2025-01-13",
+    "2025-01-20",
+    "2025-01-27",
+    "2025-02-03",
+    "2025-02-10",
+    "2025-02-17",
+    "2025-02-24",
+    "2025-03-03",
+    "2025-03-10",
+    "2025-03-17",
+    "2025-03-24",
+    "2025-03-31",
+    "2025-04-07",
+    "2025-04-14",
+    "2025-04-21",
+    "2025-04-28",
+    "2025-05-05",
+    "2025-05-12",
+    "2025-05-19",
+    "2025-05-26",
+    "2025-06-02",
+    "2025-06-09",
+    "2025-06-16",
+    "2025-06-23",
+    "2025-06-30",
+    "2025-07-07",
+    "2025-07-14",
+    "2025-07-21",
+    "2025-07-28",
+    "2025-08-04",
+    "2025-08-11",
+    "2025-08-18",
+    "2025-08-25"
+  ]
+}
