@@ -17,7 +17,7 @@ on:
       renewPeriodInDays:
         description: 'Renew period in days. Default: 7'
         required: false
-        default: 7
+        default: 6
 
 # do not run this workflow, when there's another instance is running for the same workflow
 concurrency:
@@ -32,7 +32,7 @@ env:
   # cuttlecat related
   SEARCH_DATA_DIRECTORY: ${{ github.workspace }}/100-fetch-cohort-activity-summaries
   INTERVAL_CAP: 7
-  RENEW_PERIOD_IN_DAYS: 7
+  RENEW_PERIOD_IN_DAYS: 6
 
 jobs:
   job-100-fetch-cohort-activity-summaries:
