@@ -13371,5 +13371,450 @@
     },
     "term": "gsoc-2024",
     "weekOf": "2024-09-02"
+  },
+  {
+    "mentee": {
+      "login": "tonyli233",
+      "name": "Tony Li",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 5,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "tonyli233"
+              },
+              "nameWithOwner": "tonyli233/prometheus",
+              "url": "https://github.com/tonyli233/prometheus"
+            },
+            "contributions": {
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 9
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 8
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 6
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "prometheus"
+              },
+              "nameWithOwner": "prometheus/prometheus",
+              "url": "https://github.com/prometheus/prometheus"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 14904
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "Jougan-0",
+      "name": "Shlok Mishra",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 28,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 6,
+        "totalPullRequestReviewContributions": 2,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=Jougan-0&since=2024-09-09&until=2024-09-17",
+            "contributions": {
+              "totalCount": 28
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 12033
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 11983
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 11980
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 11956
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/schemas",
+              "url": "https://github.com/meshery/schemas"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 174
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshkit",
+              "url": "https://github.com/meshery/meshkit"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 589
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/12031#pullrequestreview-2304717594",
+                    "pullRequest": {
+                      "number": 12031
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/11934#pullrequestreview-2297276891",
+                    "pullRequest": {
+                      "number": 11934
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "Maniktherana",
+      "name": "Manik Rana",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "harshitasao",
+      "name": "Harshita Sao",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "GLVSKiriti",
+      "name": "GLVSKiriti",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "Devaansh-Kumar",
+      "name": "Devaansh Kumar",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "sratslla",
+      "name": "Shubh Gaur",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "sid-008",
+      "name": "Siddharth Tewari",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "sid-008"
+              },
+              "nameWithOwner": "sid-008/WasmEdge",
+              "url": "https://github.com/sid-008/WasmEdge"
+            },
+            "contributions": {
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "KrishAryan",
+      "name": "Krish Aryan",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "z1ens",
+      "name": "Zhe Shen",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
+  },
+  {
+    "mentee": {
+      "login": "iam-zoey",
+      "name": "iam-zoey",
+      "contributionsCollection": {
+        "startedAt": "2024-09-09T00:00:00Z",
+        "endedAt": "2024-09-16T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2024",
+    "weekOf": "2024-09-09"
   }
 ]
