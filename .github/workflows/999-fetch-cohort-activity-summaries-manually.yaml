@@ -1,4 +1,4 @@
-name: 100-fetch-cohort-activity-summaries
+name: 999-fetch-cohort-activity-summaries-manually
 
 permissions:
   contents: write
@@ -23,7 +23,7 @@ on:
 
 # do not run this workflow, when there's another instance is running for the same workflow
 concurrency:
-  group: 100-fetch-cohort-activity-summaries
+  group: 999-fetch-cohort-activity-summaries-manually
   # If this is enabled it will cancel current running and start latest
   cancel-in-progress: false
 
