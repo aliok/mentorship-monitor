@@ -140,7 +140,7 @@ jobs:
               # create the PR from a temporary branch
               AFFIX=$(date +%s) 
               git push --force origin ${{ env.TMP_BRANCH_NAME }}
-              GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 999-fetch-cohort-activity-summaries-manually" --body "Automated" --base main --head ${{ env.TMP_BRANCH_NAME }}
+              GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 999-fetch-cohort-activity-summaries-manually" --body "Automated - View GitHub Run - https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --base main --head ${{ env.TMP_BRANCH_NAME }}
             fi
           else
             echo "Process is not complete, skipping PR creation. Try with a shorter period."
