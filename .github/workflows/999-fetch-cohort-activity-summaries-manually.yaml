@@ -75,7 +75,7 @@ jobs:
       - name: Generate temporary branch name
         run: |
           AFFIX=$(date +%s) 
-          TMP_BRANCH_NAME="${{ env.BRANCH_NAME }}-${AFFIX}"
+          TMP_BRANCH_NAME="999-fetch-cohort-activity-summaries-manually-${AFFIX}"
           echo "TMP_BRANCH_NAME=${TMP_BRANCH_NAME}" >> $GITHUB_ENV
 
       - name: Create the temporary branch
