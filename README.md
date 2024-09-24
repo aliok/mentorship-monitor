@@ -43,16 +43,22 @@ node node_modules/@opentr/cuttlecat/dist/index.js execute \
     --renew-period-in-days="7" \
     --log-level="info"
 
-# --------- fetching data for an older week ----------
-# Following will fetch the data for the week of 2024-03-04 (mon) to 2024-03-10 (sun)
-REF_DATE="2024-03-11" node node_modules/@opentr/cuttlecat/dist/index.js execute \
+# --------- fetching data for an older period and a particular program ----------
+# Following will fetch the data for the period of 2024-03-04 (mon) to 2024-03-24 (sun) for the `lfx-2024-term1` program
+# Caveats:
+# -  renew-period-in-days="0" --> since we're not resuming from a previous run, nor we're gonna be able to resume from a this run later
+# - --max-run-time-in-minutes="180" --> since we're fetching a longer period, it might take longer (default is 60 mins)
+START_DATE="2024-03-04" END_DATE="2024-03-24" TERM_KEY="lfx-2024-term1" node node_modules/@opentr/cuttlecat/dist/index.js execute \
     --command-file="$(pwd)/100-fetch-cohort-activity-summaries.js" \
     --github-token="$(gh auth token)" \
     --data-directory="$(pwd)/100-fetch-cohort-activity-summaries" \
     --interval-cap="7" \
-    --renew-period-in-days="0" \  # 0 means ignore the renew period
+    --renew-period-in-days="0" \
+    --max-run-time-in-minutes="180" \
     --log-level="info"
 ```
+
+> Note: The fetch period shouldn't be longer than 3 months, as there will be lots of data to fetch. Currently, the manual execution doesn't handle the rate limit errors. (only scheduled runs handle them)
 
 ### `150-build-cohort-activity-summaries.js`
 ```shell

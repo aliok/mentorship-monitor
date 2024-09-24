@@ -5,16 +5,21 @@ permissions:
   pull-requests: write
 
 on:
-  # run periodically
-  schedule:
-    - cron: '5 8,9,10,11 * * 2'   # “At minute 5 past hour 8, 9, 10, and 11 on Tuesday.”
+  # do not run periodically
+  #schedule:
+  #  - cron: '5 8,9,10,11 * * 2'   # “At minute 5 past hour 8, 9, 10, and 11 on Tuesday.”
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
     inputs:
-      renewPeriodInDays:
-        description: 'Renew period in days. Default: 7'
-        required: false
-        default: 6
+      startDate:
+        description: 'Start date of the period to fetch the data. Date will be used with 00:00:00. Format: YYYY-MM-DD'
+        required: true
+      endDate:
+        description: 'End date of the period to fetch the data. Date will be used with 23:59:59. Format: YYYY-MM-DD'
+        required: true
+      termKey:
+        description: 'Key of the program term, such as lfx-2024-term1-follow-up.'
+        required: true
 
 # do not run this workflow, when there's another instance is running for the same workflow
 concurrency:
@@ -24,12 +29,11 @@ concurrency:
 
 env:
   # workflow related
-  BRANCH_NAME: 100-fetch-cohort-activity-summaries
   ACTIONS_RUNNER_DEBUG: ${{ secrets.ACTIONS_RUNNER_DEBUG }}
   # cuttlecat related
   SEARCH_DATA_DIRECTORY: ${{ github.workspace }}/100-fetch-cohort-activity-summaries
   INTERVAL_CAP: 7
-  RENEW_PERIOD_IN_DAYS: 6
+  RENEW_PERIOD_IN_DAYS: 0
 
 jobs:
   job-100-fetch-cohort-activity-summaries:
@@ -45,10 +49,14 @@ jobs:
             echo "LOG_LEVEL=info" >> "$GITHUB_ENV"
           fi
 
-      - name: Setup renewPeriodInDays env var from workflow
-        if: github.event_name == 'workflow_dispatch' && github.event.inputs.renewPeriodInDays != ''
+      - name: Setup startDate and endDate env var from workflow
         run: |
-          echo "RENEW_PERIOD_IN_DAYS=${{ github.event.inputs.renewPeriodInDays }}" >> $GITHUB_ENV
+          echo "START_DATE=${{ github.event.inputs.startDate }}" >> $GITHUB_ENV
+          echo "END_DATE=${{ github.event.inputs.endDate }}" >> $GITHUB_ENV
+
+      - name: Setup termKey env var from workflow
+        run: |
+          echo "TERM_KEY=${{ github.event.inputs.termKey }}" >> $GITHUB_ENV
 
       - uses: actions/setup-node@v4
         with:
@@ -60,30 +68,34 @@ jobs:
         if: ${{ !github.event.act }} # skip during local actions testing
         with:
           fetch-depth: 500
-          ref: ${{ env.BRANCH_NAME }}
+          ref: main
       - uses: actions/checkout@v4
         if: ${{ github.event.act }} # skip during local actions testing
+
+      - name: Generate temporary branch name
+        run: |
+          AFFIX=$(date +%s) 
+          TMP_BRANCH_NAME="${{ env.BRANCH_NAME }}-${AFFIX}"
+          echo "TMP_BRANCH_NAME=${TMP_BRANCH_NAME}" >> $GITHUB_ENV
+
+      - name: Create the temporary branch
+        run: |
+          git checkout -b ${{ env.TMP_BRANCH_NAME }}
 
       - name: Print environment
         run: |
           node --version
           npm --version
           echo "GITHUB_WORKSPACE: ${{ github.workspace }}"
-          echo "BRANCH_NAME: ${{ env.BRANCH_NAME }}"
           echo "ACTIONS_RUNNER_DEBUG: ${{ env.ACTIONS_RUNNER_DEBUG }}"
           echo "SEARCH_DATA_DIRECTORY: ${{ env.SEARCH_DATA_DIRECTORY }}"
           echo "INTERVAL_CAP: ${{ env.INTERVAL_CAP }}"
           echo "RENEW_PERIOD_IN_DAYS: ${{ env.RENEW_PERIOD_IN_DAYS }}"
           echo "LOG_LEVEL: ${{ env.LOG_LEVEL }}"
-
-      - name: Rebase onto main
-        if: ${{ !github.event.act }} # skip during local actions testing
-        run: |
-          git config user.name "Ali Ok"
-          git config user.email "aliok@redhat.com"
-          git fetch origin
-          git rebase origin/main --strategy-option=theirs
-          git push --force origin ${{ env.BRANCH_NAME }}
+          echo "START_DATE: ${{ env.START_DATE }}"
+          echo "END_DATE: ${{ env.END_DATE }}"
+          echo "TERM_KEY: ${{ env.TERM_KEY }}"
+          echo "TMP_BRANCH_NAME: ${{ env.TMP_BRANCH_NAME }}"
 
       - name: Install dependencies
         run: |
@@ -109,26 +121,29 @@ jobs:
           echo "Starting 150-build-cohort-activity-summaries"
           node "${{ github.workspace }}/150-build-cohort-activity-summaries.js"
 
-      - name: Commit
+      - name: Commit and create PR
         if: ${{ !github.event.act }} # skip during local actions testing
         run: |
-          git add -A
-          
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "There are changes, committing and pushing."
-            git commit -m "Automated - 100-fetch-cohort-activity-summaries"
-            git push --force origin ${{ env.BRANCH_NAME }}
-          
-            echo "Checking if latest process state file is complete"
-            complete=$(node node_modules/@opentr/cuttlecat/dist/index.js latest-queue-complete --data-directory="${{ env.SEARCH_DATA_DIRECTORY }}")
-          
-            if [ "$complete" = "true" ]; then
-              echo "Process is complete, creating a PR"
+          echo "Checking if latest process state file is complete"
+          complete=$(node node_modules/@opentr/cuttlecat/dist/index.js latest-queue-complete --data-directory="${{ env.SEARCH_DATA_DIRECTORY }}")
+        
+          if [ "$complete" = "true" ]; then
+            echo "Process is complete, creating a PR"
+        
+            git add -A
+        
+            if [ -n "$(git status --porcelain)" ]; then
+              echo "There are changes, committing and pushing."
+              git commit -m "Automated - 100-fetch-cohort-activity-summaries"
+              git push --force origin ${{ env.BRANCH_NAME }}
+        
               # create the PR from a temporary branch
               AFFIX=$(date +%s) 
-              TMP_BRANCH_NAME="${{ env.BRANCH_NAME }}-${AFFIX}"
-              git checkout -b "${TMP_BRANCH_NAME}"
-              git push --force origin "${TMP_BRANCH_NAME}"
-              GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 100-fetch-cohort-activity-summaries and 150-build-cohort-activity-summaries" --body "Automated" --base main --head "${TMP_BRANCH_NAME}"
+              git push --force origin ${{ env.TMP_BRANCH_NAME }}
+              GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 999-fetch-cohort-activity-summaries-manually" --body "Automated" --base main --head ${{ env.TMP_BRANCH_NAME }}
             fi
+          else
+            echo "Process is not complete, skipping PR creation. Try with a shorter period."
+            # fail
+            exit 1
           fi
