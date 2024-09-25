@@ -130,6 +130,8 @@ jobs:
           if [ "$complete" = "true" ]; then
             echo "Process is complete, creating a PR"
         
+            git config user.name "Ali Ok"
+            git config user.email "aliok@redhat.com"
             git add -A
         
             if [ -n "$(git status --porcelain)" ]; then
