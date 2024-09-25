@@ -132,15 +132,14 @@ jobs:
         
             git config user.name "Ali Ok"
             git config user.email "aliok@redhat.com"
+            git push --set-upstream origin ${{ env.TMP_BRANCH_NAME }}
             git add -A
         
             if [ -n "$(git status --porcelain)" ]; then
               echo "There are changes, committing and pushing."
-              git commit -m "Automated - 100-fetch-cohort-activity-summaries"
-              git push --force origin ${{ env.BRANCH_NAME }}
+              git commit -m "Automated - 999-fetch-cohort-activity-summaries-manually"
         
-              # create the PR from a temporary branch
-              AFFIX=$(date +%s) 
+              # create the PR
               git push --force origin ${{ env.TMP_BRANCH_NAME }}
               GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 999-fetch-cohort-activity-summaries-manually" --body "Automated - View GitHub Run - https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" --base main --head ${{ env.TMP_BRANCH_NAME }}
             fi
