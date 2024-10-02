@@ -21,7 +21,7 @@ const termKeyToFetch = process.env["TERM_KEY"];
 if (!startDate && !endDate) {
     // if neither start date nor end date is passed, we are fetching data for the previous week
     // of the current week.
-    startDate = startOfDay(addDays(startOfWeek(startDate, {weekStartsOn: 1}), -7));
+    startDate = startOfDay(addDays(startOfWeek(new Date(), {weekStartsOn: 1}), -7));
     endDate = startOfDay(addDays(startDate, 7));
 } else if (!startDate || !endDate) {
     // if only one of the start date or end date is passed, throw an error
@@ -157,6 +157,8 @@ export default class FetchCohortActivitySummariesCommand {
     }
 
     createNewQueueItems() {
+        console.log(`Fetching cohort activity summaries for the period from ${startDate} to ${endDate}`);
+
         let programsListFile = join(__dirname, "programs.json");
         let programs = JSON.parse(fs.readFileSync(programsListFile, "utf8"));
 
