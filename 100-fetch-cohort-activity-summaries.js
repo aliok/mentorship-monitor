@@ -246,16 +246,16 @@ export class FetchCohortActivitySummariesTask extends Task {
         //
         // For now, if there's a next page in any of the collections, throw an error.
         // this is done that when there's lots of data, we fail the task to signal that the period is possibly too long.
-        if(result.user.contributionsCollection?.commitContributionsByRepository?.contributions?.pageInfo?.hasNextPage){
+        if(result?.user?.contributionsCollection?.commitContributionsByRepository?.contributions?.pageInfo?.hasNextPage){
             throw new Error("TODO: Not implemented: commitContributionsByRepository hasNextPage");
         }
-        if(result.user.contributionsCollection?.issueContributionsByRepository?.contributions?.pageInfo?.hasNextPage){
+        if(result?.user?.contributionsCollection?.issueContributionsByRepository?.contributions?.pageInfo?.hasNextPage){
             throw new Error("TODO: Not implemented: issueContributionsByRepository hasNextPage");
         }
-        if(result.user.contributionsCollection?.pullRequestContributionsByRepository?.contributions?.pageInfo?.hasNextPage){
+        if(result?.user?.contributionsCollection?.pullRequestContributionsByRepository?.contributions?.pageInfo?.hasNextPage){
             throw new Error("TODO: Not implemented: pullRequestContributionsByRepository hasNextPage");
         }
-        if(result.user.contributionsCollection?.pullRequestReviewContributionsByRepository?.contributions?.pageInfo?.hasNextPage){
+        if(result?.user?.contributionsCollection?.pullRequestReviewContributionsByRepository?.contributions?.pageInfo?.hasNextPage){
             throw new Error("TODO: Not implemented: pullRequestReviewContributionsByRepository hasNextPage");
         }
         return null;
