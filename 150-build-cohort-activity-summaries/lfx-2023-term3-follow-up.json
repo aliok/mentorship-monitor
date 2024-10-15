@@ -78766,5 +78766,2286 @@
     },
     "term": "lfx-2023-term3-follow-up",
     "weekOf": "2024-09-23"
+  },
+  {
+    "mentee": {
+      "login": "fykaa",
+      "name": "Faeka Ansari",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "nitishfy",
+      "name": "Nitish Kumar",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 18,
+        "totalIssueContributions": 2,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 29,
+        "totalRepositoriesWithContributedCommits": 5,
+        "totalRepositoriesWithContributedIssues": 2,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "nitishfy"
+              },
+              "nameWithOwner": "nitishfy/argocd-tutorial",
+              "url": "https://github.com/nitishfy/argocd-tutorial"
+            },
+            "url": "https://github.com/nitishfy/argocd-tutorial/commits?author=nitishfy&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 8
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "akuity"
+              },
+              "nameWithOwner": "akuity/mta",
+              "url": "https://github.com/akuity/mta"
+            },
+            "url": "https://github.com/akuity/mta/commits?author=nitishfy&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "argoproj"
+              },
+              "nameWithOwner": "argoproj/argo-cd",
+              "url": "https://github.com/argoproj/argo-cd"
+            },
+            "url": "https://github.com/argoproj/argo-cd/commits?author=nitishfy&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "nitishfy"
+              },
+              "nameWithOwner": "nitishfy/fleet-infra",
+              "url": "https://github.com/nitishfy/fleet-infra"
+            },
+            "url": "https://github.com/nitishfy/fleet-infra/commits?author=nitishfy&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "akuity"
+              },
+              "nameWithOwner": "akuity/kargo",
+              "url": "https://github.com/akuity/kargo"
+            },
+            "url": "https://github.com/akuity/kargo/commits?author=nitishfy&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "argoproj"
+              },
+              "nameWithOwner": "argoproj/argo-cd",
+              "url": "https://github.com/argoproj/argo-cd"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 20324
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "akuity"
+              },
+              "nameWithOwner": "akuity/mta",
+              "url": "https://github.com/akuity/mta"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 13
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "akuity"
+              },
+              "nameWithOwner": "akuity/mta",
+              "url": "https://github.com/akuity/mta"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 15
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 14
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "argoproj"
+              },
+              "nameWithOwner": "argoproj/argo-cd",
+              "url": "https://github.com/argoproj/argo-cd"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 20342
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "argoproj"
+              },
+              "nameWithOwner": "argoproj/argo-cd",
+              "url": "https://github.com/argoproj/argo-cd"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 26,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20359#pullrequestreview-2365425593",
+                    "pullRequest": {
+                      "number": 20359
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20361#pullrequestreview-2365424365",
+                    "pullRequest": {
+                      "number": 20361
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20362#pullrequestreview-2365423471",
+                    "pullRequest": {
+                      "number": 20362
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20363#pullrequestreview-2365423071",
+                    "pullRequest": {
+                      "number": 20363
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20347#pullrequestreview-2364902510",
+                    "pullRequest": {
+                      "number": 20347
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20074#pullrequestreview-2362412020",
+                    "pullRequest": {
+                      "number": 20074
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20329#pullrequestreview-2362121684",
+                    "pullRequest": {
+                      "number": 20329
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20337#pullrequestreview-2362120251",
+                    "pullRequest": {
+                      "number": 20337
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20339#pullrequestreview-2362119370",
+                    "pullRequest": {
+                      "number": 20339
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20322#pullrequestreview-2359616865",
+                    "pullRequest": {
+                      "number": 20322
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20292#pullrequestreview-2358942132",
+                    "pullRequest": {
+                      "number": 20292
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20319#pullrequestreview-2358935435",
+                    "pullRequest": {
+                      "number": 20319
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20317#pullrequestreview-2358933527",
+                    "pullRequest": {
+                      "number": 20317
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20318#pullrequestreview-2358932378",
+                    "pullRequest": {
+                      "number": 20318
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20299#pullrequestreview-2356780741",
+                    "pullRequest": {
+                      "number": 20299
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20303#pullrequestreview-2356721971",
+                    "pullRequest": {
+                      "number": 20303
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20300#pullrequestreview-2356179541",
+                    "pullRequest": {
+                      "number": 20300
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20301#pullrequestreview-2356177439",
+                    "pullRequest": {
+                      "number": 20301
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20302#pullrequestreview-2356176256",
+                    "pullRequest": {
+                      "number": 20302
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20251#pullrequestreview-2354276934",
+                    "pullRequest": {
+                      "number": 20251
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20275#pullrequestreview-2353749207",
+                    "pullRequest": {
+                      "number": 20275
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20276#pullrequestreview-2353523534",
+                    "pullRequest": {
+                      "number": 20276
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20238#pullrequestreview-2351332555",
+                    "pullRequest": {
+                      "number": 20238
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20261#pullrequestreview-2351321466",
+                    "pullRequest": {
+                      "number": 20261
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20040#pullrequestreview-2351316699",
+                    "pullRequest": {
+                      "number": 20040
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/argoproj/argo-cd/pull/20262#pullrequestreview-2351251554",
+                    "pullRequest": {
+                      "number": 20262
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "akuity"
+              },
+              "nameWithOwner": "akuity/mta",
+              "url": "https://github.com/akuity/mta"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/akuity/mta/pull/7#pullrequestreview-2357596369",
+                    "pullRequest": {
+                      "number": 7
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "akuity"
+              },
+              "nameWithOwner": "akuity/kargo",
+              "url": "https://github.com/akuity/kargo"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/akuity/kargo/pull/2695#pullrequestreview-2356741558",
+                    "pullRequest": {
+                      "number": 2695
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes"
+              },
+              "nameWithOwner": "kubernetes/contributor-site",
+              "url": "https://github.com/kubernetes/contributor-site"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes/contributor-site/pull/536#pullrequestreview-2351677109",
+                    "pullRequest": {
+                      "number": 536
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "XDRAGON2002",
+      "name": "DRAGON2002",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "sarthaksarthak9",
+      "name": "Sarthak Negi",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "dudashu",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "marsian83",
+      "name": "Spandan Barve",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 81,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 11,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Justinsure-dapp"
+              },
+              "nameWithOwner": "Justinsure-dapp/core",
+              "url": "https://github.com/Justinsure-dapp/core"
+            },
+            "url": "https://github.com/Justinsure-dapp/core/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 46
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sugarlabs"
+              },
+              "nameWithOwner": "sugarlabs/nim-game-activity",
+              "url": "https://github.com/sugarlabs/nim-game-activity"
+            },
+            "url": "https://github.com/sugarlabs/nim-game-activity/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 9
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "marsian83"
+              },
+              "nameWithOwner": "marsian83/game-of-logic",
+              "url": "https://github.com/marsian83/game-of-logic"
+            },
+            "url": "https://github.com/marsian83/game-of-logic/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 8
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sugarlabs"
+              },
+              "nameWithOwner": "sugarlabs/fourier-series-visulaisation",
+              "url": "https://github.com/sugarlabs/fourier-series-visulaisation"
+            },
+            "url": "https://github.com/sugarlabs/fourier-series-visulaisation/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sugarlabs"
+              },
+              "nameWithOwner": "sugarlabs/latin-squares-activity",
+              "url": "https://github.com/sugarlabs/latin-squares-activity"
+            },
+            "url": "https://github.com/sugarlabs/latin-squares-activity/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "marsian83"
+              },
+              "nameWithOwner": "marsian83/Sugar-Report",
+              "url": "https://github.com/marsian83/Sugar-Report"
+            },
+            "url": "https://github.com/marsian83/Sugar-Report/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sugarlabs"
+              },
+              "nameWithOwner": "sugarlabs/river-crossing-activity",
+              "url": "https://github.com/sugarlabs/river-crossing-activity"
+            },
+            "url": "https://github.com/sugarlabs/river-crossing-activity/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sugarlabs"
+              },
+              "nameWithOwner": "sugarlabs/illusion-box",
+              "url": "https://github.com/sugarlabs/illusion-box"
+            },
+            "url": "https://github.com/sugarlabs/illusion-box/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "marsian83"
+              },
+              "nameWithOwner": "marsian83/marsian83",
+              "url": "https://github.com/marsian83/marsian83"
+            },
+            "url": "https://github.com/marsian83/marsian83/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sugarlabs"
+              },
+              "nameWithOwner": "sugarlabs/GSoC",
+              "url": "https://github.com/sugarlabs/GSoC"
+            },
+            "url": "https://github.com/sugarlabs/GSoC/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sugarlabs"
+              },
+              "nameWithOwner": "sugarlabs/pascal-triangle-visualisation",
+              "url": "https://github.com/sugarlabs/pascal-triangle-visualisation"
+            },
+            "url": "https://github.com/sugarlabs/pascal-triangle-visualisation/commits?author=marsian83&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "sugarlabs"
+              },
+              "nameWithOwner": "sugarlabs/GSoC",
+              "url": "https://github.com/sugarlabs/GSoC"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 200
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sugarlabs"
+              },
+              "nameWithOwner": "sugarlabs/river-crossing-activity",
+              "url": "https://github.com/sugarlabs/river-crossing-activity"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Soumil-07",
+      "name": "Soumil Paranjpay",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "wasup-yash",
+      "name": "Yash sharma ",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Hrushi20",
+      "name": "Hrushikesh",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Mo-Fatah",
+      "name": "Mohamed Abdelfatah",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "aabidsofi19",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 30,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 8,
+        "totalPullRequestReviewContributions": 9,
+        "totalRepositoriesWithContributedCommits": 5,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=aabidsofi19&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 19
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "url": "https://github.com/layer5io/sistent/commits?author=aabidsofi19&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "aabidsofi19"
+              },
+              "nameWithOwner": "aabidsofi19/dotfiles",
+              "url": "https://github.com/aabidsofi19/dotfiles"
+            },
+            "url": "https://github.com/aabidsofi19/dotfiles/commits?author=aabidsofi19&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5labs"
+              },
+              "nameWithOwner": "layer5labs/meshery-extensions-packages",
+              "url": "https://github.com/layer5labs/meshery-extensions-packages"
+            },
+            "url": "https://github.com/layer5labs/meshery-extensions-packages/commits?author=aabidsofi19&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshkit",
+              "url": "https://github.com/meshery/meshkit"
+            },
+            "url": "https://github.com/meshery/meshkit/commits?author=aabidsofi19&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 12319
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 12316
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 12312
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 12311
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 12300
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 12297
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 12296
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 750
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 6,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/11974#pullrequestreview-2362984981",
+                    "pullRequest": {
+                      "number": 11974
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/12331#pullrequestreview-2357522625",
+                    "pullRequest": {
+                      "number": 12331
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/12293#pullrequestreview-2357075799",
+                    "pullRequest": {
+                      "number": 12293
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/12323#pullrequestreview-2355170619",
+                    "pullRequest": {
+                      "number": 12323
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/12322#pullrequestreview-2355134766",
+                    "pullRequest": {
+                      "number": 12322
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/12302#pullrequestreview-2352244780",
+                    "pullRequest": {
+                      "number": 12302
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5labs"
+              },
+              "nameWithOwner": "layer5labs/meshery-extensions-packages",
+              "url": "https://github.com/layer5labs/meshery-extensions-packages"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5labs/meshery-extensions-packages/pull/351#pullrequestreview-2362759846",
+                    "pullRequest": {
+                      "number": 351
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/sistent/pull/752#pullrequestreview-2357044371",
+                    "pullRequest": {
+                      "number": 752
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshkit",
+              "url": "https://github.com/meshery/meshkit"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshkit/pull/605#pullrequestreview-2355138856",
+                    "pullRequest": {
+                      "number": 605
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "SVKREP",
+      "name": "Vamsi Krishna",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "zhy76",
+      "name": "Haiyu Zuo",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Affan-7",
+      "name": "Affan M.",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "senali-d",
+      "name": "Senali",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Freedisch",
+      "name": "Freedisch",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Player256",
+      "name": "space_samurai",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Player256"
+              },
+              "nameWithOwner": "Player256/Research-Papers-Implementation",
+              "url": "https://github.com/Player256/Research-Papers-Implementation"
+            },
+            "url": "https://github.com/Player256/Research-Papers-Implementation/commits?author=Player256&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Prakhar-Agarwal-byte",
+      "name": "Prakhar Agarwal",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Shuayb1",
+      "name": "Shuayb Popoola",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "deep-poharkar",
+      "name": "Deep Poharkar",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 5,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "deep-poharkar"
+              },
+              "nameWithOwner": "deep-poharkar/jwt-library-and-app",
+              "url": "https://github.com/deep-poharkar/jwt-library-and-app"
+            },
+            "url": "https://github.com/deep-poharkar/jwt-library-and-app/commits?author=deep-poharkar&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "deep-poharkar"
+              },
+              "nameWithOwner": "deep-poharkar/DevOps",
+              "url": "https://github.com/deep-poharkar/DevOps"
+            },
+            "url": "https://github.com/deep-poharkar/DevOps/commits?author=deep-poharkar&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Parthiba-Hazra",
+      "name": "Parthiba hazra",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "ashpect",
+      "name": "Ashish ",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "metacall"
+              },
+              "nameWithOwner": "metacall/builder",
+              "url": "https://github.com/metacall/builder"
+            },
+            "url": "https://github.com/metacall/builder/commits?author=ashpect&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "metacall"
+              },
+              "nameWithOwner": "metacall/builder",
+              "url": "https://github.com/metacall/builder"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 37
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "rakshitgondwal",
+      "name": "Rakshit Gondwal",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 2,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "buildsafedev"
+              },
+              "nameWithOwner": "buildsafedev/bsf",
+              "url": "https://github.com/buildsafedev/bsf"
+            },
+            "url": "https://github.com/buildsafedev/bsf/commits?author=rakshitgondwal&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "buildsafedev"
+              },
+              "nameWithOwner": "buildsafedev/bsf",
+              "url": "https://github.com/buildsafedev/bsf"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 120
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "buildsafedev"
+              },
+              "nameWithOwner": "buildsafedev/bsf",
+              "url": "https://github.com/buildsafedev/bsf"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/buildsafedev/bsf/pull/121#pullrequestreview-2364891646",
+                    "pullRequest": {
+                      "number": 121
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "buildsafedev"
+              },
+              "nameWithOwner": "buildsafedev/examples",
+              "url": "https://github.com/buildsafedev/examples"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/buildsafedev/examples/pull/2#pullrequestreview-2361261159",
+                    "pullRequest": {
+                      "number": 2
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "anurag-rajawat",
+      "name": "Anurag Rajawat",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 5,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 5,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "anurag-rajawat"
+              },
+              "nameWithOwner": "anurag-rajawat/hashnode-blogs",
+              "url": "https://github.com/anurag-rajawat/hashnode-blogs"
+            },
+            "url": "https://github.com/anurag-rajawat/hashnode-blogs/commits?author=anurag-rajawat&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "5GSEC"
+              },
+              "nameWithOwner": "5GSEC/nimbus",
+              "url": "https://github.com/5GSEC/nimbus"
+            },
+            "url": "https://github.com/5GSEC/nimbus/commits?author=anurag-rajawat&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "anurag-rajawat"
+              },
+              "nameWithOwner": "anurag-rajawat/tutorials",
+              "url": "https://github.com/anurag-rajawat/tutorials"
+            },
+            "url": "https://github.com/anurag-rajawat/tutorials/commits?author=anurag-rajawat&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "anurag-rajawat"
+              },
+              "nameWithOwner": "anurag-rajawat/books",
+              "url": "https://github.com/anurag-rajawat/books"
+            },
+            "url": "https://github.com/anurag-rajawat/books/commits?author=anurag-rajawat&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "5GSEC"
+              },
+              "nameWithOwner": "5GSEC/SentryFlow",
+              "url": "https://github.com/5GSEC/SentryFlow"
+            },
+            "url": "https://github.com/5GSEC/SentryFlow/commits?author=anurag-rajawat&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubearmor"
+              },
+              "nameWithOwner": "kubearmor/k8tls",
+              "url": "https://github.com/kubearmor/k8tls"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 41
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "5GSEC"
+              },
+              "nameWithOwner": "5GSEC/SentryFlow",
+              "url": "https://github.com/5GSEC/SentryFlow"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 22
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 21
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "5GSEC"
+              },
+              "nameWithOwner": "5GSEC/nimbus",
+              "url": "https://github.com/5GSEC/nimbus"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/5GSEC/nimbus/pull/265#pullrequestreview-2352731286",
+                    "pullRequest": {
+                      "number": 265
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "maheshkasabe",
+      "name": "Mahesh Kasbe",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Charles-Schleich",
+      "name": "Charles Schleich",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "anshgoyalevil",
+      "name": "Ansh Goyal",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 12,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 2,
+        "totalRepositoriesWithContributedCommits": 4,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "anshgoyalevil"
+              },
+              "nameWithOwner": "anshgoyalevil/Experience",
+              "url": "https://github.com/anshgoyalevil/Experience"
+            },
+            "url": "https://github.com/anshgoyalevil/Experience/commits?author=anshgoyalevil&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 8
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "anshgoyalevil"
+              },
+              "nameWithOwner": "anshgoyalevil/Collaborax",
+              "url": "https://github.com/anshgoyalevil/Collaborax"
+            },
+            "url": "https://github.com/anshgoyalevil/Collaborax/commits?author=anshgoyalevil&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "anshgoyalevil"
+              },
+              "nameWithOwner": "anshgoyalevil/anshgoyalevil",
+              "url": "https://github.com/anshgoyalevil/anshgoyalevil"
+            },
+            "url": "https://github.com/anshgoyalevil/anshgoyalevil/commits?author=anshgoyalevil&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "asyncapi"
+              },
+              "nameWithOwner": "asyncapi/website",
+              "url": "https://github.com/asyncapi/website"
+            },
+            "url": "https://github.com/asyncapi/website/commits?author=anshgoyalevil&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "asyncapi"
+              },
+              "nameWithOwner": "asyncapi/website",
+              "url": "https://github.com/asyncapi/website"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/asyncapi/website/pull/3262#pullrequestreview-2363886396",
+                    "pullRequest": {
+                      "number": 3262
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/asyncapi/website/pull/3137#pullrequestreview-2351910974",
+                    "pullRequest": {
+                      "number": 3137
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "shubham-cmyk",
+      "name": "Shubham Gupta",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "prathamesh-mutkure",
+      "name": "Prathamesh Mutkure",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 30,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 4,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Chain-Rizz"
+              },
+              "nameWithOwner": "Chain-Rizz/chainrizz-frontend",
+              "url": "https://github.com/Chain-Rizz/chainrizz-frontend"
+            },
+            "url": "https://github.com/Chain-Rizz/chainrizz-frontend/commits?author=prathamesh-mutkure&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 14
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "Chain-Rizz"
+              },
+              "nameWithOwner": "Chain-Rizz/chain-rizz-backend",
+              "url": "https://github.com/Chain-Rizz/chain-rizz-backend"
+            },
+            "url": "https://github.com/Chain-Rizz/chain-rizz-backend/commits?author=prathamesh-mutkure&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "prathamesh-mutkure"
+              },
+              "nameWithOwner": "prathamesh-mutkure/soroban-learn",
+              "url": "https://github.com/prathamesh-mutkure/soroban-learn"
+            },
+            "url": "https://github.com/prathamesh-mutkure/soroban-learn/commits?author=prathamesh-mutkure&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "prathamesh-mutkure"
+              },
+              "nameWithOwner": "prathamesh-mutkure/rust-learn",
+              "url": "https://github.com/prathamesh-mutkure/rust-learn"
+            },
+            "url": "https://github.com/prathamesh-mutkure/rust-learn/commits?author=prathamesh-mutkure&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "hzq5477",
+      "name": "Zhuoqi Huang",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "pmuls99",
+      "name": "Yashwanth Reddy ",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "itsgurmannatsohal",
+      "name": "Gurmannat Sohal",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "TRohit20",
+      "name": "Rohit",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "MilanS56",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2023-term3-follow-up",
+    "weekOf": "2024-10-07"
   }
 ]
