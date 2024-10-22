@@ -36215,5 +36215,3423 @@
     },
     "term": "lfx-2024-term1-follow-up",
     "weekOf": "2024-09-23"
+  },
+  {
+    "mentee": {
+      "login": "dextrot",
+      "name": "SKM",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "beingnoble03",
+      "name": "Noble Mittal",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/vitess",
+              "url": "https://github.com/vitessio/vitess"
+            },
+            "url": "https://github.com/vitessio/vitess/commits?author=beingnoble03&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/vitess",
+              "url": "https://github.com/vitessio/vitess"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 16943
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 16941
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 16903
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "IRONICBo",
+      "name": "Asklv",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 10,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "IRONICBo"
+              },
+              "nameWithOwner": "IRONICBo/LocalChat",
+              "url": "https://github.com/IRONICBo/LocalChat"
+            },
+            "url": "https://github.com/IRONICBo/LocalChat/commits?author=IRONICBo&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 8
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "datenlord"
+              },
+              "nameWithOwner": "datenlord/datenlord",
+              "url": "https://github.com/datenlord/datenlord"
+            },
+            "url": "https://github.com/datenlord/datenlord/commits?author=IRONICBo&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "datenlord"
+              },
+              "nameWithOwner": "datenlord/datenlord",
+              "url": "https://github.com/datenlord/datenlord"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 541
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 540
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "datenlord"
+              },
+              "nameWithOwner": "datenlord/datenlord",
+              "url": "https://github.com/datenlord/datenlord"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/datenlord/datenlord/pull/538#pullrequestreview-2353614194",
+                    "pullRequest": {
+                      "number": 538
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "shashank381",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "pawarpranav83",
+      "name": "Pranav",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Subhasish-Behera",
+      "name": "SUBHASISH BEHERA",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "akagami-harsh",
+      "name": "Harshvir Potpose",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "akagami-harsh"
+              },
+              "nameWithOwner": "akagami-harsh/akagami-harsh",
+              "url": "https://github.com/akagami-harsh/akagami-harsh"
+            },
+            "url": "https://github.com/akagami-harsh/akagami-harsh/commits?author=akagami-harsh&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "james-ryans",
+      "name": "James Ryans",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "hyp4293",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "shikharish",
+      "name": "Shikhar Soni",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "ShivamCoder23",
+      "name": "Shivam Gupta",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "AbdelrahmanElawady",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "swastik959",
+      "name": "Swastik Gour",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "guptaaryan16",
+      "name": "Aryan Gupta",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "yijie-04",
+      "name": "Yijie Wang",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "octonawish-akcodes",
+      "name": "Abhishek Kumar ",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "i-Pear",
+      "name": "i.Pear",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "grorge123",
+      "name": "Han-Wen Tsao",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "WasmEdge"
+              },
+              "nameWithOwner": "WasmEdge/WasmEdge",
+              "url": "https://github.com/WasmEdge/WasmEdge"
+            },
+            "url": "https://github.com/WasmEdge/WasmEdge/commits?author=grorge123&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "leejet"
+              },
+              "nameWithOwner": "leejet/stable-diffusion.cpp",
+              "url": "https://github.com/leejet/stable-diffusion.cpp"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 437
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "WasmEdge"
+              },
+              "nameWithOwner": "WasmEdge/WasmEdge",
+              "url": "https://github.com/WasmEdge/WasmEdge"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3824
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "WasmEdge"
+              },
+              "nameWithOwner": "WasmEdge/WasmEdge",
+              "url": "https://github.com/WasmEdge/WasmEdge"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/WasmEdge/WasmEdge/pull/3763#pullrequestreview-2362990848",
+                    "pullRequest": {
+                      "number": 3763
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Catherine-monk",
+      "name": "lingyu.hou",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Sanskarzz",
+      "name": "Sanskar Gurdasani",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "captain-Akshay",
+      "name": "Akshay Sharma",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "prajjwalyd",
+      "name": "Prajjwal Yadav",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "sivasathyaseeelan",
+      "name": "D N Siva Sathyaseelan",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "rum1887",
+      "name": "Ramyashri Padmanabhakumar",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "aryan-bhokare",
+      "name": "Aryan Bhokare",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Rexford74",
+      "name": "Rex Joshua",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "rootxrishabh",
+      "name": "Rishabh Soni",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Dhanush0369",
+      "name": "M R DHANUSH",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "amands98",
+      "name": "Aman",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "olad5",
+      "name": "Francis Shonubi",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Pushkarm029",
+      "name": "Pushkar Mishra",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 5,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "nautechsystems"
+              },
+              "nameWithOwner": "nautechsystems/nautilus_trader",
+              "url": "https://github.com/nautechsystems/nautilus_trader"
+            },
+            "url": "https://github.com/nautechsystems/nautilus_trader/commits?author=Pushkarm029&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "Pushkarm029"
+              },
+              "nameWithOwner": "Pushkarm029/solana-nft-mint",
+              "url": "https://github.com/Pushkarm029/solana-nft-mint"
+            },
+            "url": "https://github.com/Pushkarm029/solana-nft-mint/commits?author=Pushkarm029&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "nautechsystems"
+              },
+              "nameWithOwner": "nautechsystems/nautilus_trader",
+              "url": "https://github.com/nautechsystems/nautilus_trader"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2000
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1994
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "darkowlzz",
+      "name": "Sunny",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "khushijain21",
+      "name": "Khushi Jain",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 5,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cncf"
+              },
+              "nameWithOwner": "cncf/gitdm",
+              "url": "https://github.com/cncf/gitdm"
+            },
+            "url": "https://github.com/cncf/gitdm/commits?author=khushijain21&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "open-telemetry"
+              },
+              "nameWithOwner": "open-telemetry/opentelemetry-collector-contrib",
+              "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 35758
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "khushijain21"
+              },
+              "nameWithOwner": "khushijain21/opentelemetry-collector-contrib",
+              "url": "https://github.com/khushijain21/opentelemetry-collector-contrib"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "open-telemetry"
+              },
+              "nameWithOwner": "open-telemetry/opentelemetry-go-contrib",
+              "url": "https://github.com/open-telemetry/opentelemetry-go-contrib"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6228
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cncf"
+              },
+              "nameWithOwner": "cncf/gitdm",
+              "url": "https://github.com/cncf/gitdm"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 508
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "khushijain21"
+              },
+              "nameWithOwner": "khushijain21/gitdm",
+              "url": "https://github.com/khushijain21/gitdm"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "kaaass",
+      "name": "KAAAsS",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "VaibhavMalik4187",
+      "name": "Vaibhav Malik",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "kanha-gupta",
+      "name": "kanha gupta",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Qaplagzy",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "codeKraken19",
+      "name": "codeKraken",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "OneFlyingBanana",
+      "name": "Roald Brunell",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Fel1xgte",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "AkashKumar7902",
+      "name": "Akash Kumar",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "Vacant2333",
+      "name": "Vacant",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Vacant2333"
+              },
+              "nameWithOwner": "Vacant2333/Vacant2333",
+              "url": "https://github.com/Vacant2333/Vacant2333"
+            },
+            "url": "https://github.com/Vacant2333/Vacant2333/commits?author=Vacant2333&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "karmada-io"
+              },
+              "nameWithOwner": "karmada-io/karmada",
+              "url": "https://github.com/karmada-io/karmada"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5690
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "HT0403",
+      "name": "HT",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "harisudarsan1",
+      "name": "Harisudarsan",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "aya-rs"
+              },
+              "nameWithOwner": "aya-rs/aya-template",
+              "url": "https://github.com/aya-rs/aya-template"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 126
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "shashank-iitbhu",
+      "name": "Shashank Mittal",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "betelgeuse-code",
+      "name": "Betelgeuse",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "coder12git",
+      "name": "Suruchi Kumari",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "shivam-Purohit",
+      "name": "Shivam Purohit",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "SachinSahu431",
+      "name": "Sachin Sahu",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "katiestruthers",
+      "name": "Katie Struthers",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "WYGIN",
+      "name": "Sai Kiran Maggidi",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "adilmp1",
+      "name": "Adil Mohamed M P",
+      "contributionsCollection": {
+        "startedAt": "2024-10-07T00:00:00Z",
+        "endedAt": "2024-10-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "adilmp1"
+              },
+              "nameWithOwner": "adilmp1/leetcode-submissions",
+              "url": "https://github.com/adilmp1/leetcode-submissions"
+            },
+            "url": "https://github.com/adilmp1/leetcode-submissions/commits?author=adilmp1&since=2024-10-07&until=2024-10-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-07"
+  },
+  {
+    "mentee": {
+      "login": "HT0403",
+      "name": "HT",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "betelgeuse-code",
+      "name": "Betelgeuse",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "shashank381",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "swastik959",
+      "name": "Swastik Gour",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "kanha-gupta",
+      "name": "kanha gupta",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "AbdelrahmanElawady",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "coder12git",
+      "name": "Suruchi Kumari",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "rum1887",
+      "name": "Ramyashri Padmanabhakumar",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "olad5",
+      "name": "Francis Shonubi",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "guptaaryan16",
+      "name": "Aryan Gupta",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "ShivamCoder23",
+      "name": "Shivam Gupta",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "rootxrishabh",
+      "name": "Rishabh Soni",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "Dhanush0369",
+      "name": "M R DHANUSH",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "captain-Akshay",
+      "name": "Akshay Sharma",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "VaibhavMalik4187",
+      "name": "Vaibhav Malik",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "Qaplagzy",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "i-Pear",
+      "name": "i.Pear",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "Rexford74",
+      "name": "Rex Joshua",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "aryan-bhokare",
+      "name": "Aryan Bhokare",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "intelowlproject"
+              },
+              "nameWithOwner": "intelowlproject/docs",
+              "url": "https://github.com/intelowlproject/docs"
+            },
+            "url": "https://github.com/intelowlproject/docs/commits?author=aryan-bhokare&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "beingnoble03",
+      "name": "Noble Mittal",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 6,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/vitess",
+              "url": "https://github.com/vitessio/vitess"
+            },
+            "url": "https://github.com/vitessio/vitess/commits?author=beingnoble03&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 6
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vitessio"
+              },
+              "nameWithOwner": "vitessio/vitess",
+              "url": "https://github.com/vitessio/vitess"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 17004
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 16943
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "darkowlzz",
+      "name": "Sunny",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "adilmp1",
+      "name": "Adil Mohamed M P",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "SachinSahu431",
+      "name": "Sachin Sahu",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "prajjwalyd",
+      "name": "Prajjwal Yadav",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "weaviate"
+              },
+              "nameWithOwner": "weaviate/Verba",
+              "url": "https://github.com/weaviate/Verba"
+            },
+            "url": "https://github.com/weaviate/Verba/commits?author=prajjwalyd&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "prajjwalyd"
+              },
+              "nameWithOwner": "prajjwalyd/se2001-22f3002676",
+              "url": "https://github.com/prajjwalyd/se2001-22f3002676"
+            },
+            "url": "https://github.com/prajjwalyd/se2001-22f3002676/commits?author=prajjwalyd&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "weaviate"
+              },
+              "nameWithOwner": "weaviate/Verba",
+              "url": "https://github.com/weaviate/Verba"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 304
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "katiestruthers",
+      "name": "Katie Struthers",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "grorge123",
+      "name": "Han-Wen Tsao",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "WasmEdge"
+              },
+              "nameWithOwner": "WasmEdge/WasmEdge",
+              "url": "https://github.com/WasmEdge/WasmEdge"
+            },
+            "url": "https://github.com/WasmEdge/WasmEdge/commits?author=grorge123&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "WasmEdge"
+              },
+              "nameWithOwner": "WasmEdge/WasmEdge",
+              "url": "https://github.com/WasmEdge/WasmEdge"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3843
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "akagami-harsh",
+      "name": "Harshvir Potpose",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "shikharish",
+      "name": "Shikhar Soni",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 12,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "shikharish"
+              },
+              "nameWithOwner": "shikharish/godowner",
+              "url": "https://github.com/shikharish/godowner"
+            },
+            "url": "https://github.com/shikharish/godowner/commits?author=shikharish&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 9
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "shikharish"
+              },
+              "nameWithOwner": "shikharish/groq-rag",
+              "url": "https://github.com/shikharish/groq-rag"
+            },
+            "url": "https://github.com/shikharish/groq-rag/commits?author=shikharish&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "shikharish"
+              },
+              "nameWithOwner": "shikharish/shikharish",
+              "url": "https://github.com/shikharish/shikharish"
+            },
+            "url": "https://github.com/shikharish/shikharish/commits?author=shikharish&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "AkashKumar7902",
+      "name": "Akash Kumar",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 31,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "AkashKumar7902"
+              },
+              "nameWithOwner": "AkashKumar7902/logi",
+              "url": "https://github.com/AkashKumar7902/logi"
+            },
+            "url": "https://github.com/AkashKumar7902/logi/commits?author=AkashKumar7902&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 19
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "AkashKumar7902"
+              },
+              "nameWithOwner": "AkashKumar7902/logi-frontend",
+              "url": "https://github.com/AkashKumar7902/logi-frontend"
+            },
+            "url": "https://github.com/AkashKumar7902/logi-frontend/commits?author=AkashKumar7902&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 12
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "sivasathyaseeelan",
+      "name": "D N Siva Sathyaseelan",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "dextrot",
+      "name": "SKM",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "codeKraken19",
+      "name": "codeKraken",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "pawarpranav83",
+      "name": "Pranav",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "yijie-04",
+      "name": "Yijie Wang",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "Catherine-monk",
+      "name": "lingyu.hou",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "Subhasish-Behera",
+      "name": "SUBHASISH BEHERA",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "amands98",
+      "name": "Aman",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "harisudarsan1",
+      "name": "Harisudarsan",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "hyp4293",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "kaaass",
+      "name": "KAAAsS",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "seclab-fudan"
+              },
+              "nameWithOwner": "seclab-fudan/EPScan",
+              "url": "https://github.com/seclab-fudan/EPScan"
+            },
+            "url": "https://github.com/seclab-fudan/EPScan/commits?author=kaaass&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "khushijain21",
+      "name": "Khushi Jain",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "open-telemetry"
+              },
+              "nameWithOwner": "open-telemetry/opentelemetry-collector-contrib",
+              "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 35827
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "open-telemetry"
+              },
+              "nameWithOwner": "open-telemetry/opentelemetry-collector-contrib",
+              "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/35758#pullrequestreview-2380982062",
+                    "pullRequest": {
+                      "number": 35758
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "Vacant2333",
+      "name": "Vacant2333",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cncf"
+              },
+              "nameWithOwner": "cncf/gitdm",
+              "url": "https://github.com/cncf/gitdm"
+            },
+            "url": "https://github.com/cncf/gitdm/commits?author=Vacant2333&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cncf"
+              },
+              "nameWithOwner": "cncf/gitdm",
+              "url": "https://github.com/cncf/gitdm"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 511
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "karmada-io"
+              },
+              "nameWithOwner": "karmada-io/karmada",
+              "url": "https://github.com/karmada-io/karmada"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5690
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "octonawish-akcodes",
+      "name": "Abhishek Kumar ",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "Sanskarzz",
+      "name": "Sanskar Gurdasani",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "Fel1xgte",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "james-ryans",
+      "name": "James Ryans",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "WYGIN",
+      "name": "Sai Kiran Maggidi",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "shivam-Purohit",
+      "name": "Shivam Purohit",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "OneFlyingBanana",
+      "name": "Roald Brunell",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "shashank-iitbhu",
+      "name": "Shashank Mittal",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubeflow"
+              },
+              "nameWithOwner": "kubeflow/katib",
+              "url": "https://github.com/kubeflow/katib"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2446
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "IRONICBo",
+      "name": "Asklv",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 7,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "IRONICBo"
+              },
+              "nameWithOwner": "IRONICBo/bench-radix",
+              "url": "https://github.com/IRONICBo/bench-radix"
+            },
+            "url": "https://github.com/IRONICBo/bench-radix/commits?author=IRONICBo&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "IRONICBo"
+              },
+              "nameWithOwner": "IRONICBo/LocalChat",
+              "url": "https://github.com/IRONICBo/LocalChat"
+            },
+            "url": "https://github.com/IRONICBo/LocalChat/commits?author=IRONICBo&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "datenlord"
+              },
+              "nameWithOwner": "datenlord/datenlord",
+              "url": "https://github.com/datenlord/datenlord"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 542
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
+  },
+  {
+    "mentee": {
+      "login": "Pushkarm029",
+      "name": "Pushkar Mishra",
+      "contributionsCollection": {
+        "startedAt": "2024-10-14T00:00:00Z",
+        "endedAt": "2024-10-21T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "nautechsystems"
+              },
+              "nameWithOwner": "nautechsystems/nautilus_trader",
+              "url": "https://github.com/nautechsystems/nautilus_trader"
+            },
+            "url": "https://github.com/nautechsystems/nautilus_trader/commits?author=Pushkarm029&since=2024-10-14&until=2024-10-22",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "nautechsystems"
+              },
+              "nameWithOwner": "nautechsystems/nautilus_trader",
+              "url": "https://github.com/nautechsystems/nautilus_trader"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2016
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 2005
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "winglang"
+              },
+              "nameWithOwner": "winglang/wing",
+              "url": "https://github.com/winglang/wing"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 7202
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term1-follow-up",
+    "weekOf": "2024-10-14"
   }
 ]
