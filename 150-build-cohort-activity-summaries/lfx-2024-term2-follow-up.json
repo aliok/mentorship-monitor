@@ -73329,5 +73329,2161 @@
     },
     "term": "lfx-2024-term2-follow-up",
     "weekOf": "2025-04-21"
+  },
+  {
+    "mentee": {
+      "login": "codeSafari10",
+      "name": "Edward Corley",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "Dindihub",
+      "name": "Dindihub",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "nginx"
+              },
+              "nameWithOwner": "nginx/documentation",
+              "url": "https://github.com/nginx/documentation"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 480
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "network-charles",
+      "name": "Charles Uneze",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 10,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "juju"
+              },
+              "nameWithOwner": "juju/juju",
+              "url": "https://github.com/juju/juju"
+            },
+            "url": "https://github.com/juju/juju/commits?author=network-charles&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "juju"
+              },
+              "nameWithOwner": "juju/juju",
+              "url": "https://github.com/juju/juju"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 9,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 19688
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 19681
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 19679
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 19669
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 19668
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 19667
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 19648
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 19640
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 19639
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "canonical"
+              },
+              "nameWithOwner": "canonical/open-documentation-academy",
+              "url": "https://github.com/canonical/open-documentation-academy"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 223
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "canonical"
+              },
+              "nameWithOwner": "canonical/open-documentation-academy",
+              "url": "https://github.com/canonical/open-documentation-academy"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/canonical/open-documentation-academy/pull/223#pullrequestreview-2814645933",
+                    "pullRequest": {
+                      "number": 223
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "dusdjhyeon",
+      "name": "Dahyeon Kang",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "yomek33",
+      "name": "Moeka Mishima",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "2008sahil",
+      "name": "Sahil Gupta",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "NeerajNagure",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "joeyyy09",
+      "name": "Harshith Mente",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "ShravaniAK",
+      "name": "SHRAVANI KAWARE ",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "rishabhsharma1997",
+      "name": "Sharma",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "Wise-Wizard",
+      "name": "Saransh Shankar",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "amandaguan-ag",
+      "name": "Amanda Guan",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "amandaguan-ag"
+              },
+              "nameWithOwner": "amandaguan-ag/pediacademy",
+              "url": "https://github.com/amandaguan-ag/pediacademy"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 14
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "kirtanchandak",
+      "name": "Kirtan Manoj Chandak",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kirtanchandak"
+              },
+              "nameWithOwner": "kirtanchandak/textaura",
+              "url": "https://github.com/kirtanchandak/textaura"
+            },
+            "url": "https://github.com/kirtanchandak/textaura/commits?author=kirtanchandak&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "KiranSatyaRaj",
+      "name": "Kiran Satya Raj",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 8,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cu-ecen-aeld"
+              },
+              "nameWithOwner": "cu-ecen-aeld/assignments-3-and-later-KiranSatyaRaj",
+              "url": "https://github.com/cu-ecen-aeld/assignments-3-and-later-KiranSatyaRaj"
+            },
+            "url": "https://github.com/cu-ecen-aeld/assignments-3-and-later-KiranSatyaRaj/commits?author=KiranSatyaRaj&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cu-ecen-aeld"
+              },
+              "nameWithOwner": "cu-ecen-aeld/assignment-2-KiranSatyaRaj",
+              "url": "https://github.com/cu-ecen-aeld/assignment-2-KiranSatyaRaj"
+            },
+            "url": "https://github.com/cu-ecen-aeld/assignment-2-KiranSatyaRaj/commits?author=KiranSatyaRaj&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cu-ecen-aeld"
+              },
+              "nameWithOwner": "cu-ecen-aeld/assignment-1-KiranSatyaRaj",
+              "url": "https://github.com/cu-ecen-aeld/assignment-1-KiranSatyaRaj"
+            },
+            "url": "https://github.com/cu-ecen-aeld/assignment-1-KiranSatyaRaj/commits?author=KiranSatyaRaj&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "uranium24"
+              },
+              "nameWithOwner": "uranium24/Fresh-Price",
+              "url": "https://github.com/uranium24/Fresh-Price"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "enesonus",
+      "name": "Mehmet Enes",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": null,
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "Yaxhveer",
+      "name": "Yashveer [usualfriday]",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "yizhang-zen",
+      "name": "Ying Zhang",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "shubham251972",
+      "name": "Shubham Upadhyay",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "firatbezir",
+      "name": "Firat Bezir",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "firatbezir"
+              },
+              "nameWithOwner": "firatbezir/PyVault",
+              "url": "https://github.com/firatbezir/PyVault"
+            },
+            "url": "https://github.com/firatbezir/PyVault/commits?author=firatbezir&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "wisdomekpotu",
+      "name": "Wisdom Ekpotu",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "redoC-A2k",
+      "name": "Afshan Ahmed Khan",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "bupd",
+      "name": "Prasanth Baskar",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 25,
+        "totalIssueContributions": 5,
+        "totalPullRequestContributions": 6,
+        "totalPullRequestReviewContributions": 10,
+        "totalRepositoriesWithContributedCommits": 4,
+        "totalRepositoriesWithContributedIssues": 4,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "bupd"
+              },
+              "nameWithOwner": "bupd/dotfiles",
+              "url": "https://github.com/bupd/dotfiles"
+            },
+            "url": "https://github.com/bupd/dotfiles/commits?author=bupd&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 16
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "bupd"
+              },
+              "nameWithOwner": "bupd/aur",
+              "url": "https://github.com/bupd/aur"
+            },
+            "url": "https://github.com/bupd/aur/commits?author=bupd&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor-cli",
+              "url": "https://github.com/goharbor/harbor-cli"
+            },
+            "url": "https://github.com/goharbor/harbor-cli/commits?author=bupd&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "container-registry"
+              },
+              "nameWithOwner": "container-registry/harbor-satellite",
+              "url": "https://github.com/container-registry/harbor-satellite"
+            },
+            "url": "https://github.com/container-registry/harbor-satellite/commits?author=bupd&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "usebruno"
+              },
+              "nameWithOwner": "usebruno/bruno",
+              "url": "https://github.com/usebruno/bruno"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 4570
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 4568
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor-cli",
+              "url": "https://github.com/goharbor/harbor-cli"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 450
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor",
+              "url": "https://github.com/goharbor/harbor"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 21959
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "container-registry"
+              },
+              "nameWithOwner": "container-registry/harbor-satellite",
+              "url": "https://github.com/container-registry/harbor-satellite"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 150
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "bupd"
+              },
+              "nameWithOwner": "bupd/aur",
+              "url": "https://github.com/bupd/aur"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 179
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 174
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor",
+              "url": "https://github.com/goharbor/harbor"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 21950
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 21939
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "vbouchaud"
+              },
+              "nameWithOwner": "vbouchaud/aur",
+              "url": "https://github.com/vbouchaud/aur"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "usebruno"
+              },
+              "nameWithOwner": "usebruno/bruno",
+              "url": "https://github.com/usebruno/bruno"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 4569
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "container-registry"
+              },
+              "nameWithOwner": "container-registry/harbor-satellite",
+              "url": "https://github.com/container-registry/harbor-satellite"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/container-registry/harbor-satellite/pull/118#pullrequestreview-2814193316",
+                    "pullRequest": {
+                      "number": 118
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/container-registry/harbor-satellite/pull/110#pullrequestreview-2814189101",
+                    "pullRequest": {
+                      "number": 110
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/container-registry/harbor-satellite/pull/139#pullrequestreview-2798885504",
+                    "pullRequest": {
+                      "number": 139
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/container-registry/harbor-satellite/pull/126#pullrequestreview-2798855853",
+                    "pullRequest": {
+                      "number": 126
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/container-registry/harbor-satellite/pull/132#pullrequestreview-2798847931",
+                    "pullRequest": {
+                      "number": 132
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor-cli",
+              "url": "https://github.com/goharbor/harbor-cli"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/goharbor/harbor-cli/pull/424#pullrequestreview-2810943828",
+                    "pullRequest": {
+                      "number": 424
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/goharbor/harbor-cli/pull/443#pullrequestreview-2803490323",
+                    "pullRequest": {
+                      "number": 443
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/goharbor/harbor-cli/pull/447#pullrequestreview-2803420649",
+                    "pullRequest": {
+                      "number": 447
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "bupd"
+              },
+              "nameWithOwner": "bupd/aur",
+              "url": "https://github.com/bupd/aur"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/bupd/aur/pull/178#pullrequestreview-2809326084",
+                    "pullRequest": {
+                      "number": 178
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "FOSSUChennai"
+              },
+              "nameWithOwner": "FOSSUChennai/Communities",
+              "url": "https://github.com/FOSSUChennai/Communities"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/FOSSUChennai/Communities/pull/270#pullrequestreview-2798916567",
+                    "pullRequest": {
+                      "number": 270
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "MiahaCybersec",
+      "name": "Miaha",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "1Shubham7",
+      "name": "Shubham Singh",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "PeterD1524",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "codemaster1104",
+      "name": "Akshat Shrivastava",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "FlamingSaint",
+      "name": "Raghuram Kannan",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "officialasishkumar",
+      "name": "Asish Kumar",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "officialasishkumar"
+              },
+              "nameWithOwner": "officialasishkumar/review-scrapper",
+              "url": "https://github.com/officialasishkumar/review-scrapper"
+            },
+            "url": "https://github.com/officialasishkumar/review-scrapper/commits?author=officialasishkumar&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "luomengY",
+      "name": "zhijiayang",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Huawei"
+              },
+              "nameWithOwner": "Huawei/eSDK_K8S_Plugin",
+              "url": "https://github.com/Huawei/eSDK_K8S_Plugin"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 156
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "singh1203",
+      "name": "Saurabh Singh",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 2,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "singh1203"
+              },
+              "nameWithOwner": "singh1203/Notes-Service",
+              "url": "https://github.com/singh1203/Notes-Service"
+            },
+            "url": "https://github.com/singh1203/Notes-Service/commits?author=singh1203&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "apache"
+              },
+              "nameWithOwner": "apache/arrow-go",
+              "url": "https://github.com/apache/arrow-go"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/arrow-go/pull/361#pullrequestreview-2798256106",
+                    "pullRequest": {
+                      "number": 361
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "apache"
+              },
+              "nameWithOwner": "apache/arrow",
+              "url": "https://github.com/apache/arrow"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/arrow/pull/46110#pullrequestreview-2798186091",
+                    "pullRequest": {
+                      "number": 46110
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "tico88612",
+      "name": "ChengHao Yang",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 4,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 4,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kubespray",
+              "url": "https://github.com/kubernetes-sigs/kubespray"
+            },
+            "url": "https://github.com/kubernetes-sigs/kubespray/commits?author=tico88612&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cilium"
+              },
+              "nameWithOwner": "cilium/tetragon",
+              "url": "https://github.com/cilium/tetragon"
+            },
+            "url": "https://github.com/cilium/tetragon/commits?author=tico88612&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kubespray",
+              "url": "https://github.com/kubernetes-sigs/kubespray"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 12175
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cilium"
+              },
+              "nameWithOwner": "cilium/tetragon",
+              "url": "https://github.com/cilium/tetragon"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3699
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 3678
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kubespray",
+              "url": "https://github.com/kubernetes-sigs/kubespray"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 12189
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kubespray",
+              "url": "https://github.com/kubernetes-sigs/kubespray"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes-sigs/kubespray/pull/12164#pullrequestreview-2813639926",
+                    "pullRequest": {
+                      "number": 12164
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes-sigs/kubespray/pull/12182#pullrequestreview-2813155559",
+                    "pullRequest": {
+                      "number": 12182
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes-sigs/kubespray/pull/12173#pullrequestreview-2801966179",
+                    "pullRequest": {
+                      "number": 12173
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes-sigs/kubespray/pull/12128#pullrequestreview-2797858881",
+                    "pullRequest": {
+                      "number": 12128
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "navin772",
+      "name": "Navin Chandra",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "SeleniumHQ"
+              },
+              "nameWithOwner": "SeleniumHQ/selenium",
+              "url": "https://github.com/SeleniumHQ/selenium"
+            },
+            "url": "https://github.com/SeleniumHQ/selenium/commits?author=navin772&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "SeleniumHQ"
+              },
+              "nameWithOwner": "SeleniumHQ/selenium",
+              "url": "https://github.com/SeleniumHQ/selenium"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/SeleniumHQ/selenium/pull/15677#pullrequestreview-2809154735",
+                    "pullRequest": {
+                      "number": 15677
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "Vishalk91-4",
+      "name": "Korada Vishal",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "dragon-slayer875",
+      "name": "Rudraksh Tyagi",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 59,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "dragon-slayer875"
+              },
+              "nameWithOwner": "dragon-slayer875/PcPocket",
+              "url": "https://github.com/dragon-slayer875/PcPocket"
+            },
+            "url": "https://github.com/dragon-slayer875/PcPocket/commits?author=dragon-slayer875&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 58
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "dragon-slayer875"
+              },
+              "nameWithOwner": "dragon-slayer875/PcPocket-Extension",
+              "url": "https://github.com/dragon-slayer875/PcPocket-Extension"
+            },
+            "url": "https://github.com/dragon-slayer875/PcPocket-Extension/commits?author=dragon-slayer875&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "shruti2522",
+      "name": "Shruti Sharma",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "Alero-Awani",
+      "name": "Alero Awani",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Alero-Awani"
+              },
+              "nameWithOwner": "Alero-Awani/Region-Simulator",
+              "url": "https://github.com/Alero-Awani/Region-Simulator"
+            },
+            "url": "https://github.com/Alero-Awani/Region-Simulator/commits?author=Alero-Awani&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "suryyyansh",
+      "name": "suryansh",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "jayantpranjal0",
+      "name": "Jayant Pranjal",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "JanhaviAlekar",
+      "name": "Janhavi Alekar",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "ghosind",
+      "name": "Chen Su",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "Jad31",
+      "name": "Jad Chahed",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 16,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Jad31"
+              },
+              "nameWithOwner": "Jad31/kampus-somei-angular-training-day-2",
+              "url": "https://github.com/Jad31/kampus-somei-angular-training-day-2"
+            },
+            "url": "https://github.com/Jad31/kampus-somei-angular-training-day-2/commits?author=Jad31&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 10
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "Jad31"
+              },
+              "nameWithOwner": "Jad31/Jad31",
+              "url": "https://github.com/Jad31/Jad31"
+            },
+            "url": "https://github.com/Jad31/Jad31/commits?author=Jad31&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "Jad31"
+              },
+              "nameWithOwner": "Jad31/kampus-somei-angular-training-day-1",
+              "url": "https://github.com/Jad31/kampus-somei-angular-training-day-1"
+            },
+            "url": "https://github.com/Jad31/kampus-somei-angular-training-day-1/commits?author=Jad31&since=2025-04-28&until=2025-05-06",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "Vanshikav123",
+      "name": "Vanshika",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "kartikaysaxena",
+      "name": "Kartikay",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "xuemingdi",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "DarikshaAnsari",
+      "name": "Dariksha",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
+  },
+  {
+    "mentee": {
+      "login": "bishal7679",
+      "name": "Bishal Das ",
+      "contributionsCollection": {
+        "startedAt": "2025-04-28T00:00:00Z",
+        "endedAt": "2025-05-05T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2024-term2-follow-up",
+    "weekOf": "2025-04-28"
   }
 ]
