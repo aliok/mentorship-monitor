@@ -1,5 +1,182 @@
 [
   {
+    "term": "gsoc-2025",
+    "startDate": "2025-06-02",
+    "endDate": "2025-08-31",
+    "cohort": [
+      {
+        "username": "aabidsofi19",
+        "mentors": [
+          "leecalcote",
+          "miacycle",
+          "hortison"
+        ],
+        "organizations": [
+          "meshery"
+        ],
+        "project": {
+          "title": "Real-Time Policy Evaluation in Meshery UI using OPA WebAssembly",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#distributed-client-side-inference-policy-evaluation-with-webassembly-wasm-and-opa-in-meshery",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/2aGkn4JN"
+        }
+      },
+      {
+        "username": "asmit27rai",
+        "mentors": [
+          "dumb0002",
+          "clubanderson",
+          "jimcadden"
+        ],
+        "organizations": [
+          "kubestellar"
+        ],
+        "project": {
+          "title": "Automating Benchmarking of KubeStellar Data-Plane for AI Workloads",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#automating-benchmarking-of-kubestellar-data-plane",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/6P4Ds9En"
+        }
+      },
+      {
+        "username": "esosaoh",
+        "mentors": [
+          "viccuad",
+          "flavio",
+          "jvanz",
+          "fabriziosestito"
+        ],
+        "organizations": [
+          "kubewarden"
+        ],
+        "project": {
+          "title": "Allow Kubewarden Policies to be Written using JavaScript",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#allow-policies-to-be-written-using-javascript",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/SFABJqNk"
+        }
+      },
+      {
+        "username": "grorge123",
+        "mentors": [
+          "q82419",
+          "ibmibmibm"
+        ],
+        "organizations": [
+          "WasmEdge"
+        ],
+        "project": {
+          "title": "Virtual filesystem security for WasmEdge plug-ins with exporting WASI APIs",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#virtual-filesystem-security-for-wasmedge-plug-ins-with-exporting-wasi-apis",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/N7m7gDib"
+        }
+      },
+      {
+        "username": "KapilSareen",
+        "mentors": [
+          "lkingland",
+          "aslom"
+        ],
+        "organizations": [
+          "knative"
+        ],
+        "project": {
+          "title": "Knative: Functions AI Agent Callbacks",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#dynamic-ai-agent-callbacks",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/llt9vHfu"
+        }
+      },
+      {
+        "username": "pipiland2612",
+        "mentors": [
+          "yurishkuro",
+          "jkowall"
+        ],
+        "organizations": [
+          "jaegertracing"
+        ],
+        "project": {
+          "title": "Simplified SPM deployment with ElasticSearch/OpenSearch for Jaeger",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#service-performance-analysis-on-top-of-elasticsearch--opensearch-data",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/ZTLyi8dO"
+        }
+      },
+      {
+        "username": "apullo777",
+        "mentors": [
+          "serathius",
+          "MadhavJivrajani"
+        ],
+        "organizations": [
+          "etcd-io"
+        ],
+        "project": {
+          "title": "Generic High-Performance Caching Library for etcd",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#etcd-cache",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/9A3Z5dv1"
+        }
+      },
+      {
+        "username": "mrrr3d",
+        "mentors": [
+          "yanmxa",
+          "haoqing0110"
+        ],
+        "organizations": [
+          "open-cluster-management-io"
+        ],
+        "project": {
+          "title": "Privacy-preserving and efficient AI model training across multi-cluster",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#privacy-preserving-and-efficient-ai-model-training-across-multi-cluster",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/mUzLWY6T"
+        }
+      },
+      {
+        "username": "sreehariX",
+        "mentors": [
+          "rohit-nayak-ps",
+          "GuptaManan100"
+        ],
+        "organizations": [
+          "vitessio"
+        ],
+        "project": {
+          "title": "Enhancements for RAG Chatbot for Vitess",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#enhancements-for-faq-chatbot-for-vitess",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/FdTZdTRr"
+        }
+      },
+      {
+        "username": "unsuman",
+        "mentors": [
+          "AkihiroSuda",
+          "afbjorklund"
+        ],
+        "organizations": [
+          "lima-vm"
+        ],
+        "project": {
+          "title": "Lima: Support for Virtual Machine Plugin Subsystem",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#vm-plugin-subsystem",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/0L1g1OFW"
+        }
+      },
+      {
+        "username": "vitorfloriano",
+        "mentors": [
+          "camilamacedo86",
+          "varshaprasad96",
+          "Kavinjsir"
+        ],
+        "organizations": [
+          "kubernetes-sigs"
+        ],
+        "project": {
+          "title": "Kubebuilder: Automating Operator Maintenance - Driving Better Results with Less Overhead",
+          "ideaUrl": "https://github.com/cncf/mentoring/blob/main/programs/summerofcode/2025.md#automating-operator-maintenance-driving-better-results-with-less-overhead",
+          "platformUrl": "https://summerofcode.withgoogle.com/organizations/cncf/projects/details/j6huoI3v"
+        }
+      }
+    ]
+  },
+  {
     "term": "lfx-2025-term2-follow-up",
     "startDate": "2025-09-01",
     "endDate": "2026-08-30",
