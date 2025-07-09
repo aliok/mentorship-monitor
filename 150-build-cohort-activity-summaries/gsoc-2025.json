@@ -2345,5 +2345,959 @@
     },
     "term": "gsoc-2025",
     "weekOf": "2025-06-23"
+  },
+  {
+    "mentee": {
+      "login": "aabidsofi19",
+      "name": "Aabid Sofi",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 46,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 7,
+        "totalPullRequestReviewContributions": 5,
+        "totalRepositoriesWithContributedCommits": 5,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=aabidsofi19&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 19
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/kanvas-docker-extension",
+              "url": "https://github.com/layer5io/kanvas-docker-extension"
+            },
+            "url": "https://github.com/layer5io/kanvas-docker-extension/commits?author=aabidsofi19&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 10
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5labs"
+              },
+              "nameWithOwner": "layer5labs/kanvas-snapshot",
+              "url": "https://github.com/layer5labs/kanvas-snapshot"
+            },
+            "url": "https://github.com/layer5labs/kanvas-snapshot/commits?author=aabidsofi19&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/layer5-repo-template",
+              "url": "https://github.com/layer5io/layer5-repo-template"
+            },
+            "url": "https://github.com/layer5io/layer5-repo-template/commits?author=aabidsofi19&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshsync",
+              "url": "https://github.com/meshery/meshsync"
+            },
+            "url": "https://github.com/meshery/meshsync/commits?author=aabidsofi19&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "docker"
+              },
+              "nameWithOwner": "docker/extensions-submissions",
+              "url": "https://github.com/docker/extensions-submissions"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 202
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 15308
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 15307
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 15274
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 15257
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5labs"
+              },
+              "nameWithOwner": "layer5labs/kanvas-snapshot",
+              "url": "https://github.com/layer5labs/kanvas-snapshot"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 158
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 157
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/layer5-repo-template",
+              "url": "https://github.com/layer5io/layer5-repo-template"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 38
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/15037#pullrequestreview-2992191515",
+                    "pullRequest": {
+                      "number": 15037
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/15245#pullrequestreview-2991079979",
+                    "pullRequest": {
+                      "number": 15245
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/15252#pullrequestreview-2970410888",
+                    "pullRequest": {
+                      "number": 15252
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/15242#pullrequestreview-2970353058",
+                    "pullRequest": {
+                      "number": 15242
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/schemas",
+              "url": "https://github.com/meshery/schemas"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/schemas/pull/339#pullrequestreview-2991515518",
+                    "pullRequest": {
+                      "number": 339
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "asmit27rai",
+      "name": "Asmit Kumar Rai",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 5,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "asmit27rai"
+              },
+              "nameWithOwner": "asmit27rai/latency-collector",
+              "url": "https://github.com/asmit27rai/latency-collector"
+            },
+            "url": "https://github.com/asmit27rai/latency-collector/commits?author=asmit27rai&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "apullo777",
+      "name": "Peter",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "etcd-io"
+              },
+              "nameWithOwner": "etcd-io/etcd",
+              "url": "https://github.com/etcd-io/etcd"
+            },
+            "url": "https://github.com/etcd-io/etcd/commits?author=apullo777&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "etcd-io"
+              },
+              "nameWithOwner": "etcd-io/etcd",
+              "url": "https://github.com/etcd-io/etcd"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 20297
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 20285
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 20284
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 20274
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "grorge123",
+      "name": "Han-Wen Tsao",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "vitorfloriano",
+      "name": "Vitor Floriano",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vitorfloriano"
+              },
+              "nameWithOwner": "vitorfloriano/kubebuilder",
+              "url": "https://github.com/vitorfloriano/kubebuilder"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 35
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kubebuilder",
+              "url": "https://github.com/kubernetes-sigs/kubebuilder"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/4892#pullrequestreview-2975585609",
+                    "pullRequest": {
+                      "number": 4892
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "pipiland2612",
+      "name": "pipiland",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 6,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 5,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "url": "https://github.com/jaegertracing/jaeger/commits?author=pipiland2612&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger-ui",
+              "url": "https://github.com/jaegertracing/jaeger-ui"
+            },
+            "url": "https://github.com/jaegertracing/jaeger-ui/commits?author=pipiland2612&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger-ui",
+              "url": "https://github.com/jaegertracing/jaeger-ui"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 2922
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 7298
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7297
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7295
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7290
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger-ui",
+              "url": "https://github.com/jaegertracing/jaeger-ui"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2923
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/jaegertracing/jaeger/pull/7297#pullrequestreview-2991566884",
+                    "pullRequest": {
+                      "number": 7297
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "unsuman",
+      "name": "Ansuman Sahoo",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "lima-vm"
+              },
+              "nameWithOwner": "lima-vm/lima",
+              "url": "https://github.com/lima-vm/lima"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3694
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 3693
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 3692
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 3691
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "esosaoh",
+      "name": "Esosa Ohangbon",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 11,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubewarden"
+              },
+              "nameWithOwner": "kubewarden/policy-sdk-js",
+              "url": "https://github.com/kubewarden/policy-sdk-js"
+            },
+            "url": "https://github.com/kubewarden/policy-sdk-js/commits?author=esosaoh&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 11
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubewarden"
+              },
+              "nameWithOwner": "kubewarden/policy-sdk-js",
+              "url": "https://github.com/kubewarden/policy-sdk-js"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 132
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubewarden"
+              },
+              "nameWithOwner": "kubewarden/policy-sdk-js",
+              "url": "https://github.com/kubewarden/policy-sdk-js"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 133
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 129
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 128
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 126
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "sreehariX",
+      "name": "Sreehari",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "mrrr3d",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 22,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "mrrr3d"
+              },
+              "nameWithOwner": "mrrr3d/metrics_doc",
+              "url": "https://github.com/mrrr3d/metrics_doc"
+            },
+            "url": "https://github.com/mrrr3d/metrics_doc/commits?author=mrrr3d&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 16
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "mrrr3d"
+              },
+              "nameWithOwner": "mrrr3d/fl_sidecar",
+              "url": "https://github.com/mrrr3d/fl_sidecar"
+            },
+            "url": "https://github.com/mrrr3d/fl_sidecar/commits?author=mrrr3d&since=2025-06-30&until=2025-07-08",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 6
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "sustainable-computing-io"
+              },
+              "nameWithOwner": "sustainable-computing-io/kepler",
+              "url": "https://github.com/sustainable-computing-io/kepler"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 2197
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "KapilSareen",
+      "name": "Kapil Sareen",
+      "contributionsCollection": {
+        "startedAt": "2025-06-30T00:00:00Z",
+        "endedAt": "2025-07-07T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-06-30"
   }
 ]
