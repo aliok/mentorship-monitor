@@ -3299,5 +3299,1174 @@
     },
     "term": "gsoc-2025",
     "weekOf": "2025-06-30"
+  },
+  {
+    "mentee": {
+      "login": "vitorfloriano",
+      "name": "Vitor Floriano",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 3,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kubebuilder",
+              "url": "https://github.com/kubernetes-sigs/kubebuilder"
+            },
+            "url": "https://github.com/kubernetes-sigs/kubebuilder/commits?author=vitorfloriano&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cloudnative-pg"
+              },
+              "nameWithOwner": "cloudnative-pg/cloudnative-pg",
+              "url": "https://github.com/cloudnative-pg/cloudnative-pg"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 8017
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vitorfloriano"
+              },
+              "nameWithOwner": "vitorfloriano/kubebuilder",
+              "url": "https://github.com/vitorfloriano/kubebuilder"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 36
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kubebuilder",
+              "url": "https://github.com/kubernetes-sigs/kubebuilder"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 4920
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cloudnative-pg"
+              },
+              "nameWithOwner": "cloudnative-pg/cloudnative-pg",
+              "url": "https://github.com/cloudnative-pg/cloudnative-pg"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 8007
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kubebuilder",
+              "url": "https://github.com/kubernetes-sigs/kubebuilder"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/4898#pullrequestreview-3014679353",
+                    "pullRequest": {
+                      "number": 4898
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes-sigs/kubebuilder/pull/4923#pullrequestreview-3014252028",
+                    "pullRequest": {
+                      "number": 4923
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cncf"
+              },
+              "nameWithOwner": "cncf/mentoring",
+              "url": "https://github.com/cncf/mentoring"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/cncf/mentoring/pull/1459#pullrequestreview-2997324487",
+                    "pullRequest": {
+                      "number": 1459
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "pipiland2612",
+      "name": "pipiland",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 7,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 8,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "url": "https://github.com/jaegertracing/jaeger/commits?author=pipiland2612&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 6
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger-ui",
+              "url": "https://github.com/jaegertracing/jaeger-ui"
+            },
+            "url": "https://github.com/jaegertracing/jaeger-ui/commits?author=pipiland2612&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 7309
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7307
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7306
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7304
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7303
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7301
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 7298
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger-ui",
+              "url": "https://github.com/jaegertracing/jaeger-ui"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2957
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "apullo777",
+      "name": "Peter",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 5,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "etcd-io"
+              },
+              "nameWithOwner": "etcd-io/etcd",
+              "url": "https://github.com/etcd-io/etcd"
+            },
+            "url": "https://github.com/etcd-io/etcd/commits?author=apullo777&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "etcd-io"
+              },
+              "nameWithOwner": "etcd-io/etcd",
+              "url": "https://github.com/etcd-io/etcd"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 20326
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 20318
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 20316
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 20310
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 20297
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "asmit27rai",
+      "name": "Asmit Kumar Rai",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "asmit27rai"
+              },
+              "nameWithOwner": "asmit27rai/latency-collector",
+              "url": "https://github.com/asmit27rai/latency-collector"
+            },
+            "url": "https://github.com/asmit27rai/latency-collector/commits?author=asmit27rai&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "KapilSareen",
+      "name": "Kapil Sareen",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "knative"
+              },
+              "nameWithOwner": "knative/func",
+              "url": "https://github.com/knative/func"
+            },
+            "url": "https://github.com/knative/func/commits?author=KapilSareen&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "knative"
+              },
+              "nameWithOwner": "knative/func",
+              "url": "https://github.com/knative/func"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2931
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 2928
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 2925
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "ethereum"
+              },
+              "nameWithOwner": "ethereum/go-ethereum",
+              "url": "https://github.com/ethereum/go-ethereum"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 32186
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "sreehariX",
+      "name": "Sreehari",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "grorge123",
+      "name": "Han-Wen Tsao",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "grorge123"
+              },
+              "nameWithOwner": "grorge123/mlx-llm.cpp",
+              "url": "https://github.com/grorge123/mlx-llm.cpp"
+            },
+            "url": "https://github.com/grorge123/mlx-llm.cpp/commits?author=grorge123&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "grorge123"
+              },
+              "nameWithOwner": "grorge123/mlx-llm.cpp",
+              "url": "https://github.com/grorge123/mlx-llm.cpp"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "mrrr3d",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "mrrr3d"
+              },
+              "nameWithOwner": "mrrr3d/metrics_doc",
+              "url": "https://github.com/mrrr3d/metrics_doc"
+            },
+            "url": "https://github.com/mrrr3d/metrics_doc/commits?author=mrrr3d&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "esosaoh",
+      "name": "Esosa Ohangbon",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 16,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 5,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "esosaoh"
+              },
+              "nameWithOwner": "esosaoh/playlifts",
+              "url": "https://github.com/esosaoh/playlifts"
+            },
+            "url": "https://github.com/esosaoh/playlifts/commits?author=esosaoh&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 11
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubewarden"
+              },
+              "nameWithOwner": "kubewarden/docs",
+              "url": "https://github.com/kubewarden/docs"
+            },
+            "url": "https://github.com/kubewarden/docs/commits?author=esosaoh&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubewarden"
+              },
+              "nameWithOwner": "kubewarden/policy-sdk-js",
+              "url": "https://github.com/kubewarden/policy-sdk-js"
+            },
+            "url": "https://github.com/kubewarden/policy-sdk-js/commits?author=esosaoh&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubewarden"
+              },
+              "nameWithOwner": "kubewarden/policy-sdk-js",
+              "url": "https://github.com/kubewarden/policy-sdk-js"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 140
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 134
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 133
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubewarden"
+              },
+              "nameWithOwner": "kubewarden/docs",
+              "url": "https://github.com/kubewarden/docs"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 636
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "esosaoh"
+              },
+              "nameWithOwner": "esosaoh/playlifts",
+              "url": "https://github.com/esosaoh/playlifts"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "unsuman",
+      "name": "Ansuman Sahoo",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 2,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "lima-vm"
+              },
+              "nameWithOwner": "lima-vm/lima",
+              "url": "https://github.com/lima-vm/lima"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 3718
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 3703
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
+  },
+  {
+    "mentee": {
+      "login": "aabidsofi19",
+      "name": "Aabid Sofi",
+      "contributionsCollection": {
+        "startedAt": "2025-07-07T00:00:00Z",
+        "endedAt": "2025-07-14T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 53,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 3,
+        "totalRepositoriesWithContributedCommits": 10,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 14
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/kanvas-docker-extension",
+              "url": "https://github.com/layer5io/kanvas-docker-extension"
+            },
+            "url": "https://github.com/layer5io/kanvas-docker-extension/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 14
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "aabidsofi19"
+              },
+              "nameWithOwner": "aabidsofi19/aabids-academy",
+              "url": "https://github.com/aabidsofi19/aabids-academy"
+            },
+            "url": "https://github.com/aabidsofi19/aabids-academy/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 11
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/hugo-academy-theme",
+              "url": "https://github.com/layer5io/hugo-academy-theme"
+            },
+            "url": "https://github.com/layer5io/hugo-academy-theme/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "url": "https://github.com/layer5io/docs/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/academy-example",
+              "url": "https://github.com/layer5io/academy-example"
+            },
+            "url": "https://github.com/layer5io/academy-example/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/hugo-academy-old",
+              "url": "https://github.com/layer5io/hugo-academy-old"
+            },
+            "url": "https://github.com/layer5io/hugo-academy-old/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "aabidsofi19"
+              },
+              "nameWithOwner": "aabidsofi19/dotfiles",
+              "url": "https://github.com/aabidsofi19/dotfiles"
+            },
+            "url": "https://github.com/aabidsofi19/dotfiles/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/schemas",
+              "url": "https://github.com/meshery/schemas"
+            },
+            "url": "https://github.com/meshery/schemas/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "url": "https://github.com/layer5io/sistent/commits?author=aabidsofi19&since=2025-07-07&until=2025-07-15",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 680
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 15332
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/628#pullrequestreview-3006685439",
+                    "pullRequest": {
+                      "number": 628
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/schemas",
+              "url": "https://github.com/meshery/schemas"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/schemas/pull/340#pullrequestreview-3002631317",
+                    "pullRequest": {
+                      "number": 340
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/15037#pullrequestreview-2992191515",
+                    "pullRequest": {
+                      "number": 15037
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "gsoc-2025",
+    "weekOf": "2025-07-07"
   }
 ]
