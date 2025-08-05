@@ -31954,5 +31954,4657 @@
     },
     "term": "lfx-2025-term2",
     "weekOf": "2025-07-21"
+  },
+  {
+    "mentee": {
+      "login": "vaibhaavv8",
+      "name": "Vaibhav K",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "jason810496",
+      "name": "LIU ZHE YOU",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 6,
+        "totalPullRequestReviewContributions": 14,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "apache"
+              },
+              "nameWithOwner": "apache/airflow",
+              "url": "https://github.com/apache/airflow"
+            },
+            "url": "https://github.com/apache/airflow/commits?author=jason810496&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "jason810496"
+              },
+              "nameWithOwner": "jason810496/blog",
+              "url": "https://github.com/jason810496/blog"
+            },
+            "url": "https://github.com/jason810496/blog/commits?author=jason810496&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jason810496"
+              },
+              "nameWithOwner": "jason810496/krkn",
+              "url": "https://github.com/jason810496/krkn"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 2
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "apache"
+              },
+              "nameWithOwner": "apache/airflow",
+              "url": "https://github.com/apache/airflow"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 54054
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 54050
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 54007
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "apache"
+              },
+              "nameWithOwner": "apache/airflow",
+              "url": "https://github.com/apache/airflow"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 13,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/54043#pullrequestreview-3085049888",
+                    "pullRequest": {
+                      "number": 54043
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/53815#pullrequestreview-3084976335",
+                    "pullRequest": {
+                      "number": 53815
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/54034#pullrequestreview-3084945103",
+                    "pullRequest": {
+                      "number": 54034
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/54070#pullrequestreview-3084823567",
+                    "pullRequest": {
+                      "number": 54070
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/45931#pullrequestreview-3080225558",
+                    "pullRequest": {
+                      "number": 45931
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/53975#pullrequestreview-3080200727",
+                    "pullRequest": {
+                      "number": 53975
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/53960#pullrequestreview-3075538474",
+                    "pullRequest": {
+                      "number": 53960
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/53923#pullrequestreview-3071317622",
+                    "pullRequest": {
+                      "number": 53923
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/53598#pullrequestreview-3069826829",
+                    "pullRequest": {
+                      "number": 53598
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/53821#pullrequestreview-3068159577",
+                    "pullRequest": {
+                      "number": 53821
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/53879#pullrequestreview-3067239217",
+                    "pullRequest": {
+                      "number": 53879
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/53807#pullrequestreview-3061418382",
+                    "pullRequest": {
+                      "number": 53807
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/apache/airflow/pull/53597#pullrequestreview-3060960073",
+                    "pullRequest": {
+                      "number": 53597
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "jason810496"
+              },
+              "nameWithOwner": "jason810496/krkn",
+              "url": "https://github.com/jason810496/krkn"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/jason810496/krkn/pull/2#pullrequestreview-3084224286",
+                    "pullRequest": {
+                      "number": 2
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "vishvamsinh28",
+      "name": "Vishvamsinh Vaghela",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger-ui",
+              "url": "https://github.com/jaegertracing/jaeger-ui"
+            },
+            "url": "https://github.com/jaegertracing/jaeger-ui/commits?author=vishvamsinh28&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger-ui",
+              "url": "https://github.com/jaegertracing/jaeger-ui"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3003
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 3001
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "kagaya85",
+      "name": "Kagaya",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "go-kratos"
+              },
+              "nameWithOwner": "go-kratos/aegis",
+              "url": "https://github.com/go-kratos/aegis"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/go-kratos/aegis/pull/40#pullrequestreview-3060218769",
+                    "pullRequest": {
+                      "number": 40
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "Manas23601",
+      "name": "Manas Sivakumar",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "opencost"
+              },
+              "nameWithOwner": "opencost/opencost-integration-tests",
+              "url": "https://github.com/opencost/opencost-integration-tests"
+            },
+            "url": "https://github.com/opencost/opencost-integration-tests/commits?author=Manas23601&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "opencost"
+              },
+              "nameWithOwner": "opencost/opencost-integration-tests",
+              "url": "https://github.com/opencost/opencost-integration-tests"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 26
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 25
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 24
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 23
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "CodeAhmedJamil",
+      "name": "Ahmed Jamil",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=CodeAhmedJamil&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 15513
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "anshRastogi02",
+      "name": "Ansh Rastogi",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "AishwaryaGhatole2102",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "sachin21212121",
+      "name": "Sachin Jha",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "mahdikhashan",
+      "name": "Mahdi Khashan",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": null,
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "MichaelRren",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 5,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 3,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "MichaelRren"
+              },
+              "nameWithOwner": "MichaelRren/resume-zh",
+              "url": "https://github.com/MichaelRren/resume-zh"
+            },
+            "url": "https://github.com/MichaelRren/resume-zh/commits?author=MichaelRren&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "MichaelRren"
+              },
+              "nameWithOwner": "MichaelRren/resume-zh",
+              "url": "https://github.com/MichaelRren/resume-zh"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "openkruise"
+              },
+              "nameWithOwner": "openkruise/openkruise.io",
+              "url": "https://github.com/openkruise/openkruise.io"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 271
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "Rohanraj123",
+      "name": "Rohan Raj",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 6,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kyverno"
+              },
+              "nameWithOwner": "kyverno/kyverno",
+              "url": "https://github.com/kyverno/kyverno"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 13718
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kyverno"
+              },
+              "nameWithOwner": "kyverno/kyverno",
+              "url": "https://github.com/kyverno/kyverno"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 6,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 13736
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 13735
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 13720
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 13719
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 13711
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 13708
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": null,
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "vivekbisen04",
+      "name": "Vivek Bisen",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 6,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 9,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vivekbisen04"
+              },
+              "nameWithOwner": "vivekbisen04/MVP",
+              "url": "https://github.com/vivekbisen04/MVP"
+            },
+            "url": "https://github.com/vivekbisen04/MVP/commits?author=vivekbisen04&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "vivekbisen04"
+              },
+              "nameWithOwner": "vivekbisen04/Mern",
+              "url": "https://github.com/vivekbisen04/Mern"
+            },
+            "url": "https://github.com/vivekbisen04/Mern/commits?author=vivekbisen04&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "vivekbisen04"
+              },
+              "nameWithOwner": "vivekbisen04/kubeedge",
+              "url": "https://github.com/vivekbisen04/kubeedge"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 9,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 25
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 24
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 21
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 20
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 19
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 18
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 17
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 16
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 15
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "Emidowojo",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "inspektor-gadget"
+              },
+              "nameWithOwner": "inspektor-gadget/inspektor-gadget",
+              "url": "https://github.com/inspektor-gadget/inspektor-gadget"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 4775
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "inspektor-gadget"
+              },
+              "nameWithOwner": "inspektor-gadget/website",
+              "url": "https://github.com/inspektor-gadget/website"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 171
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "chaospan",
+      "name": "chaospan",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "SinghaAnirban005",
+      "name": "Anirban Singha",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 7,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 5,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "SinghaAnirban005"
+              },
+              "nameWithOwner": "SinghaAnirban005/ReactLaunch",
+              "url": "https://github.com/SinghaAnirban005/ReactLaunch"
+            },
+            "url": "https://github.com/SinghaAnirban005/ReactLaunch/commits?author=SinghaAnirban005&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "headlamp-k8s"
+              },
+              "nameWithOwner": "headlamp-k8s/plugins",
+              "url": "https://github.com/headlamp-k8s/plugins"
+            },
+            "url": "https://github.com/headlamp-k8s/plugins/commits?author=SinghaAnirban005&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "calcom"
+              },
+              "nameWithOwner": "calcom/cal.com",
+              "url": "https://github.com/calcom/cal.com"
+            },
+            "url": "https://github.com/calcom/cal.com/commits?author=SinghaAnirban005&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "calcom"
+              },
+              "nameWithOwner": "calcom/cal.com",
+              "url": "https://github.com/calcom/cal.com"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 22799
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "calcom"
+              },
+              "nameWithOwner": "calcom/cal.com",
+              "url": "https://github.com/calcom/cal.com"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 22889
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 22864
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 22800
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "headlamp-k8s"
+              },
+              "nameWithOwner": "headlamp-k8s/plugins",
+              "url": "https://github.com/headlamp-k8s/plugins"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 353
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 345
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "amanycodes",
+      "name": "Aman",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 4,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "project-copacetic"
+              },
+              "nameWithOwner": "project-copacetic/copacetic",
+              "url": "https://github.com/project-copacetic/copacetic"
+            },
+            "url": "https://github.com/project-copacetic/copacetic/commits?author=amanycodes&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "amanycodes"
+              },
+              "nameWithOwner": "amanycodes/ComposeBK",
+              "url": "https://github.com/amanycodes/ComposeBK"
+            },
+            "url": "https://github.com/amanycodes/ComposeBK/commits?author=amanycodes&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "amanycodes"
+              },
+              "nameWithOwner": "amanycodes/portfolio",
+              "url": "https://github.com/amanycodes/portfolio"
+            },
+            "url": "https://github.com/amanycodes/portfolio/commits?author=amanycodes&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "project-copacetic"
+              },
+              "nameWithOwner": "project-copacetic/copacetic",
+              "url": "https://github.com/project-copacetic/copacetic"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 1232
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "project-copacetic"
+              },
+              "nameWithOwner": "project-copacetic/copacetic",
+              "url": "https://github.com/project-copacetic/copacetic"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1238
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1235
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "chahatsagarmain",
+      "name": "chahat sagar",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "url": "https://github.com/jaegertracing/jaeger/commits?author=chahatsagarmain&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 7403
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "chahatsagarmain"
+              },
+              "nameWithOwner": "chahatsagarmain/jaeger",
+              "url": "https://github.com/chahatsagarmain/jaeger"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "btwshivam",
+      "name": "Shivam Kumar",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 7,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 16,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubestellar"
+              },
+              "nameWithOwner": "kubestellar/ui",
+              "url": "https://github.com/kubestellar/ui"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 1739
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 1738
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 1737
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 1736
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 1735
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 1734
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 1692
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubestellar"
+              },
+              "nameWithOwner": "kubestellar/ui",
+              "url": "https://github.com/kubestellar/ui"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 16,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1708#pullrequestreview-3082107520",
+                    "pullRequest": {
+                      "number": 1708
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1714#pullrequestreview-3081166414",
+                    "pullRequest": {
+                      "number": 1714
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1717#pullrequestreview-3081164280",
+                    "pullRequest": {
+                      "number": 1717
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1716#pullrequestreview-3081161300",
+                    "pullRequest": {
+                      "number": 1716
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1712#pullrequestreview-3081153365",
+                    "pullRequest": {
+                      "number": 1712
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1711#pullrequestreview-3081134795",
+                    "pullRequest": {
+                      "number": 1711
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1709#pullrequestreview-3081112432",
+                    "pullRequest": {
+                      "number": 1709
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1707#pullrequestreview-3081069076",
+                    "pullRequest": {
+                      "number": 1707
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1702#pullrequestreview-3081015460",
+                    "pullRequest": {
+                      "number": 1702
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1688#pullrequestreview-3076916827",
+                    "pullRequest": {
+                      "number": 1688
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1701#pullrequestreview-3076914047",
+                    "pullRequest": {
+                      "number": 1701
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1685#pullrequestreview-3067475427",
+                    "pullRequest": {
+                      "number": 1685
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1676#pullrequestreview-3063036921",
+                    "pullRequest": {
+                      "number": 1676
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1636#pullrequestreview-3063024754",
+                    "pullRequest": {
+                      "number": 1636
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1675#pullrequestreview-3062875560",
+                    "pullRequest": {
+                      "number": 1675
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/ui/pull/1571#pullrequestreview-3062116718",
+                    "pullRequest": {
+                      "number": 1571
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "upsaurav12",
+      "name": "Saurav Upadhyay",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/headlamp",
+              "url": "https://github.com/kubernetes-sigs/headlamp"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3740
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "miledxz",
+      "name": "Mile Druzijanic",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "Paladian78",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "neolit123",
+      "name": "Lubomir I. Ivanov",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 5,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes"
+              },
+              "nameWithOwner": "kubernetes/test-infra",
+              "url": "https://github.com/kubernetes/test-infra"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes/test-infra/pull/35253#pullrequestreview-3078327471",
+                    "pullRequest": {
+                      "number": 35253
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes/test-infra/pull/35249#pullrequestreview-3075084313",
+                    "pullRequest": {
+                      "number": 35249
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes"
+              },
+              "nameWithOwner": "kubernetes/kubernetes",
+              "url": "https://github.com/kubernetes/kubernetes"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes/kubernetes/pull/133347#pullrequestreview-3078136026",
+                    "pullRequest": {
+                      "number": 133347
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes/kubernetes/pull/133179#pullrequestreview-3064499235",
+                    "pullRequest": {
+                      "number": 133179
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/cluster-api",
+              "url": "https://github.com/kubernetes-sigs/cluster-api"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubernetes-sigs/cluster-api/pull/12565#pullrequestreview-3078309174",
+                    "pullRequest": {
+                      "number": 12565
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "g4rud4kun",
+      "name": "Harsh Gupta",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "vishruth-thimmaiah",
+      "name": "Vishruth Thimmaiah",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "MayorFaj",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "github"
+              },
+              "nameWithOwner": "github/github-mcp-server",
+              "url": "https://github.com/github/github-mcp-server"
+            },
+            "url": "https://github.com/github/github-mcp-server/commits?author=MayorFaj&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kgateway-dev"
+              },
+              "nameWithOwner": "kgateway-dev/kgateway",
+              "url": "https://github.com/kgateway-dev/kgateway"
+            },
+            "url": "https://github.com/kgateway-dev/kgateway/commits?author=MayorFaj&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kgateway-dev"
+              },
+              "nameWithOwner": "kgateway-dev/kgateway",
+              "url": "https://github.com/kgateway-dev/kgateway"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 11803
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "AayushSaini101",
+      "name": "Moderator ",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 9,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 2,
+        "totalRepositoriesWithContributedCommits": 4,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "AayushSaini101"
+              },
+              "nameWithOwner": "AayushSaini101/sampleweb",
+              "url": "https://github.com/AayushSaini101/sampleweb"
+            },
+            "url": "https://github.com/AayushSaini101/sampleweb/commits?author=AayushSaini101&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "AayushSaini101"
+              },
+              "nameWithOwner": "AayushSaini101/onyx-githubpages",
+              "url": "https://github.com/AayushSaini101/onyx-githubpages"
+            },
+            "url": "https://github.com/AayushSaini101/onyx-githubpages/commits?author=AayushSaini101&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "AayushSaini101"
+              },
+              "nameWithOwner": "AayushSaini101/websiteonyx",
+              "url": "https://github.com/AayushSaini101/websiteonyx"
+            },
+            "url": "https://github.com/AayushSaini101/websiteonyx/commits?author=AayushSaini101&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "asyncapi"
+              },
+              "nameWithOwner": "asyncapi/cli",
+              "url": "https://github.com/asyncapi/cli"
+            },
+            "url": "https://github.com/asyncapi/cli/commits?author=AayushSaini101&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "onyx-dot-app"
+              },
+              "nameWithOwner": "onyx-dot-app/onyx",
+              "url": "https://github.com/onyx-dot-app/onyx"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5149
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "asyncapi"
+              },
+              "nameWithOwner": "asyncapi/generator",
+              "url": "https://github.com/asyncapi/generator"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/asyncapi/generator/pull/1623#pullrequestreview-3074888914",
+                    "pullRequest": {
+                      "number": 1623
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "asyncapi"
+              },
+              "nameWithOwner": "asyncapi/cli",
+              "url": "https://github.com/asyncapi/cli"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/asyncapi/cli/pull/1807#pullrequestreview-3072333694",
+                    "pullRequest": {
+                      "number": 1807
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "niladrix719",
+      "name": "Niladri Adhikary",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 35,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 6,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "niladrix719"
+              },
+              "nameWithOwner": "niladrix719/CD2",
+              "url": "https://github.com/niladrix719/CD2"
+            },
+            "url": "https://github.com/niladrix719/CD2/commits?author=niladrix719&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 33
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "pipe-cd"
+              },
+              "nameWithOwner": "pipe-cd/pipecd",
+              "url": "https://github.com/pipe-cd/pipecd"
+            },
+            "url": "https://github.com/pipe-cd/pipecd/commits?author=niladrix719&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "pipe-cd"
+              },
+              "nameWithOwner": "pipe-cd/pipecd",
+              "url": "https://github.com/pipe-cd/pipecd"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 6102
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 6099
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 6098
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 6090
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 6089
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kube-burner"
+              },
+              "nameWithOwner": "kube-burner/kube-burner",
+              "url": "https://github.com/kube-burner/kube-burner"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 939
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "dhimanAbhi",
+      "name": "Abhishek Dhiman",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "Rupam-It",
+      "name": "Rupam Manna",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 4,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Rupam-It"
+              },
+              "nameWithOwner": "Rupam-It/configmapSyncOperator",
+              "url": "https://github.com/Rupam-It/configmapSyncOperator"
+            },
+            "url": "https://github.com/Rupam-It/configmapSyncOperator/commits?author=Rupam-It&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cncf"
+              },
+              "nameWithOwner": "cncf/mentoring",
+              "url": "https://github.com/cncf/mentoring"
+            },
+            "url": "https://github.com/cncf/mentoring/commits?author=Rupam-It&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubestellar"
+              },
+              "nameWithOwner": "kubestellar/kubestellar",
+              "url": "https://github.com/kubestellar/kubestellar"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3152
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "de6p",
+      "name": "Deep",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "FaheemOnHub",
+      "name": "TheFaheem",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 24,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 9,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "url": "https://github.com/meshery/meshery/commits?author=FaheemOnHub&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 14
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "url": "https://github.com/layer5io/sistent/commits?author=FaheemOnHub&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 10
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 15471
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/sistent",
+              "url": "https://github.com/layer5io/sistent"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1119
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1118
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1117
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1115
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1114
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 15496
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 15493
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 15474
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 15473
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/layer5",
+              "url": "https://github.com/layer5io/layer5"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/layer5/pull/6665#pullrequestreview-3083770688",
+                    "pullRequest": {
+                      "number": 6665
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "oksaumya",
+      "name": "Saumya Kumar",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 8,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 7,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubestellar"
+              },
+              "nameWithOwner": "kubestellar/ui",
+              "url": "https://github.com/kubestellar/ui"
+            },
+            "url": "https://github.com/kubestellar/ui/commits?author=oksaumya&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cncf"
+              },
+              "nameWithOwner": "cncf/mentoring",
+              "url": "https://github.com/cncf/mentoring"
+            },
+            "url": "https://github.com/cncf/mentoring/commits?author=oksaumya&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubestellar"
+              },
+              "nameWithOwner": "kubestellar/ui",
+              "url": "https://github.com/kubestellar/ui"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1715
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1701
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1700
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1693
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1691
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1666
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1665
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "narharim",
+      "name": "Narhari Motivaras",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "container-registry"
+              },
+              "nameWithOwner": "container-registry/harbor-satellite",
+              "url": "https://github.com/container-registry/harbor-satellite"
+            },
+            "url": "https://github.com/container-registry/harbor-satellite/commits?author=narharim&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "container-registry"
+              },
+              "nameWithOwner": "container-registry/harbor-satellite",
+              "url": "https://github.com/container-registry/harbor-satellite"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 191
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 190
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "kadai0308",
+      "name": "Chun Wei Lu",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "apache"
+              },
+              "nameWithOwner": "apache/iceberg",
+              "url": "https://github.com/apache/iceberg"
+            },
+            "url": "https://github.com/apache/iceberg/commits?author=kadai0308&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "d-aggarwal",
+      "name": "Drishti Aggarwal",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 6,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 3,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "d-aggarwal"
+              },
+              "nameWithOwner": "d-aggarwal/DSA",
+              "url": "https://github.com/d-aggarwal/DSA"
+            },
+            "url": "https://github.com/d-aggarwal/DSA/commits?author=d-aggarwal&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cartography-cncf"
+              },
+              "nameWithOwner": "cartography-cncf/cartography",
+              "url": "https://github.com/cartography-cncf/cartography"
+            },
+            "url": "https://github.com/cartography-cncf/cartography/commits?author=d-aggarwal&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cartography-cncf"
+              },
+              "nameWithOwner": "cartography-cncf/cartography",
+              "url": "https://github.com/cartography-cncf/cartography"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1766
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 1746
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cartography-cncf"
+              },
+              "nameWithOwner": "cartography-cncf/cartography",
+              "url": "https://github.com/cartography-cncf/cartography"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/cartography-cncf/cartography/pull/1761#pullrequestreview-3082976139",
+                    "pullRequest": {
+                      "number": 1761
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/cartography-cncf/cartography/pull/1765#pullrequestreview-3082939351",
+                    "pullRequest": {
+                      "number": 1765
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/cartography-cncf/cartography/pull/1744#pullrequestreview-3082883423",
+                    "pullRequest": {
+                      "number": 1744
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "sagnik3788",
+      "name": "Sagnik Das",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 19,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 4,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "sagnik3788"
+              },
+              "nameWithOwner": "sagnik3788/tofu-example",
+              "url": "https://github.com/sagnik3788/tofu-example"
+            },
+            "url": "https://github.com/sagnik3788/tofu-example/commits?author=sagnik3788&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 9
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sagnik3788"
+              },
+              "nameWithOwner": "sagnik3788/PromptSafely",
+              "url": "https://github.com/sagnik3788/PromptSafely"
+            },
+            "url": "https://github.com/sagnik3788/PromptSafely/commits?author=sagnik3788&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 8
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "pipe-cd"
+              },
+              "nameWithOwner": "pipe-cd/community-plugins",
+              "url": "https://github.com/pipe-cd/community-plugins"
+            },
+            "url": "https://github.com/pipe-cd/community-plugins/commits?author=sagnik3788&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "sagnik3788"
+              },
+              "nameWithOwner": "sagnik3788/sagnik3788",
+              "url": "https://github.com/sagnik3788/sagnik3788"
+            },
+            "url": "https://github.com/sagnik3788/sagnik3788/commits?author=sagnik3788&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "pipe-cd"
+              },
+              "nameWithOwner": "pipe-cd/community-plugins",
+              "url": "https://github.com/pipe-cd/community-plugins"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 35
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 34
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "zhengkezhou1",
+      "name": "Zhengke Zhou",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 4,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 3,
+        "totalRepositoriesWithContributedCommits": 4,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kgateway-dev"
+              },
+              "nameWithOwner": "kgateway-dev/community",
+              "url": "https://github.com/kgateway-dev/community"
+            },
+            "url": "https://github.com/kgateway-dev/community/commits?author=zhengkezhou1&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/gateway-api-inference-extension",
+              "url": "https://github.com/kubernetes-sigs/gateway-api-inference-extension"
+            },
+            "url": "https://github.com/kubernetes-sigs/gateway-api-inference-extension/commits?author=zhengkezhou1&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "jaegertracing"
+              },
+              "nameWithOwner": "jaegertracing/jaeger",
+              "url": "https://github.com/jaegertracing/jaeger"
+            },
+            "url": "https://github.com/jaegertracing/jaeger/commits?author=zhengkezhou1&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kgateway-dev"
+              },
+              "nameWithOwner": "kgateway-dev/kgateway",
+              "url": "https://github.com/kgateway-dev/kgateway"
+            },
+            "url": "https://github.com/kgateway-dev/kgateway/commits?author=zhengkezhou1&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kgateway-dev"
+              },
+              "nameWithOwner": "kgateway-dev/community",
+              "url": "https://github.com/kgateway-dev/community"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 107
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/gateway-api-inference-extension",
+              "url": "https://github.com/kubernetes-sigs/gateway-api-inference-extension"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1280
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kgateway-dev"
+              },
+              "nameWithOwner": "kgateway-dev/kgateway",
+              "url": "https://github.com/kgateway-dev/kgateway"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kgateway-dev/kgateway/pull/11860#pullrequestreview-3082478667",
+                    "pullRequest": {
+                      "number": 11860
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kgateway-dev/kgateway/pull/11856#pullrequestreview-3082469118",
+                    "pullRequest": {
+                      "number": 11856
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kgateway-dev/kgateway/pull/11670#pullrequestreview-3080777016",
+                    "pullRequest": {
+                      "number": 11670
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "ItshMoh",
+      "name": "Mohan Kumar",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 16,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 5,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cardea-mcp"
+              },
+              "nameWithOwner": "cardea-mcp/ExamPrepAgent",
+              "url": "https://github.com/cardea-mcp/ExamPrepAgent"
+            },
+            "url": "https://github.com/cardea-mcp/ExamPrepAgent/commits?author=ItshMoh&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 16
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cardea-mcp"
+              },
+              "nameWithOwner": "cardea-mcp/ExamPrepAgent",
+              "url": "https://github.com/cardea-mcp/ExamPrepAgent"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 30
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 29
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 28
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 27
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 26
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "mukeshmahato17",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "mukeshmahato17"
+              },
+              "nameWithOwner": "mukeshmahato17/miniflux-sync",
+              "url": "https://github.com/mukeshmahato17/miniflux-sync"
+            },
+            "url": "https://github.com/mukeshmahato17/miniflux-sync/commits?author=mukeshmahato17&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "arctic-beep",
+      "name": null,
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 6,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 2,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "url": "https://github.com/layer5io/docs/commits?author=arctic-beep&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 6
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 736
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 734
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery.io",
+              "url": "https://github.com/meshery/meshery.io"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery.io/pull/2309#pullrequestreview-3077964933",
+                    "pullRequest": {
+                      "number": 2309
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "meshery"
+              },
+              "nameWithOwner": "meshery/meshery",
+              "url": "https://github.com/meshery/meshery"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/meshery/meshery/pull/15459#pullrequestreview-3062588148",
+                    "pullRequest": {
+                      "number": 15459
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "rxinui",
+      "name": "rxinui",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 6,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubestellar"
+              },
+              "nameWithOwner": "kubestellar/kubeflex",
+              "url": "https://github.com/kubestellar/kubeflex"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/kubeflex/pull/451#pullrequestreview-3075286041",
+                    "pullRequest": {
+                      "number": 451
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/kubeflex/pull/491#pullrequestreview-3074760212",
+                    "pullRequest": {
+                      "number": 491
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/kubeflex/pull/488#pullrequestreview-3072083487",
+                    "pullRequest": {
+                      "number": 488
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/kubeflex/pull/479#pullrequestreview-3071849717",
+                    "pullRequest": {
+                      "number": 479
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubestellar/kubeflex/pull/478#pullrequestreview-3071844699",
+                    "pullRequest": {
+                      "number": 478
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubetail-org"
+              },
+              "nameWithOwner": "kubetail-org/kubetail",
+              "url": "https://github.com/kubetail-org/kubetail"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/kubetail-org/kubetail/pull/570#pullrequestreview-3082331221",
+                    "pullRequest": {
+                      "number": 570
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "qcserestipy",
+      "name": "Patrick Eschenbach",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor-cli",
+              "url": "https://github.com/goharbor/harbor-cli"
+            },
+            "url": "https://github.com/goharbor/harbor-cli/commits?author=qcserestipy&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "goharbor"
+              },
+              "nameWithOwner": "goharbor/harbor-cli",
+              "url": "https://github.com/goharbor/harbor-cli"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 521
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "userAdityaa",
+      "name": "Aditya Chaudhary",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 10,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "userAdityaa"
+              },
+              "nameWithOwner": "userAdityaa/hookswap",
+              "url": "https://github.com/userAdityaa/hookswap"
+            },
+            "url": "https://github.com/userAdityaa/hookswap/commits?author=userAdityaa&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 6
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/headlamp",
+              "url": "https://github.com/kubernetes-sigs/headlamp"
+            },
+            "url": "https://github.com/kubernetes-sigs/headlamp/commits?author=userAdityaa&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "zulip"
+              },
+              "nameWithOwner": "zulip/zulip",
+              "url": "https://github.com/zulip/zulip"
+            },
+            "url": "https://github.com/zulip/zulip/commits?author=userAdityaa&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/headlamp",
+              "url": "https://github.com/kubernetes-sigs/headlamp"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 3696
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 3695
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "bearslyricattack",
+      "name": "Bearix",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "volcano-sh"
+              },
+              "nameWithOwner": "volcano-sh/website",
+              "url": "https://github.com/volcano-sh/website"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 411
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "labring"
+              },
+              "nameWithOwner": "labring/sealos",
+              "url": "https://github.com/labring/sealos"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 5729
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "vatsalkeshav",
+      "name": "Vatsal Keshav",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "greshake"
+              },
+              "nameWithOwner": "greshake/i3status-rust",
+              "url": "https://github.com/greshake/i3status-rust"
+            },
+            "url": "https://github.com/greshake/i3status-rust/commits?author=vatsalkeshav&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "LuluNwenyi",
+      "name": "Oluchi Nwenyi",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "zihanKuang",
+      "name": "Zihan Kuang",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 46,
+        "totalIssueContributions": 7,
+        "totalPullRequestContributions": 12,
+        "totalPullRequestReviewContributions": 14,
+        "totalRepositoriesWithContributedCommits": 5,
+        "totalRepositoriesWithContributedIssues": 3,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "url": "https://github.com/layer5io/docs/commits?author=zihanKuang&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 26
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/academy-build",
+              "url": "https://github.com/layer5io/academy-build"
+            },
+            "url": "https://github.com/layer5io/academy-build/commits?author=zihanKuang&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 9
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/layer5-academy",
+              "url": "https://github.com/layer5io/layer5-academy"
+            },
+            "url": "https://github.com/layer5io/layer5-academy/commits?author=zihanKuang&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/academy-theme",
+              "url": "https://github.com/layer5io/academy-theme"
+            },
+            "url": "https://github.com/layer5io/academy-theme/commits?author=zihanKuang&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/exoscale-academy",
+              "url": "https://github.com/layer5io/exoscale-academy"
+            },
+            "url": "https://github.com/layer5io/exoscale-academy/commits?author=zihanKuang&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 5,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 732
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 719
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 718
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 717
+                  }
+                },
+                {
+                  "issue": {
+                    "number": 716
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/exoscale-academy",
+              "url": "https://github.com/layer5io/exoscale-academy"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 205
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/academy-theme",
+              "url": "https://github.com/layer5io/academy-theme"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 62
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 6,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 739
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 738
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 737
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 728
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 727
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 725
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/academy-build",
+              "url": "https://github.com/layer5io/academy-build"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 45
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 44
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 43
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/exoscale-academy",
+              "url": "https://github.com/layer5io/exoscale-academy"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 233
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/layer5-academy",
+              "url": "https://github.com/layer5io/layer5-academy"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 49
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/academy-theme",
+              "url": "https://github.com/layer5io/academy-theme"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 60
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/docs",
+              "url": "https://github.com/layer5io/docs"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 7,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/730#pullrequestreview-3083153053",
+                    "pullRequest": {
+                      "number": 730
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/708#pullrequestreview-3082627307",
+                    "pullRequest": {
+                      "number": 708
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/736#pullrequestreview-3081619771",
+                    "pullRequest": {
+                      "number": 736
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/734#pullrequestreview-3081061202",
+                    "pullRequest": {
+                      "number": 734
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/724#pullrequestreview-3073634829",
+                    "pullRequest": {
+                      "number": 724
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/725#pullrequestreview-3070501300",
+                    "pullRequest": {
+                      "number": 725
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/docs/pull/723#pullrequestreview-3069772239",
+                    "pullRequest": {
+                      "number": 723
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/academy-theme",
+              "url": "https://github.com/layer5io/academy-theme"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 4,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/academy-theme/pull/72#pullrequestreview-3084070343",
+                    "pullRequest": {
+                      "number": 72
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/academy-theme/pull/78#pullrequestreview-3081795605",
+                    "pullRequest": {
+                      "number": 78
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/academy-theme/pull/64#pullrequestreview-3068109612",
+                    "pullRequest": {
+                      "number": 64
+                    }
+                  }
+                },
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/academy-theme/pull/61#pullrequestreview-3062674728",
+                    "pullRequest": {
+                      "number": 61
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/layer5-academy",
+              "url": "https://github.com/layer5io/layer5-academy"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/layer5-academy/pull/65#pullrequestreview-3082665679",
+                    "pullRequest": {
+                      "number": 65
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/exoscale-academy",
+              "url": "https://github.com/layer5io/exoscale-academy"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/exoscale-academy/pull/200#pullrequestreview-3069763818",
+                    "pullRequest": {
+                      "number": 200
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "layer5io"
+              },
+              "nameWithOwner": "layer5io/academy-build",
+              "url": "https://github.com/layer5io/academy-build"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/layer5io/academy-build/pull/42#pullrequestreview-3068110061",
+                    "pullRequest": {
+                      "number": 42
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "Khushmagrawal",
+      "name": "Khush Agrawal",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "ghadeer-elsalhawy",
+      "name": "Ghadeer Elsalhawy",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 10,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "ghadeer-elsalhawy"
+              },
+              "nameWithOwner": "ghadeer-elsalhawy/flask_app",
+              "url": "https://github.com/ghadeer-elsalhawy/flask_app"
+            },
+            "url": "https://github.com/ghadeer-elsalhawy/flask_app/commits?author=ghadeer-elsalhawy&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 9
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "ghadeer-elsalhawy"
+              },
+              "nameWithOwner": "ghadeer-elsalhawy/go-mini-projects",
+              "url": "https://github.com/ghadeer-elsalhawy/go-mini-projects"
+            },
+            "url": "https://github.com/ghadeer-elsalhawy/go-mini-projects/commits?author=ghadeer-elsalhawy&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "abhi0324",
+      "name": "Abhiswant Chaudhary",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "abhi0324"
+              },
+              "nameWithOwner": "abhi0324/OpenKruise-Karmada-OCM",
+              "url": "https://github.com/abhi0324/OpenKruise-Karmada-OCM"
+            },
+            "url": "https://github.com/abhi0324/OpenKruise-Karmada-OCM/commits?author=abhi0324&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "EdwinaZhu",
+      "name": "Ying Zhu",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
+  },
+  {
+    "mentee": {
+      "login": "Ajay-singh1",
+      "name": "Ajay Singh",
+      "contributionsCollection": {
+        "startedAt": "2025-07-28T00:00:00Z",
+        "endedAt": "2025-08-04T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 4,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "istio"
+              },
+              "nameWithOwner": "istio/istio.io",
+              "url": "https://github.com/istio/istio.io"
+            },
+            "url": "https://github.com/istio/istio.io/commits?author=Ajay-singh1&since=2025-07-28&until=2025-08-05",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cilium"
+              },
+              "nameWithOwner": "cilium/cilium.io",
+              "url": "https://github.com/cilium/cilium.io"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 670
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "istio"
+              },
+              "nameWithOwner": "istio/istio.io",
+              "url": "https://github.com/istio/istio.io"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 16747
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 16746
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 16734
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "cilium"
+              },
+              "nameWithOwner": "cilium/cilium.io",
+              "url": "https://github.com/cilium/cilium.io"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 669
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "cilium"
+              },
+              "nameWithOwner": "cilium/cilium.io",
+              "url": "https://github.com/cilium/cilium.io"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/cilium/cilium.io/pull/672#pullrequestreview-3075497377",
+                    "pullRequest": {
+                      "number": 672
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "lfx-2025-term2",
+    "weekOf": "2025-07-28"
   }
 ]
