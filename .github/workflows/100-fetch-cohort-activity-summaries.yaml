@@ -124,11 +124,59 @@ jobs:
           
             if [ "$complete" = "true" ]; then
               echo "Process is complete, creating a PR"
+
+              # Build a descriptive PR body from the new output files.
+              # Groups data by term with start/end dates matching the
+              # inputs required by 999-fetch-cohort-activity-summaries-manually.
+              NEW_OUTPUT_FILES=$(git diff --name-only origin/main -- 100-fetch-cohort-activity-summaries/ | grep 'output-.*\.json$' || true)
+              if [ -n "$NEW_OUTPUT_FILES" ]; then
+                # Extract unique term+weekOf pairs using jq, sorted by term then date
+                TERM_WEEKS=$(echo "$NEW_OUTPUT_FILES" \
+                  | xargs -r jq -r '"\(.result.term)|\(.result.weekOf)"' \
+                  | sort -t'|' -k1,1 -k2,2 -u)
+              fi
+
+              PR_BODY="## Automated Activity Summary"
+
+              if [ -n "$TERM_WEEKS" ]; then
+                PR_BODY="${PR_BODY}\n\nTo re-run manually with \`999-fetch-cohort-activity-summaries-manually\`:"
+                PR_BODY="${PR_BODY}\n\n| termKey | startDate | endDate |"
+                PR_BODY="${PR_BODY}\n|---|---|---|"
+
+                # Compute min weekOf (startDate) and max weekOf + 6 days
+                # (endDate, a Sunday) per term
+                PREV_TERM=""
+                MIN_DATE=""
+                MAX_DATE=""
+                while IFS='|' read -r term weekOf; do
+                  if [ "$term" != "$PREV_TERM" ] && [ -n "$PREV_TERM" ]; then
+                    END_DATE=$(date -d "${MAX_DATE} + 6 days" +%Y-%m-%d)
+                    PR_BODY="${PR_BODY}\n| ${PREV_TERM} | ${MIN_DATE} | ${END_DATE} |"
+                    MIN_DATE=""
+                    MAX_DATE=""
+                  fi
+                  PREV_TERM="$term"
+                  if [ -z "$MIN_DATE" ] || [[ "$weekOf" < "$MIN_DATE" ]]; then
+                    MIN_DATE="$weekOf"
+                  fi
+                  if [ -z "$MAX_DATE" ] || [[ "$weekOf" > "$MAX_DATE" ]]; then
+                    MAX_DATE="$weekOf"
+                  fi
+                done <<< "$TERM_WEEKS"
+                # Flush the last term
+                if [ -n "$PREV_TERM" ]; then
+                  END_DATE=$(date -d "${MAX_DATE} + 6 days" +%Y-%m-%d)
+                  PR_BODY="${PR_BODY}\n| ${PREV_TERM} | ${MIN_DATE} | ${END_DATE} |"
+                fi
+              else
+                PR_BODY="${PR_BODY}\n\nNo new activity data found."
+              fi
+
               # create the PR from a temporary branch
               AFFIX=$(date +%s) 
               TMP_BRANCH_NAME="${{ env.BRANCH_NAME }}-${AFFIX}"
               git checkout -b "${TMP_BRANCH_NAME}"
               git push --force origin "${TMP_BRANCH_NAME}"
-              GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 100-fetch-cohort-activity-summaries and 150-build-cohort-activity-summaries" --body "Automated" --base main --head "${TMP_BRANCH_NAME}"
+              GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 100-fetch-cohort-activity-summaries and 150-build-cohort-activity-summaries" --body "$(echo -e "$PR_BODY")" --base main --head "${TMP_BRANCH_NAME}"
             fi
           fi
