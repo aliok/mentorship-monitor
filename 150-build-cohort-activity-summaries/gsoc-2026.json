@@ -1431,5 +1431,335 @@
     },
     "term": "gsoc-2026",
     "weekOf": "2026-06-22"
+  },
+  {
+    "mentee": {
+      "login": "MatteoFari",
+      "name": "Matteo Fari",
+      "contributionsCollection": {
+        "startedAt": "2026-06-29T00:00:00Z",
+        "endedAt": "2026-07-06T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 3,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "oscal-compass"
+              },
+              "nameWithOwner": "oscal-compass/compliance-trestle",
+              "url": "https://github.com/oscal-compass/compliance-trestle"
+            },
+            "url": "https://github.com/oscal-compass/compliance-trestle/commits?author=MatteoFari&since=2026-06-29&until=2026-07-07",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kueue",
+              "url": "https://github.com/kubernetes-sigs/kueue"
+            },
+            "url": "https://github.com/kubernetes-sigs/kueue/commits?author=MatteoFari&since=2026-06-29&until=2026-07-07",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kueue",
+              "url": "https://github.com/kubernetes-sigs/kueue"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 2,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 12654
+                  }
+                },
+                {
+                  "pullRequest": {
+                    "number": 12632
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-06-29"
+  },
+  {
+    "mentee": {
+      "login": "JeffreyJPZ",
+      "name": "Jeffrey Zhang",
+      "contributionsCollection": {
+        "startedAt": "2026-06-29T00:00:00Z",
+        "endedAt": "2026-07-06T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "dapr"
+              },
+              "nameWithOwner": "dapr/dapr-agents",
+              "url": "https://github.com/dapr/dapr-agents"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/dapr/dapr-agents/pull/665#pullrequestreview-4603708948",
+                    "pullRequest": {
+                      "number": 665
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-06-29"
+  },
+  {
+    "mentee": {
+      "login": "Xio-Shark",
+      "name": "Teng Yanxi",
+      "contributionsCollection": {
+        "startedAt": "2026-06-29T00:00:00Z",
+        "endedAt": "2026-07-06T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 5,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 3,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Xio-Shark"
+              },
+              "nameWithOwner": "Xio-Shark/xiocode_settings",
+              "url": "https://github.com/Xio-Shark/xiocode_settings"
+            },
+            "url": "https://github.com/Xio-Shark/xiocode_settings/commits?author=Xio-Shark&since=2026-06-29&until=2026-07-07",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "Xio-Shark"
+              },
+              "nameWithOwner": "Xio-Shark/xiopi_settings",
+              "url": "https://github.com/Xio-Shark/xiopi_settings"
+            },
+            "url": "https://github.com/Xio-Shark/xiopi_settings/commits?author=Xio-Shark&since=2026-06-29&until=2026-07-07",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "Xio-Shark"
+              },
+              "nameWithOwner": "Xio-Shark/xiocode_codex_settings",
+              "url": "https://github.com/Xio-Shark/xiocode_codex_settings"
+            },
+            "url": "https://github.com/Xio-Shark/xiocode_codex_settings/commits?author=Xio-Shark&since=2026-06-29&until=2026-07-07",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Xio-Shark"
+              },
+              "nameWithOwner": "Xio-Shark/rollouts",
+              "url": "https://github.com/Xio-Shark/rollouts"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 1
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-06-29"
+  },
+  {
+    "mentee": {
+      "login": "Jaisheesh-2006",
+      "name": "Jaisheesh Venkat Goud Balagowni",
+      "contributionsCollection": {
+        "startedAt": "2026-06-29T00:00:00Z",
+        "endedAt": "2026-07-06T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 4,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Jaisheesh-2006"
+              },
+              "nameWithOwner": "Jaisheesh-2006/Nexus",
+              "url": "https://github.com/Jaisheesh-2006/Nexus"
+            },
+            "url": "https://github.com/Jaisheesh-2006/Nexus/commits?author=Jaisheesh-2006&since=2026-06-29&until=2026-07-07",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 3
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "Jaisheesh-2006"
+              },
+              "nameWithOwner": "Jaisheesh-2006/Jaisheesh-2006",
+              "url": "https://github.com/Jaisheesh-2006/Jaisheesh-2006"
+            },
+            "url": "https://github.com/Jaisheesh-2006/Jaisheesh-2006/commits?author=Jaisheesh-2006&since=2026-06-29&until=2026-07-07",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kptdev"
+              },
+              "nameWithOwner": "kptdev/kpt",
+              "url": "https://github.com/kptdev/kpt"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 4619
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-06-29"
+  },
+  {
+    "mentee": {
+      "login": "abhay1999",
+      "name": "Abhay Chaurasiya",
+      "contributionsCollection": {
+        "startedAt": "2026-06-29T00:00:00Z",
+        "endedAt": "2026-07-06T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-06-29"
   }
 ]
