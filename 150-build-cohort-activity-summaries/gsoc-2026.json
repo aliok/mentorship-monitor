@@ -3003,5 +3003,366 @@
     },
     "term": "gsoc-2026",
     "weekOf": "2026-07-20"
+  },
+  {
+    "mentee": {
+      "login": "JeffreyJPZ",
+      "name": "Jeffrey Zhang",
+      "contributionsCollection": {
+        "startedAt": "2026-07-27T00:00:00Z",
+        "endedAt": "2026-08-03T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 2,
+        "totalPullRequestContributions": 1,
+        "totalPullRequestReviewContributions": 1,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 2,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "dapr"
+              },
+              "nameWithOwner": "dapr/dapr-agents",
+              "url": "https://github.com/dapr/dapr-agents"
+            },
+            "url": "https://github.com/dapr/dapr-agents/commits?author=JeffreyJPZ&since=2026-07-27&until=2026-08-04",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "dapr"
+              },
+              "nameWithOwner": "dapr/python-sdk",
+              "url": "https://github.com/dapr/python-sdk"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 1181
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "dapr"
+              },
+              "nameWithOwner": "dapr/dapr-agents",
+              "url": "https://github.com/dapr/dapr-agents"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 710
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "dapr"
+              },
+              "nameWithOwner": "dapr/dapr-agents",
+              "url": "https://github.com/dapr/dapr-agents"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 709
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "dapr"
+              },
+              "nameWithOwner": "dapr/dapr-agents",
+              "url": "https://github.com/dapr/dapr-agents"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequestReview": {
+                    "url": "https://github.com/dapr/dapr-agents/pull/642#pullrequestreview-4821460262",
+                    "pullRequest": {
+                      "number": 642
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-07-27"
+  },
+  {
+    "mentee": {
+      "login": "MatteoFari",
+      "name": "Matteo Fari",
+      "contributionsCollection": {
+        "startedAt": "2026-07-27T00:00:00Z",
+        "endedAt": "2026-08-03T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 1,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 2,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kueue",
+              "url": "https://github.com/kubernetes-sigs/kueue"
+            },
+            "url": "https://github.com/kubernetes-sigs/kueue/commits?author=MatteoFari&since=2026-07-27&until=2026-08-04",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "oscal-compass"
+              },
+              "nameWithOwner": "oscal-compass/compliance-trestle",
+              "url": "https://github.com/oscal-compass/compliance-trestle"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 2302
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "kubernetes-sigs"
+              },
+              "nameWithOwner": "kubernetes-sigs/kueue",
+              "url": "https://github.com/kubernetes-sigs/kueue"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "pullRequest": {
+                    "number": 13545
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-07-27"
+  },
+  {
+    "mentee": {
+      "login": "Jaisheesh-2006",
+      "name": "Jaisheesh Venkat Goud Balagowni",
+      "contributionsCollection": {
+        "startedAt": "2026-07-27T00:00:00Z",
+        "endedAt": "2026-08-03T00:00:00Z",
+        "hasAnyContributions": false,
+        "totalCommitContributions": 0,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 0,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-07-27"
+  },
+  {
+    "mentee": {
+      "login": "Xio-Shark",
+      "name": "Teng Yanxi",
+      "contributionsCollection": {
+        "startedAt": "2026-07-27T00:00:00Z",
+        "endedAt": "2026-08-03T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 15,
+        "totalIssueContributions": 0,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 1,
+        "totalRepositoriesWithContributedIssues": 0,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "Xio-Shark"
+              },
+              "nameWithOwner": "Xio-Shark/xiocode",
+              "url": "https://github.com/Xio-Shark/xiocode"
+            },
+            "url": "https://github.com/Xio-Shark/xiocode/commits?author=Xio-Shark&since=2026-07-27&until=2026-08-04",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 15
+            }
+          }
+        ],
+        "issueContributionsByRepository": [],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-07-27"
+  },
+  {
+    "mentee": {
+      "login": "abhay1999",
+      "name": "Abhay Chaurasiya",
+      "contributionsCollection": {
+        "startedAt": "2026-07-27T00:00:00Z",
+        "endedAt": "2026-08-03T00:00:00Z",
+        "hasAnyContributions": true,
+        "totalCommitContributions": 2,
+        "totalIssueContributions": 1,
+        "totalPullRequestContributions": 0,
+        "totalPullRequestReviewContributions": 0,
+        "totalRepositoriesWithContributedCommits": 2,
+        "totalRepositoriesWithContributedIssues": 1,
+        "commitContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "llm-d"
+              },
+              "nameWithOwner": "llm-d/llm-d-benchmark",
+              "url": "https://github.com/llm-d/llm-d-benchmark"
+            },
+            "url": "https://github.com/llm-d/llm-d-benchmark/commits?author=abhay1999&since=2026-07-27&until=2026-08-04",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          },
+          {
+            "repository": {
+              "owner": {
+                "login": "abhay1999"
+              },
+              "nameWithOwner": "abhay1999/abhay1999",
+              "url": "https://github.com/abhay1999/abhay1999"
+            },
+            "url": "https://github.com/abhay1999/abhay1999/commits?author=abhay1999&since=2026-07-27&until=2026-08-04",
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1
+            }
+          }
+        ],
+        "issueContributionsByRepository": [
+          {
+            "repository": {
+              "owner": {
+                "login": "agentgateway"
+              },
+              "nameWithOwner": "agentgateway/agentgateway",
+              "url": "https://github.com/agentgateway/agentgateway"
+            },
+            "contributions": {
+              "pageInfo": {
+                "hasNextPage": false
+              },
+              "totalCount": 1,
+              "nodes": [
+                {
+                  "issue": {
+                    "number": 2809
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pullRequestContributionsByRepository": [],
+        "pullRequestReviewContributionsByRepository": []
+      }
+    },
+    "term": "gsoc-2026",
+    "weekOf": "2026-07-27"
   }
 ]
