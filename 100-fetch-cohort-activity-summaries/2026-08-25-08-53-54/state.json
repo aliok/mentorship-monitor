@@ -1,0 +1,3147 @@
+{
+  "startDate": "2026-08-25T08:53:54.374Z",
+  "completionDate": "2026-08-25T09:05:54.970Z",
+  "completionError": null,
+  "unresolved": {},
+  "resolved": {
+    "014f94c0-dbeb-44ed-86e8-47a784e7b5a7": {
+      "task": {
+        "id": "014f94c0-dbeb-44ed-86e8-47a784e7b5a7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "qcserestipy",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "03e510d6-e0dc-48a8-bf07-f03e1fd48502": {
+      "task": {
+        "id": "03e510d6-e0dc-48a8-bf07-f03e1fd48502",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ken6078",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "04ea9de3-931c-4808-99f3-b02b0d0d5231": {
+      "task": {
+        "id": "04ea9de3-931c-4808-99f3-b02b0d0d5231",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ani1609",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"ani1609\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 04ea9de3-931c-4808-99f3-b02b0d0d5231: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'ani1609'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 09:03:34 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6410:F462B:33158B9:AA43EBD:6A8D5A66\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4792\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"208\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'ani1609'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4792,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":208},\"user\":null}.",
+        "date": "2026-08-25T09:03:34.762Z"
+      }
+    },
+    "0695a924-cda3-459f-a996-8bf0038aedb7": {
+      "task": {
+        "id": "0695a924-cda3-459f-a996-8bf0038aedb7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "PersistentJZH",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "0729b255-54e8-4af9-8f40-fdda09953205": {
+      "task": {
+        "id": "0729b255-54e8-4af9-8f40-fdda09953205",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "FaheemOnHub",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "074de00b-8829-4ab8-a0ff-ab76e146bfa9": {
+      "task": {
+        "id": "074de00b-8829-4ab8-a0ff-ab76e146bfa9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "NA",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "079b681c-782c-4036-9405-c091998a8e9f": {
+      "task": {
+        "id": "079b681c-782c-4036-9405-c091998a8e9f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Kunal1522",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "08421084-3679-46dd-adbb-bae12554c35e": {
+      "task": {
+        "id": "08421084-3679-46dd-adbb-bae12554c35e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "amishhaa",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"amishhaa\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 08421084-3679-46dd-adbb-bae12554c35e: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'amishhaa'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 09:05:14 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6416:F06C9:32491C6:A75EE3A:6A8D5ACA\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4734\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"266\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'amishhaa'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4734,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":266},\"user\":null}.",
+        "date": "2026-08-25T09:05:14.878Z"
+      }
+    },
+    "0865a430-899c-4265-b0d5-b3f38e521218": {
+      "task": {
+        "id": "0865a430-899c-4265-b0d5-b3f38e521218",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "AnmolxSingh",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "0a834a7f-9631-4ee2-830b-be56635f4115": {
+      "task": {
+        "id": "0a834a7f-9631-4ee2-830b-be56635f4115",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "SharanRP",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "0b87e640-f6a0-4d6c-9791-666556be592c": {
+      "task": {
+        "id": "0b87e640-f6a0-4d6c-9791-666556be592c",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Divyansh200102",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "0b8d8468-79e3-4890-ac1a-f9bb91f521de": {
+      "task": {
+        "id": "0b8d8468-79e3-4890-ac1a-f9bb91f521de",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "neolit123",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "0bbe69d3-782a-4ec4-9bd1-1769957fa753": {
+      "task": {
+        "id": "0bbe69d3-782a-4ec4-9bd1-1769957fa753",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ilp-sys",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"ilp-sys\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 0bbe69d3-782a-4ec4-9bd1-1769957fa753: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'ilp-sys'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 08:57:14 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6413:29A3D6:42CFE3E:DEEFF60:6A8D58EA\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4929\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"71\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'ilp-sys'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4929,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":71},\"user\":null}.",
+        "date": "2026-08-25T08:57:14.618Z"
+      }
+    },
+    "0bca822e-bd6f-44c3-b969-dc34978f4db7": {
+      "task": {
+        "id": "0bca822e-bd6f-44c3-b969-dc34978f4db7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "jim-junior",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "0dd5872c-33e4-46cc-9d70-4c072c23cc5e": {
+      "task": {
+        "id": "0dd5872c-33e4-46cc-9d70-4c072c23cc5e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "narharim",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "0e2c06e6-ec1f-4f3e-b32c-4968271230e9": {
+      "task": {
+        "id": "0e2c06e6-ec1f-4f3e-b32c-4968271230e9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "supreme-gg-gg",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "11d54578-0d60-4387-86cd-e57e03958f8e": {
+      "task": {
+        "id": "11d54578-0d60-4387-86cd-e57e03958f8e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "a932846905",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "15ae87b0-6fec-42b5-89fe-2b2f50e5ec29": {
+      "task": {
+        "id": "15ae87b0-6fec-42b5-89fe-2b2f50e5ec29",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "btwshivam",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "16e1971f-9cc8-47f3-9e6d-9963485e6060": {
+      "task": {
+        "id": "16e1971f-9cc8-47f3-9e6d-9963485e6060",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Lasse4",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "1700b98b-de6c-4ea9-9f6f-8c241af3fbff": {
+      "task": {
+        "id": "1700b98b-de6c-4ea9-9f6f-8c241af3fbff",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "JeffreyJPZ",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "gsoc-2026",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "171385cd-8d17-40b1-b3fe-975650c1ed58": {
+      "task": {
+        "id": "171385cd-8d17-40b1-b3fe-975650c1ed58",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "vishruth-thimmaiah",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "1804d1e0-a55a-4b3a-b591-8e90677cd558": {
+      "task": {
+        "id": "1804d1e0-a55a-4b3a-b591-8e90677cd558",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "liaolecheng",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "198787b3-8678-4870-ad59-41ffbd086d14": {
+      "task": {
+        "id": "198787b3-8678-4870-ad59-41ffbd086d14",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "oxidaner",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "19a87817-177c-40c5-a4b5-ea030eff50a2": {
+      "task": {
+        "id": "19a87817-177c-40c5-a4b5-ea030eff50a2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "AishwaryaGhatole2102",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "19b4516c-cc23-414a-88f8-2f047ad038f9": {
+      "task": {
+        "id": "19b4516c-cc23-414a-88f8-2f047ad038f9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "jason810496",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "1ac5d8f7-4105-4c97-bdad-23e70f647616": {
+      "task": {
+        "id": "1ac5d8f7-4105-4c97-bdad-23e70f647616",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mrinalchaturvedi27",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "1b082f0a-6092-46d5-8ce4-94823220f0fd": {
+      "task": {
+        "id": "1b082f0a-6092-46d5-8ce4-94823220f0fd",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "slashexx",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "1cc7d1a0-a941-46ad-bfd8-47d71ef84d06": {
+      "task": {
+        "id": "1cc7d1a0-a941-46ad-bfd8-47d71ef84d06",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "gaurab-khanal",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "1ed6164d-62a5-4d7a-90fb-0aa5a45d7ed0": {
+      "task": {
+        "id": "1ed6164d-62a5-4d7a-90fb-0aa5a45d7ed0",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Praneeth-18",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "1ef68915-a39b-4a54-84b3-c382a6a3bead": {
+      "task": {
+        "id": "1ef68915-a39b-4a54-84b3-c382a6a3bead",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Arshdeep54",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "209be267-d0d5-4bbf-93be-0569aaf9d0c6": {
+      "task": {
+        "id": "209be267-d0d5-4bbf-93be-0569aaf9d0c6",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "caesarsage",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "209fdafa-4137-484e-a397-9c6687fdd6b0": {
+      "task": {
+        "id": "209fdafa-4137-484e-a397-9c6687fdd6b0",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Chayandass",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "20afb442-5fcc-4adb-b71d-14ac3d719196": {
+      "task": {
+        "id": "20afb442-5fcc-4adb-b71d-14ac3d719196",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "sumanthd032",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "21ec6310-71de-4ad7-9153-425fff45dfa1": {
+      "task": {
+        "id": "21ec6310-71de-4ad7-9153-425fff45dfa1",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "wendy-ha18",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "2420614f-591c-4419-b135-fd683dfe78fb": {
+      "task": {
+        "id": "2420614f-591c-4419-b135-fd683dfe78fb",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ZeroCoder-dot",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "25824846-790f-408e-bfdb-d201b72f9e66": {
+      "task": {
+        "id": "25824846-790f-408e-bfdb-d201b72f9e66",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Anamika1608",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "265ac60c-4f93-46a6-af31-0db11a7f8897": {
+      "task": {
+        "id": "265ac60c-4f93-46a6-af31-0db11a7f8897",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "nailo2c",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"nailo2c\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 265ac60c-4f93-46a6-af31-0db11a7f8897: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'nailo2c'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 09:04:34 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6415:F462B:3330F56:AA9F2A9:6A8D5AA2\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4773\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"227\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'nailo2c'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4773,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":227},\"user\":null}.",
+        "date": "2026-08-25T09:04:34.765Z"
+      }
+    },
+    "26844790-36df-4d2c-9139-317c2fb2d349": {
+      "task": {
+        "id": "26844790-36df-4d2c-9139-317c2fb2d349",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "akhilmukkara",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "27b5911a-3c54-4380-8c23-35463b6d9ca6": {
+      "task": {
+        "id": "27b5911a-3c54-4380-8c23-35463b6d9ca6",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "riahtgl",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "27d46906-7296-462c-b0ba-084235a2acdd": {
+      "task": {
+        "id": "27d46906-7296-462c-b0ba-084235a2acdd",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mastermaxx03",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "28b03a85-5144-487d-a8eb-518c9d48ea59": {
+      "task": {
+        "id": "28b03a85-5144-487d-a8eb-518c9d48ea59",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "pipiland2612",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "299b510a-56ae-4d0e-ad12-31d10420c429": {
+      "task": {
+        "id": "299b510a-56ae-4d0e-ad12-31d10420c429",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Transcendental-Programmer",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "2a698636-8fca-4cd7-a450-d77157eddbf2": {
+      "task": {
+        "id": "2a698636-8fca-4cd7-a450-d77157eddbf2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "sachin21212121",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "2b647f39-9aaf-4f96-96a2-36bb08f6729d": {
+      "task": {
+        "id": "2b647f39-9aaf-4f96-96a2-36bb08f6729d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "naman9271",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "2baa19c3-b076-4d72-aa68-494245b9e4c9": {
+      "task": {
+        "id": "2baa19c3-b076-4d72-aa68-494245b9e4c9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "xliuqq",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "2ebb681f-c05d-4785-ba10-03e3090e76c1": {
+      "task": {
+        "id": "2ebb681f-c05d-4785-ba10-03e3090e76c1",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "rawadhossain",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "2f4c2280-c34c-493c-bfb0-b75d3e463d50": {
+      "task": {
+        "id": "2f4c2280-c34c-493c-bfb0-b75d3e463d50",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "NomadXD",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "2fba8ae6-9203-466d-aa7c-39c80c79d3b9": {
+      "task": {
+        "id": "2fba8ae6-9203-466d-aa7c-39c80c79d3b9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "PragalvaXFREZ",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "3113c648-4599-4b18-a639-7139407ea554": {
+      "task": {
+        "id": "3113c648-4599-4b18-a639-7139407ea554",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Nupurshivani",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "337568bf-225b-4fd5-add3-9f77bb04da4b": {
+      "task": {
+        "id": "337568bf-225b-4fd5-add3-9f77bb04da4b",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Ajay-singh1",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "33b74cd7-2d6e-4c31-9271-5165e57083a8": {
+      "task": {
+        "id": "33b74cd7-2d6e-4c31-9271-5165e57083a8",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Dr-L-in",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "343f0f78-1592-4046-a9c2-9908da863fea": {
+      "task": {
+        "id": "343f0f78-1592-4046-a9c2-9908da863fea",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "owenowenisme",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "34bf35e3-7476-4777-b9c6-aed92f167685": {
+      "task": {
+        "id": "34bf35e3-7476-4777-b9c6-aed92f167685",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Xio-Shark",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "gsoc-2026",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "3502e086-c5f9-4d40-980c-c43be35a37b5": {
+      "task": {
+        "id": "3502e086-c5f9-4d40-980c-c43be35a37b5",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Manas23601",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "35ed766f-b18b-40a8-ad27-0fd0a85ec7b4": {
+      "task": {
+        "id": "35ed766f-b18b-40a8-ad27-0fd0a85ec7b4",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Jaisheesh-2006",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "gsoc-2026",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "3677d9b3-0dcc-4a3c-9754-fa85010c99f2": {
+      "task": {
+        "id": "3677d9b3-0dcc-4a3c-9754-fa85010c99f2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Yeeaoo",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "376a1c4a-7666-492e-ad4c-7489d950355f": {
+      "task": {
+        "id": "376a1c4a-7666-492e-ad4c-7489d950355f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "kaffie-1517",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "38eee77d-0f98-4500-a2c3-05458611c11f": {
+      "task": {
+        "id": "38eee77d-0f98-4500-a2c3-05458611c11f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "RayyanSeliya",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "39f96bed-d378-46a6-ae83-dda6741041fd": {
+      "task": {
+        "id": "39f96bed-d378-46a6-ae83-dda6741041fd",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ashish-dalal",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "3b404a6c-36a9-42fe-b63d-38a23f98ddaa": {
+      "task": {
+        "id": "3b404a6c-36a9-42fe-b63d-38a23f98ddaa",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "alimx07",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "3bc27985-14f4-4091-aae3-a97fee6937bf": {
+      "task": {
+        "id": "3bc27985-14f4-4091-aae3-a97fee6937bf",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "anshRastogi02",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "3c4a168d-57ef-4d4b-b880-643f8f9ea94c": {
+      "task": {
+        "id": "3c4a168d-57ef-4d4b-b880-643f8f9ea94c",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "pokerfaceSad",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "3dbbb338-68e0-4e8d-84b8-ac5de9d3836c": {
+      "task": {
+        "id": "3dbbb338-68e0-4e8d-84b8-ac5de9d3836c",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "NSTKrishna",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "3e6e50ef-2401-4931-addf-ab044d119d6b": {
+      "task": {
+        "id": "3e6e50ef-2401-4931-addf-ab044d119d6b",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "abhishek-8081",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "409d7ee0-a7de-4358-9740-bbe96984a7db": {
+      "task": {
+        "id": "409d7ee0-a7de-4358-9740-bbe96984a7db",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "rishiraj38",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "40e1505b-6dcf-42d3-ab02-d4b30620f4a7": {
+      "task": {
+        "id": "40e1505b-6dcf-42d3-ab02-d4b30620f4a7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "eeshaanSA",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4251f707-1289-44ab-8dbb-6c10838e575f": {
+      "task": {
+        "id": "4251f707-1289-44ab-8dbb-6c10838e575f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "harish2773",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"harish2773\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 4251f707-1289-44ab-8dbb-6c10838e575f: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'harish2773'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 09:05:14 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6413:1E3BE0:336EEBF:AB73CCA:6A8D5ACA\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4740\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"260\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'harish2773'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4740,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":260},\"user\":null}.",
+        "date": "2026-08-25T09:05:14.747Z"
+      }
+    },
+    "43b9465f-2d12-4f69-a2b5-ad5c271de4f2": {
+      "task": {
+        "id": "43b9465f-2d12-4f69-a2b5-ad5c271de4f2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "kirti763",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "44021841-540d-4537-be23-4a7079f96a34": {
+      "task": {
+        "id": "44021841-540d-4537-be23-4a7079f96a34",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "sneaxhuh",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "44c99942-923d-4075-bd93-b91975f99cf6": {
+      "task": {
+        "id": "44c99942-923d-4075-bd93-b91975f99cf6",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "chahatsagarmain",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "46761377-3d8e-4959-91ce-89ea9df52100": {
+      "task": {
+        "id": "46761377-3d8e-4959-91ce-89ea9df52100",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Rishab87",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4733dd5f-cf62-4b58-a7ea-fcb289040150": {
+      "task": {
+        "id": "4733dd5f-cf62-4b58-a7ea-fcb289040150",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "SaxenaAnushka102",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4800ac53-f1f8-4b2c-9b0e-a3c7be4fd3eb": {
+      "task": {
+        "id": "4800ac53-f1f8-4b2c-9b0e-a3c7be4fd3eb",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "arpit529srivastava",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4810a2ac-b4d4-4426-bbe3-2208fc5f1141": {
+      "task": {
+        "id": "4810a2ac-b4d4-4426-bbe3-2208fc5f1141",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "CodexRaunak",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4912d789-b1ae-44b9-b722-957408fddd53": {
+      "task": {
+        "id": "4912d789-b1ae-44b9-b722-957408fddd53",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "upsaurav12",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"upsaurav12\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 4912d789-b1ae-44b9-b722-957408fddd53: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'upsaurav12'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 09:04:34 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6413:1E3BE0:335CE93:AB37DDC:6A8D5AA2\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4772\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"228\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'upsaurav12'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4772,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":228},\"user\":null}.",
+        "date": "2026-08-25T09:04:34.764Z"
+      }
+    },
+    "4b1f1f3d-518a-461f-a522-46c58934aa1a": {
+      "task": {
+        "id": "4b1f1f3d-518a-461f-a522-46c58934aa1a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Eeshu-Yadav",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4b854708-3f4d-4667-8587-05d3d17615a2": {
+      "task": {
+        "id": "4b854708-3f4d-4667-8587-05d3d17615a2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "niladrix719",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4bf59f41-5bf0-41f7-a06e-9b0c5c00b1de": {
+      "task": {
+        "id": "4bf59f41-5bf0-41f7-a06e-9b0c5c00b1de",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "itvi-1234",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4c1bd960-2ee1-4d15-9b81-6cfcfeb95836": {
+      "task": {
+        "id": "4c1bd960-2ee1-4d15-9b81-6cfcfeb95836",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "LuluNwenyi",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4d7ea8af-598a-41cd-ae02-42148c37f6e5": {
+      "task": {
+        "id": "4d7ea8af-598a-41cd-ae02-42148c37f6e5",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "wineshuga",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4e1da005-b564-4091-945a-247c02a9f07d": {
+      "task": {
+        "id": "4e1da005-b564-4091-945a-247c02a9f07d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "BITLiutianyang",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4e219d18-4d7c-4e02-b0dc-5658ab3969a9": {
+      "task": {
+        "id": "4e219d18-4d7c-4e02-b0dc-5658ab3969a9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "fromsaurav",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "4f363f31-470a-44a5-b99c-9484014a6dfc": {
+      "task": {
+        "id": "4f363f31-470a-44a5-b99c-9484014a6dfc",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "WHOIM1205",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "500cac39-dd1a-4e12-8c23-b184cac294ef": {
+      "task": {
+        "id": "500cac39-dd1a-4e12-8c23-b184cac294ef",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Tushar240503",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "50e06021-7f34-498c-8880-681cd44d15d2": {
+      "task": {
+        "id": "50e06021-7f34-498c-8880-681cd44d15d2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Sagar2366",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "5108e113-d480-490e-967e-d60e2b41e242": {
+      "task": {
+        "id": "5108e113-d480-490e-967e-d60e2b41e242",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "MichaelRren",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "521df5f0-a820-417a-94df-f5da91d8863a": {
+      "task": {
+        "id": "521df5f0-a820-417a-94df-f5da91d8863a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "RushabhMehta2005",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "525f623b-7349-4cda-b5e6-c1d32955040d": {
+      "task": {
+        "id": "525f623b-7349-4cda-b5e6-c1d32955040d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "7h3-3mp7y-m4n",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "558c9279-c861-456c-9b57-937d26e777e4": {
+      "task": {
+        "id": "558c9279-c861-456c-9b57-937d26e777e4",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Utkarshpandey0001",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "56727a64-bd71-4510-a800-d15515e7fe9d": {
+      "task": {
+        "id": "56727a64-bd71-4510-a800-d15515e7fe9d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "E-STAT",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "573765b4-4d3b-4ae9-97f8-3cabef5fa16a": {
+      "task": {
+        "id": "573765b4-4d3b-4ae9-97f8-3cabef5fa16a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "codeahmedjamil",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "574b8199-59a3-4711-96f2-744a67fb9803": {
+      "task": {
+        "id": "574b8199-59a3-4711-96f2-744a67fb9803",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "debangi29",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "58f53514-eaee-4da6-a908-3818c693416e": {
+      "task": {
+        "id": "58f53514-eaee-4da6-a908-3818c693416e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "AR21SM",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "59dadcd3-f95c-4d8c-9a7f-9460ca0bb30c": {
+      "task": {
+        "id": "59dadcd3-f95c-4d8c-9a7f-9460ca0bb30c",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mahmoudmagdy1-1",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "5ab3f084-f0b3-4fc6-994b-19be0e77b178": {
+      "task": {
+        "id": "5ab3f084-f0b3-4fc6-994b-19be0e77b178",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "StrikerEureka34",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "5af30181-ade6-4903-a362-dc905a82f65f": {
+      "task": {
+        "id": "5af30181-ade6-4903-a362-dc905a82f65f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Emidowojo",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "5b09fad2-2dc5-4935-9b65-d0dfdf303deb": {
+      "task": {
+        "id": "5b09fad2-2dc5-4935-9b65-d0dfdf303deb",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "StLeoX",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "5cca8ed5-439f-4a15-867c-3b1cdf5773d1": {
+      "task": {
+        "id": "5cca8ed5-439f-4a15-867c-3b1cdf5773d1",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Darshan174",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "5e69ae47-a856-4c47-b0ae-772d605c3020": {
+      "task": {
+        "id": "5e69ae47-a856-4c47-b0ae-772d605c3020",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ddc-baiye",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "5e71aa9f-9567-454a-b77c-afbf2ba02434": {
+      "task": {
+        "id": "5e71aa9f-9567-454a-b77c-afbf2ba02434",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "NishchayRajput",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "5f75e89f-b611-46ba-b30d-127250cbc00a": {
+      "task": {
+        "id": "5f75e89f-b611-46ba-b30d-127250cbc00a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Minimega12121",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "5f9350c3-e116-46dd-946d-9142d5c547fb": {
+      "task": {
+        "id": "5f9350c3-e116-46dd-946d-9142d5c547fb",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "SargamPuram",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "61a18a09-8ed8-49f7-a49f-82d806ee6a2e": {
+      "task": {
+        "id": "61a18a09-8ed8-49f7-a49f-82d806ee6a2e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "entlein",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "63aa0fcd-9c81-4834-95b1-a35c136dae57": {
+      "task": {
+        "id": "63aa0fcd-9c81-4834-95b1-a35c136dae57",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "g4rud4kun",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"g4rud4kun\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 63aa0fcd-9c81-4834-95b1-a35c136dae57: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'g4rud4kun'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 09:03:14 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6415:F462B:330C1E4:AA2494E:6A8D5A52\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4800\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"200\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'g4rud4kun'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4800,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":200},\"user\":null}.",
+        "date": "2026-08-25T09:03:14.733Z"
+      }
+    },
+    "63c6ec62-fc5b-4937-9300-af7205cb6f19": {
+      "task": {
+        "id": "63c6ec62-fc5b-4937-9300-af7205cb6f19",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "vampirarte",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "63e3c56e-53d5-4013-aa20-5f430c1773b0": {
+      "task": {
+        "id": "63e3c56e-53d5-4013-aa20-5f430c1773b0",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "amanycodes",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "64e7de58-671c-4705-b293-c000ef1a99d9": {
+      "task": {
+        "id": "64e7de58-671c-4705-b293-c000ef1a99d9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "guan404ming",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "64f1c75f-1474-45b1-8abe-16677445b280": {
+      "task": {
+        "id": "64f1c75f-1474-45b1-8abe-16677445b280",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "justin212407",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "65aea98b-c054-46d9-87af-babd110e8742": {
+      "task": {
+        "id": "65aea98b-c054-46d9-87af-babd110e8742",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "tushar743-ui",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "6644769e-3f93-4356-8f4b-d48df11de66f": {
+      "task": {
+        "id": "6644769e-3f93-4356-8f4b-d48df11de66f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Rajesh-Nagarajan-11",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "6849aa82-1199-491c-8972-4a4bdf35fb7c": {
+      "task": {
+        "id": "6849aa82-1199-491c-8972-4a4bdf35fb7c",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "apullo777",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "6853a649-0bcd-41af-a6b5-4c8622682032": {
+      "task": {
+        "id": "6853a649-0bcd-41af-a6b5-4c8622682032",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "kadai0308",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "68f66a49-aaca-4995-8242-9a26df3525b9": {
+      "task": {
+        "id": "68f66a49-aaca-4995-8242-9a26df3525b9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "gitGurugu",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "697827d4-2a15-4325-8921-1977025478bf": {
+      "task": {
+        "id": "697827d4-2a15-4325-8921-1977025478bf",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "de6p",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "6f0db736-7999-471f-a3ad-c9ee0b7328ce": {
+      "task": {
+        "id": "6f0db736-7999-471f-a3ad-c9ee0b7328ce",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ahmed-kamal2004",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "6fb282e4-d091-422b-bf2d-915ba85a3109": {
+      "task": {
+        "id": "6fb282e4-d091-422b-bf2d-915ba85a3109",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "abhay1999",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "gsoc-2026",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "6fd153e6-2af5-47bc-8087-35971cf61c3b": {
+      "task": {
+        "id": "6fd153e6-2af5-47bc-8087-35971cf61c3b",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Vatsalpatni73",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "701c5b97-e0b8-4b8e-8fc9-858285248784": {
+      "task": {
+        "id": "701c5b97-e0b8-4b8e-8fc9-858285248784",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "useradityaa",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "73955f8e-e59b-40e4-9b2f-794347112a89": {
+      "task": {
+        "id": "73955f8e-e59b-40e4-9b2f-794347112a89",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "partik03",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "7407afc2-ec93-409d-b534-5fd90d6251e5": {
+      "task": {
+        "id": "7407afc2-ec93-409d-b534-5fd90d6251e5",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Naman-B-Parlecha",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "74963324-2ea7-4edd-b0cd-eb41e3ac0a57": {
+      "task": {
+        "id": "74963324-2ea7-4edd-b0cd-eb41e3ac0a57",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "danish9039",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "74a87456-9b0c-4dcd-b74b-91aec082e2b1": {
+      "task": {
+        "id": "74a87456-9b0c-4dcd-b74b-91aec082e2b1",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "AryanParashar24",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "78525a5d-747a-48c2-829d-2ad1e6bf0db2": {
+      "task": {
+        "id": "78525a5d-747a-48c2-829d-2ad1e6bf0db2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "zihanKuang",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "7aafb60b-b53c-44ab-bb08-7c8e1c1f7857": {
+      "task": {
+        "id": "7aafb60b-b53c-44ab-bb08-7c8e1c1f7857",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "hxrshxz",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "7bfaa3df-db53-484e-91fb-c85d40090c3f": {
+      "task": {
+        "id": "7bfaa3df-db53-484e-91fb-c85d40090c3f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "iwdie",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "7e129959-99f8-4625-9c82-14e1224d95e6": {
+      "task": {
+        "id": "7e129959-99f8-4625-9c82-14e1224d95e6",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "vishvamsinh28",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "7ebabf1c-9457-443c-8144-d52ac4fcaaa2": {
+      "task": {
+        "id": "7ebabf1c-9457-443c-8144-d52ac4fcaaa2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "shiverse94",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "80d7f9eb-3871-45b0-8685-d2493eba818a": {
+      "task": {
+        "id": "80d7f9eb-3871-45b0-8685-d2493eba818a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "AayushSaini101",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "8333ca42-4f65-4bdf-94e1-b690aec59aa9": {
+      "task": {
+        "id": "8333ca42-4f65-4bdf-94e1-b690aec59aa9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "janithashri",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "83def881-bd8c-4bbe-87b4-cecde6b00f98": {
+      "task": {
+        "id": "83def881-bd8c-4bbe-87b4-cecde6b00f98",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Peacesandy",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "846d7703-b441-4c59-9e25-46c33a599232": {
+      "task": {
+        "id": "846d7703-b441-4c59-9e25-46c33a599232",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "saurabhraghuvanshii",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "847d0380-645a-4b49-a7bc-e6173bca84a6": {
+      "task": {
+        "id": "847d0380-645a-4b49-a7bc-e6173bca84a6",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "arctic-beep",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "85fc945f-a676-4947-9074-f1735090bee9": {
+      "task": {
+        "id": "85fc945f-a676-4947-9074-f1735090bee9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "MayorFaj",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "861388fb-5b34-4647-87a6-07c686a6d003": {
+      "task": {
+        "id": "861388fb-5b34-4647-87a6-07c686a6d003",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Khushmagrawal",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "86cd1a4d-3ae0-4e1a-9534-ab51df8e5a84": {
+      "task": {
+        "id": "86cd1a4d-3ae0-4e1a-9534-ab51df8e5a84",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Mohab96",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "87140de4-4dd9-4443-885c-4b6011929a74": {
+      "task": {
+        "id": "87140de4-4dd9-4443-885c-4b6011929a74",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Daksh1603",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "8b3bc017-8dc2-4674-9cc3-d1cf7d34fe85": {
+      "task": {
+        "id": "8b3bc017-8dc2-4674-9cc3-d1cf7d34fe85",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "tan90github",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "8c77350a-7895-4fd5-90a8-abcf3f2c5428": {
+      "task": {
+        "id": "8c77350a-7895-4fd5-90a8-abcf3f2c5428",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "shreesha001",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9042d200-8177-401d-8605-f21198c4ae90": {
+      "task": {
+        "id": "9042d200-8177-401d-8605-f21198c4ae90",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Rupam-It",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9059e434-5856-406d-973b-eaf219dc712e": {
+      "task": {
+        "id": "9059e434-5856-406d-973b-eaf219dc712e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "RONAK-AI647",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "929b076a-e64d-4702-a1dd-a8ae66571fa4": {
+      "task": {
+        "id": "929b076a-e64d-4702-a1dd-a8ae66571fa4",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "bearslyricattack",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "933b111a-b21b-4794-a9f8-25ebc47771cd": {
+      "task": {
+        "id": "933b111a-b21b-4794-a9f8-25ebc47771cd",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Lukaaa525",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9381f194-3b52-4500-a1c7-6d1fcc167d6a": {
+      "task": {
+        "id": "9381f194-3b52-4500-a1c7-6d1fcc167d6a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "HaojieZhang6848",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9508b5f6-49f0-4bff-bd9c-1d778564db56": {
+      "task": {
+        "id": "9508b5f6-49f0-4bff-bd9c-1d778564db56",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Krishiv-Mahajan",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "950c513c-c68e-440f-846a-a66ca476f772": {
+      "task": {
+        "id": "950c513c-c68e-440f-846a-a66ca476f772",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "shivkr6",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "95f67b80-9137-4bfe-9192-2c4aa19697af": {
+      "task": {
+        "id": "95f67b80-9137-4bfe-9192-2c4aa19697af",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "meethereum",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "969698ca-5b4b-484e-8bf0-c9f9ee7c3caf": {
+      "task": {
+        "id": "969698ca-5b4b-484e-8bf0-c9f9ee7c3caf",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mdryaan",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"mdryaan\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task 969698ca-5b4b-484e-8bf0-c9f9ee7c3caf: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'mdryaan'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 09:01:54 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6413:27DBC8:721701F:1791FBB7:6A8D5A02\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4827\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"173\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'mdryaan'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4827,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":173},\"user\":null}.",
+        "date": "2026-08-25T09:01:54.758Z"
+      }
+    },
+    "99f55fde-d788-42bc-9937-89a2ef920c74": {
+      "task": {
+        "id": "99f55fde-d788-42bc-9937-89a2ef920c74",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "chaitanyamedidar",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9ada673d-de12-4006-97d9-5f165a2c730e": {
+      "task": {
+        "id": "9ada673d-de12-4006-97d9-5f165a2c730e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ghadeer-elsalhawy",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9b700628-e57a-451d-a881-efd8114624cf": {
+      "task": {
+        "id": "9b700628-e57a-451d-a881-efd8114624cf",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "GAURAV-DEEP01",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9b8355b1-4d2c-4487-ad4b-d8c3c1d4e933": {
+      "task": {
+        "id": "9b8355b1-4d2c-4487-ad4b-d8c3c1d4e933",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "vibhor-5",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9baba84e-9652-409f-8946-c34e989b7632": {
+      "task": {
+        "id": "9baba84e-9652-409f-8946-c34e989b7632",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Amr-tmorot",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9d66d040-6622-4a04-ac7d-3c45868ee0c8": {
+      "task": {
+        "id": "9d66d040-6622-4a04-ac7d-3c45868ee0c8",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Aman-Cool",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9d999a0b-925e-4643-adec-c4f8449dc461": {
+      "task": {
+        "id": "9d999a0b-925e-4643-adec-c4f8449dc461",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "sanjay7178",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9e8af8f3-dcd3-4699-b2b8-f97a28ee72a4": {
+      "task": {
+        "id": "9e8af8f3-dcd3-4699-b2b8-f97a28ee72a4",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "krrish-sehgal",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9efcb0a8-08d5-477b-b298-fa11b2ee783c": {
+      "task": {
+        "id": "9efcb0a8-08d5-477b-b298-fa11b2ee783c",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "boshilin123",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "9fbef925-7064-447f-81db-93e2f94897ce": {
+      "task": {
+        "id": "9fbef925-7064-447f-81db-93e2f94897ce",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "alokdangre",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "a0057f77-c37c-46e7-b7f4-c3530c26c8ad": {
+      "task": {
+        "id": "a0057f77-c37c-46e7-b7f4-c3530c26c8ad",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "sagnik3788",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "a0189ce7-a52c-4b0d-b6f6-b090fba2bf5d": {
+      "task": {
+        "id": "a0189ce7-a52c-4b0d-b6f6-b090fba2bf5d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "vaibhaavv8",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "a1049a1f-c622-4222-9f9b-9979af37f102": {
+      "task": {
+        "id": "a1049a1f-c622-4222-9f9b-9979af37f102",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "vivekbisen04",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "a159f170-dd85-44b8-bd24-f462a84ab2d1": {
+      "task": {
+        "id": "a159f170-dd85-44b8-bd24-f462a84ab2d1",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "AryanPrakhar",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "a162227f-cfc3-4117-94b4-b1559daca30e": {
+      "task": {
+        "id": "a162227f-cfc3-4117-94b4-b1559daca30e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "yugal07",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "a2352ac7-c58d-4b26-ba69-3a58fb390f92": {
+      "task": {
+        "id": "a2352ac7-c58d-4b26-ba69-3a58fb390f92",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mie313",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "a2c5c8bc-c379-4ceb-b3cc-fbf75cfaaac3": {
+      "task": {
+        "id": "a2c5c8bc-c379-4ceb-b3cc-fbf75cfaaac3",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "pangfufuf",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "a7fbc36b-73a7-4376-b7b9-36d32e986c1b": {
+      "task": {
+        "id": "a7fbc36b-73a7-4376-b7b9-36d32e986c1b",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ngvanthanggit",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "a8a5e783-a29b-4d7b-aabd-7dca27991aaf": {
+      "task": {
+        "id": "a8a5e783-a29b-4d7b-aabd-7dca27991aaf",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "karanngi ",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"karanngi \",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task a8a5e783-a29b-4d7b-aabd-7dca27991aaf: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'karanngi '.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 09:03:34 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6411:F9A07:333A5AD:AA9306A:6A8D5A66\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4791\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"209\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'karanngi '.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4791,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":209},\"user\":null}.",
+        "date": "2026-08-25T09:03:34.815Z"
+      }
+    },
+    "a8acae21-22a9-46fb-bdde-446509c4617f": {
+      "task": {
+        "id": "a8acae21-22a9-46fb-bdde-446509c4617f",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Sanchit2662",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "aa4a981a-de22-4c28-8b6a-9eadc7892da6": {
+      "task": {
+        "id": "aa4a981a-de22-4c28-8b6a-9eadc7892da6",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Shivam-1827",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "aa6c0880-f52c-4a9b-8264-0c3a33d692e0": {
+      "task": {
+        "id": "aa6c0880-f52c-4a9b-8264-0c3a33d692e0",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Denyme24",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ac64494f-233c-447e-bb99-7bdf03f53b95": {
+      "task": {
+        "id": "ac64494f-233c-447e-bb99-7bdf03f53b95",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Parship12",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"Parship12\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task ac64494f-233c-447e-bb99-7bdf03f53b95: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'Parship12'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 08:53:54 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6415:F462B:3212516:A6E3BA9:6A8D5822\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4995\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"5\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'Parship12'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4995,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":5},\"user\":null}.",
+        "date": "2026-08-25T08:53:54.639Z"
+      }
+    },
+    "ade688ce-f097-4a97-ba3f-efe225b1fd29": {
+      "task": {
+        "id": "ade688ce-f097-4a97-ba3f-efe225b1fd29",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "maxvishy",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b016a067-39ae-4a00-b996-73e6380d7c6d": {
+      "task": {
+        "id": "b016a067-39ae-4a00-b996-73e6380d7c6d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "asmit27rai",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b034321a-cf02-46de-b9e1-3c414626f2be": {
+      "task": {
+        "id": "b034321a-cf02-46de-b9e1-3c414626f2be",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "poox41",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b0f30838-6ac8-4997-8fde-e8ae9f1f3370": {
+      "task": {
+        "id": "b0f30838-6ac8-4997-8fde-e8ae9f1f3370",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Wang-Yan-Hao",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b1731ab5-1441-4016-b71e-16848e47a3ba": {
+      "task": {
+        "id": "b1731ab5-1441-4016-b71e-16848e47a3ba",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "labdhiongithub7",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b194e661-736e-44ba-9895-66737d850074": {
+      "task": {
+        "id": "b194e661-736e-44ba-9895-66737d850074",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ambahman",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b2c6fdcd-651a-4333-bc47-50fdc7d80f61": {
+      "task": {
+        "id": "b2c6fdcd-651a-4333-bc47-50fdc7d80f61",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "armistcxy",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b317469b-d802-4a45-8146-202ca9ae8a73": {
+      "task": {
+        "id": "b317469b-d802-4a45-8146-202ca9ae8a73",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Sypher845",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b33dbf5d-967f-43c8-a589-131560fea962": {
+      "task": {
+        "id": "b33dbf5d-967f-43c8-a589-131560fea962",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "abhinavs1920",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b3ba8449-d009-4c1d-b7a0-449827925a8e": {
+      "task": {
+        "id": "b3ba8449-d009-4c1d-b7a0-449827925a8e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "per0x1de-1337",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b4b34c48-e0e8-4b99-846d-62199169848d": {
+      "task": {
+        "id": "b4b34c48-e0e8-4b99-846d-62199169848d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "zhengkezhou1",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b4cbb9cc-bd2e-4fb5-9911-d4c9be011abb": {
+      "task": {
+        "id": "b4cbb9cc-bd2e-4fb5-9911-d4c9be011abb",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Nabil-Salah",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b4edbd81-e6c3-423e-a20c-b4adda0f16c9": {
+      "task": {
+        "id": "b4edbd81-e6c3-423e-a20c-b4adda0f16c9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "sleepingeight",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b524489a-a5bc-4050-85a1-8449cf918e60": {
+      "task": {
+        "id": "b524489a-a5bc-4050-85a1-8449cf918e60",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "EdwinaZhu",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b5a05f59-cbc6-4c49-b2c3-830f0774d999": {
+      "task": {
+        "id": "b5a05f59-cbc6-4c49-b2c3-830f0774d999",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "grealish",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b6162502-f572-4d31-a1bd-c9241a8c9094": {
+      "task": {
+        "id": "b6162502-f572-4d31-a1bd-c9241a8c9094",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "vatsalkeshav",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b9baa887-1080-4794-8a81-a8d8ce2224e1": {
+      "task": {
+        "id": "b9baa887-1080-4794-8a81-a8d8ce2224e1",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "karimot96",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "b9eef624-0e09-48db-b008-57401e1e0fde": {
+      "task": {
+        "id": "b9eef624-0e09-48db-b008-57401e1e0fde",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "XploY04",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ba6a9442-6b00-40c8-8830-2b01322feafe": {
+      "task": {
+        "id": "ba6a9442-6b00-40c8-8830-2b01322feafe",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "spa-raj",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "bb453e05-683d-4426-b935-5a6b48dee1e7": {
+      "task": {
+        "id": "bb453e05-683d-4426-b935-5a6b48dee1e7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Alokzh",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"Alokzh\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task bb453e05-683d-4426-b935-5a6b48dee1e7: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'Alokzh'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 08:56:54 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6410:377C75:3E949B5:D12DAED:6A8D58D6\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4933\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"67\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'Alokzh'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4933,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":67},\"user\":null}.",
+        "date": "2026-08-25T08:56:54.639Z"
+      }
+    },
+    "bba051c1-8285-4438-864d-58429481fea3": {
+      "task": {
+        "id": "bba051c1-8285-4438-864d-58429481fea3",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Ankitsinghsisodya",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "bbf5627c-bb01-4bd8-9fef-cc2af5e065c6": {
+      "task": {
+        "id": "bbf5627c-bb01-4bd8-9fef-cc2af5e065c6",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "vg006",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "bd2735a8-0040-42cb-a50a-fee7ef9786ed": {
+      "task": {
+        "id": "bd2735a8-0040-42cb-a50a-fee7ef9786ed",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "katara-Jayprakash",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "bf1c4b55-9135-4f5a-a373-e8f758a06f85": {
+      "task": {
+        "id": "bf1c4b55-9135-4f5a-a373-e8f758a06f85",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "dhimanAbhi",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "c36f30e9-5107-4014-b02c-c53c15536d1d": {
+      "task": {
+        "id": "c36f30e9-5107-4014-b02c-c53c15536d1d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "NishantSinghhhhh",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "c40a8ed1-0840-45a0-a9f2-b97284114116": {
+      "task": {
+        "id": "c40a8ed1-0840-45a0-a9f2-b97284114116",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "agrawalcodes",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "c48e1c1a-e781-4416-8c73-b33829aebdf3": {
+      "task": {
+        "id": "c48e1c1a-e781-4416-8c73-b33829aebdf3",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "zjteee",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "c4d67901-728a-4aec-8437-0e1cd057f9ee": {
+      "task": {
+        "id": "c4d67901-728a-4aec-8437-0e1cd057f9ee",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "kash2104",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "c728a944-2671-4fee-8728-eaf46602d9cf": {
+      "task": {
+        "id": "c728a944-2671-4fee-8728-eaf46602d9cf",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Aloui-Ikram",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "c7e95063-9f1d-4024-8277-e00ed06e51d7": {
+      "task": {
+        "id": "c7e95063-9f1d-4024-8277-e00ed06e51d7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "dev-liz",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "c8ec7eb6-2a7e-44af-a42b-960193805c9a": {
+      "task": {
+        "id": "c8ec7eb6-2a7e-44af-a42b-960193805c9a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Rxinui",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "c9b278d1-279a-4596-9a15-c262b56f7f9e": {
+      "task": {
+        "id": "c9b278d1-279a-4596-9a15-c262b56f7f9e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Vacant-lot07734",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ca3bdb1e-a4b3-47de-b7dd-6b9a8a318d5e": {
+      "task": {
+        "id": "ca3bdb1e-a4b3-47de-b7dd-6b9a8a318d5e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "winkletinkle",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "cc5f7411-3d87-40e8-b62e-8d92075e32c2": {
+      "task": {
+        "id": "cc5f7411-3d87-40e8-b62e-8d92075e32c2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "vitorfloriano",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ccbffab6-37b5-47e0-96ad-a81cbd79bf90": {
+      "task": {
+        "id": "ccbffab6-37b5-47e0-96ad-a81cbd79bf90",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Colvin-Y",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ce0baac8-645a-4388-a071-04c2803b05ec": {
+      "task": {
+        "id": "ce0baac8-645a-4388-a071-04c2803b05ec",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "victoriacheng15",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ce6a6cad-5eba-474e-bed8-200f9f040265": {
+      "task": {
+        "id": "ce6a6cad-5eba-474e-bed8-200f9f040265",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "sidneychang",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ce778edd-62a8-458d-984c-b6d7dcee548d": {
+      "task": {
+        "id": "ce778edd-62a8-458d-984c-b6d7dcee548d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "lavishpal",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ceb72db6-128d-4dbd-84fa-355cfb715d90": {
+      "task": {
+        "id": "ceb72db6-128d-4dbd-84fa-355cfb715d90",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "devc007",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "d0f6692d-a352-4135-81fd-f315942243f4": {
+      "task": {
+        "id": "d0f6692d-a352-4135-81fd-f315942243f4",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Srishti-j18",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "d19e7588-b514-4e13-8fe2-73d309a2edf4": {
+      "task": {
+        "id": "d19e7588-b514-4e13-8fe2-73d309a2edf4",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "charity1475",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "d1ef5dbb-bf15-4a83-891f-50b2b299cf7c": {
+      "task": {
+        "id": "d1ef5dbb-bf15-4a83-891f-50b2b299cf7c",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "marcoma2018",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "d21f1f01-16fb-4d4c-a71c-6c36be18123a": {
+      "task": {
+        "id": "d21f1f01-16fb-4d4c-a71c-6c36be18123a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mahdikhashan",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "d3bb2bf1-e10d-46f2-85cb-9126753a74fe": {
+      "task": {
+        "id": "d3bb2bf1-e10d-46f2-85cb-9126753a74fe",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "rahulshendre",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "d3ed1c1a-5dda-488f-ba29-8e1893856790": {
+      "task": {
+        "id": "d3ed1c1a-5dda-488f-ba29-8e1893856790",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "swetalin-10",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "d7e12342-9ebf-4780-b90a-30ce0c30efe9": {
+      "task": {
+        "id": "d7e12342-9ebf-4780-b90a-30ce0c30efe9",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "SunsetB612",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "d966e543-a137-43c0-90bd-0e6650bf4b36": {
+      "task": {
+        "id": "d966e543-a137-43c0-90bd-0e6650bf4b36",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "zrggw",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "da20d747-9348-4b54-a229-8e3ec906cec7": {
+      "task": {
+        "id": "da20d747-9348-4b54-a229-8e3ec906cec7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "VijetaPriya47",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "da91845e-e347-4919-ba45-fcd63e667eb6": {
+      "task": {
+        "id": "da91845e-e347-4919-ba45-fcd63e667eb6",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "SoumyaRaikwar",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "dbaf5c35-7ec7-4b83-915a-5fecb1917ea2": {
+      "task": {
+        "id": "dbaf5c35-7ec7-4b83-915a-5fecb1917ea2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mukeshmahato17",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "dc5c42b2-c6ef-44bb-baeb-f03aa2181790": {
+      "task": {
+        "id": "dc5c42b2-c6ef-44bb-baeb-f03aa2181790",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "anishbista60",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "dc72652f-5b9b-43da-bba2-2cd5e7abd67c": {
+      "task": {
+        "id": "dc72652f-5b9b-43da-bba2-2cd5e7abd67c",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Joshna907",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "de9f91e4-c5cb-4a17-8e3b-9743241a58b3": {
+      "task": {
+        "id": "de9f91e4-c5cb-4a17-8e3b-9743241a58b3",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "neolit123",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "dea6068f-d312-44ea-9fe9-fe7aaf472d54": {
+      "task": {
+        "id": "dea6068f-d312-44ea-9fe9-fe7aaf472d54",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Sbragul26",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "df22c517-7377-4893-8b34-cec6a83990e7": {
+      "task": {
+        "id": "df22c517-7377-4893-8b34-cec6a83990e7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mahil-2040",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "dfaf9cdc-133e-47f8-b547-95ffaf972d9d": {
+      "task": {
+        "id": "dfaf9cdc-133e-47f8-b547-95ffaf972d9d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "SinghaAnirban005",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "e07f5ee3-aa1a-4c14-9cc7-29dbbfa22d77": {
+      "task": {
+        "id": "e07f5ee3-aa1a-4c14-9cc7-29dbbfa22d77",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "amazingakai",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "e09bedf6-2086-4c00-8022-bb08763fb3ab": {
+      "task": {
+        "id": "e09bedf6-2086-4c00-8022-bb08763fb3ab",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "d-aggarwal",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "e44ab7cb-8681-4a29-a843-a177643bf1f3": {
+      "task": {
+        "id": "e44ab7cb-8681-4a29-a843-a177643bf1f3",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Paladian78",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "e526b359-9d43-48cf-ab1a-102227e57413": {
+      "task": {
+        "id": "e526b359-9d43-48cf-ab1a-102227e57413",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "sorabhopps",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"sorabhopps\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task e526b359-9d43-48cf-ab1a-102227e57413: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'sorabhopps'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 08:54:34 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6413:1E3BE0:32485B8:A79AB31:6A8D584A\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4980\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"20\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'sorabhopps'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4980,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":20},\"user\":null}.",
+        "date": "2026-08-25T08:54:34.638Z"
+      }
+    },
+    "e6872a06-b32b-4cd1-82ea-ba6eb47b0cb2": {
+      "task": {
+        "id": "e6872a06-b32b-4cd1-82ea-ba6eb47b0cb2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Namanv0509",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "e7d5a4f5-5695-4b03-b19a-8d90ab6450c5": {
+      "task": {
+        "id": "e7d5a4f5-5695-4b03-b19a-8d90ab6450c5",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "miledxz",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "e803165c-0400-4dd8-af4d-a4c8966e7b21": {
+      "task": {
+        "id": "e803165c-0400-4dd8-af4d-a4c8966e7b21",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "NucleoFusion",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "eaf5bd3c-d941-4484-b27d-757f54ae4ad1": {
+      "task": {
+        "id": "eaf5bd3c-d941-4484-b27d-757f54ae4ad1",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "chaospan",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "eb4887f0-3741-4a3e-9b71-7ef7aab4267d": {
+      "task": {
+        "id": "eb4887f0-3741-4a3e-9b71-7ef7aab4267d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "MatteoFari",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "gsoc-2026",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "eb55c2c4-dabc-4849-b135-77acbb98bfc6": {
+      "task": {
+        "id": "eb55c2c4-dabc-4849-b135-77acbb98bfc6",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mudit06mah",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "eb7653c6-13ab-4796-8ae5-5f08447cb624": {
+      "task": {
+        "id": "eb7653c6-13ab-4796-8ae5-5f08447cb624",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ayushmaan-16",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ec0b3580-d116-4d38-9b2c-ffb18552737d": {
+      "task": {
+        "id": "ec0b3580-d116-4d38-9b2c-ffb18552737d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "k1chik",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      },
+      "debug": "{\n  \"query\": \"query GetSummary($username: String!, $since: DateTime!, $until: DateTime!) {\\n    rateLimit {\\n        cost\\n        limit\\n        nodeCount\\n        remaining\\n        resetAt\\n        used\\n    }\\n    user(login:$username){\\n        login\\n        name\\n        contributionsCollection(from:$since, to:$until){\\n            startedAt\\n            endedAt\\n            hasAnyContributions\\n\\n            totalCommitContributions\\n            totalIssueContributions\\n            totalPullRequestContributions\\n            totalPullRequestReviewContributions\\n\\n            totalRepositoriesWithContributedCommits\\n            totalRepositoriesWithContributedIssues\\n\\n\\n            commitContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                url\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                }\\n            }\\n            issueContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        issue{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequest{\\n                            number\\n                        }\\n                    }\\n                }\\n            }\\n            pullRequestReviewContributionsByRepository(maxRepositories:100){\\n                repository{\\n                    owner{\\n                        login\\n                    }\\n                    nameWithOwner\\n                    url\\n                }\\n                contributions(first:100){\\n                    pageInfo{\\n                        hasNextPage\\n                    }\\n                    totalCount\\n                    nodes{\\n                        pullRequestReview{\\n                            url\\n                            pullRequest{\\n                                number\\n                            }\\n                        }\\n                    }\\n                }\\n            }\\n        }\\n    }\\n}\",\n  \"variables\": {\n    \"username\": \"k1chik\",\n    \"since\": \"2026-08-17T00:00:00.000Z\",\n    \"until\": \"2026-08-24T00:00:00.000Z\"\n  }\n}",
+      "nonCriticalError": {
+        "message": "Error in task ec0b3580-d116-4d38-9b2c-ffb18552737d: Request failed due to following response errors:\n - Could not resolve to a User with the login of 'k1chik'.. Headers: {\"access-control-allow-origin\":\"*\",\"access-control-expose-headers\":\"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning\",\"connection\":\"close\",\"content-encoding\":\"gzip\",\"content-security-policy\":\"default-src 'none'\",\"content-type\":\"application/json; charset=utf-8\",\"date\":\"Tue, 25 Aug 2026 09:02:54 GMT\",\"referrer-policy\":\"origin-when-cross-origin, strict-origin-when-cross-origin\",\"server\":\"github.com\",\"strict-transport-security\":\"max-age=31536000; includeSubdomains; preload\",\"transfer-encoding\":\"chunked\",\"vary\":\"Accept-Encoding, Accept, X-Requested-With\",\"x-accepted-oauth-scopes\":\"repo\",\"x-content-type-options\":\"nosniff\",\"x-frame-options\":\"deny\",\"x-github-edge-region\":\"iad\",\"x-github-media-type\":\"github.v3; format=json\",\"x-github-request-id\":\"6410:F462B:3302935:AA04D6E:6A8D5A3E\",\"x-oauth-scopes\":\"public_repo, read:org, read:user, repo:status, user:email\",\"x-ratelimit-limit\":\"5000\",\"x-ratelimit-remaining\":\"4807\",\"x-ratelimit-reset\":\"1787651634\",\"x-ratelimit-resource\":\"graphql\",\"x-ratelimit-used\":\"193\",\"x-xss-protection\":\"0\"}. Error: Could not resolve to a User with the login of 'k1chik'.. Data: {\"rateLimit\":{\"cost\":1,\"limit\":5000,\"nodeCount\":400,\"remaining\":4807,\"resetAt\":\"2026-08-25T09:53:54Z\",\"used\":193},\"user\":null}.",
+        "date": "2026-08-25T09:02:54.737Z"
+      }
+    },
+    "ecba66ba-e652-48e8-8507-2e08f9feb6a2": {
+      "task": {
+        "id": "ecba66ba-e652-48e8-8507-2e08f9feb6a2",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "abhi0324",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ecbe9503-217f-4f1c-a22e-886ba0d16da4": {
+      "task": {
+        "id": "ecbe9503-217f-4f1c-a22e-886ba0d16da4",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Rohanraj123",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ed3095bd-29da-4bc7-893d-230680e7e227": {
+      "task": {
+        "id": "ed3095bd-29da-4bc7-893d-230680e7e227",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "kagaya85",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "efe66cf1-37e8-466c-b7c2-75c4701d3c41": {
+      "task": {
+        "id": "efe66cf1-37e8-466c-b7c2-75c4701d3c41",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "andoriyaprashant",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "f229c8a9-ea01-4d53-a1aa-0f1b1cb9035d": {
+      "task": {
+        "id": "f229c8a9-ea01-4d53-a1aa-0f1b1cb9035d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ghanshyam2005singh",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "f4140724-5cc4-49e0-a08e-38f950f824f7": {
+      "task": {
+        "id": "f4140724-5cc4-49e0-a08e-38f950f824f7",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "Mike-4-prog",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "f5103f8b-9ac6-419a-b73d-aedf6a01e307": {
+      "task": {
+        "id": "f5103f8b-9ac6-419a-b73d-aedf6a01e307",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "zmquan",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "f64a168f-c6b7-47df-bb6f-8ee43c243dad": {
+      "task": {
+        "id": "f64a168f-c6b7-47df-bb6f-8ee43c243dad",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ItshMoh",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "f7dec2ff-c533-4f73-b491-3c10359c9e7a": {
+      "task": {
+        "id": "f7dec2ff-c533-4f73-b491-3c10359c9e7a",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "remo-lab",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "f8910b09-4af3-40a2-a79a-5752074069cb": {
+      "task": {
+        "id": "f8910b09-4af3-40a2-a79a-5752074069cb",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "FAUST-BENCHOU",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "f89fa596-c8ae-4314-af19-614142265aad": {
+      "task": {
+        "id": "f89fa596-c8ae-4314-af19-614142265aad",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "corsairier",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "fa49e125-08f0-45bb-b481-037110e1e07e": {
+      "task": {
+        "id": "fa49e125-08f0-45bb-b481-037110e1e07e",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "mohammedfirdouss",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term1-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "fa9838da-5c20-40af-8038-d9bc6741b02b": {
+      "task": {
+        "id": "fa9838da-5c20-40af-8038-d9bc6741b02b",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "ballista01",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "fb86aecf-80b9-4ef9-b589-4306bd0446f1": {
+      "task": {
+        "id": "fb86aecf-80b9-4ef9-b589-4306bd0446f1",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "NAME-ASHWANIYADAV",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "fcef6486-1730-46ac-ab3a-db4c8a0cd599": {
+      "task": {
+        "id": "fcef6486-1730-46ac-ab3a-db4c8a0cd599",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "oksaumya",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term2-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "fd26e91c-3d2c-4177-ac88-1ba8a17c0a52": {
+      "task": {
+        "id": "fd26e91c-3d2c-4177-ac88-1ba8a17c0a52",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "dekaihu",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2025-term3-follow-up",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ffbca592-a749-423d-8e2f-9b754a294e46": {
+      "task": {
+        "id": "ffbca592-a749-423d-8e2f-9b754a294e46",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "IceCodeBear",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    },
+    "ffeecd6a-30b4-440e-bb5a-a272c044d54d": {
+      "task": {
+        "id": "ffeecd6a-30b4-440e-bb5a-a272c044d54d",
+        "parentId": null,
+        "originatingTaskId": null,
+        "username": "bluayer",
+        "since": "2026-08-17T00:00:00.000Z",
+        "until": "2026-08-24T00:00:00.000Z",
+        "term": "lfx-2026-term2",
+        "weekOf": "2026-08-17"
+      }
+    }
+  },
+  "errored": {},
+  "archived": {}
+}
