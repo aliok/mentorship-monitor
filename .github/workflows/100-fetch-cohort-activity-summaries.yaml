@@ -177,6 +177,6 @@ jobs:
               TMP_BRANCH_NAME="${{ env.BRANCH_NAME }}-${AFFIX}"
               git checkout -b "${TMP_BRANCH_NAME}"
               git push --force origin "${TMP_BRANCH_NAME}"
-              GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 100-fetch-cohort-activity-summaries and 150-build-cohort-activity-summaries" --body "$(echo -e "$PR_BODY")" --base main --head "${TMP_BRANCH_NAME}"
+              GITHUB_TOKEN="${{ secrets.GITHUB_TOKEN }}" gh pr create --title "[Automated] 100-fetch-cohort-activity-summaries and 150-build-cohort-activity-summaries" --body "$(echo -e "$PR_BODY")" --base main --head "${TMP_BRANCH_NAME}" --assignee nate-double-u
             fi
           fi
